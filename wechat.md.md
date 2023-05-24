@@ -242,9 +242,8 @@ Content-Type：application/json
 |---|---|---|---|
 |productModel|String|1-14-1W|产品规格型号|
 |validDate|Date|2030-01-01|有效期|
-|batchNumber|String|DEF3425|产品规格型号|
-|productModel|String|1-14-1W|产品规格型号|
-|productModel|String|1-14-1W|产品规格型号|
+|batchNumber|String|DEF3425|批号|
+|sn|String|34567|序列号|
 |quantity|Integer|14|数量|
 |taxPrice|Integer|1|订单类型|
 
@@ -317,11 +316,11 @@ Content-Type：application/json
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTIzMzg4NDAsMzU3NDIxNTI5LC0xNz
-U4NTg3NDM5LDgwMTc3MzcyNSwtMjE0MTMwMzc1OSw5OTY3OTU4
-OTMsMTY1NTY1ODkzMywxNTE3MjA4MzIzLC0xMDkwNTkwNjcsLT
-E1NDMxOTk2MjAsLTE5NzgxNjA2OTksLTE3MDY1Mjc5ODMsMTc2
-MzMwMDg1MiwxNTgwMTgwOTkyLDgzMzA3NDU3OCwtMzUyNzI2NT
-QyLDE3NjA4MzYwOTUsMTg5MTA2ODU3MiwtMTA3Njg3MjMwOSwx
-Nzk4NTYzMjI1XX0=
+eyJoaXN0b3J5IjpbMTQyODA2MzUzNCwzNTc0MjE1MjksLTE3NT
+g1ODc0MzksODAxNzczNzI1LC0yMTQxMzAzNzU5LDk5Njc5NTg5
+MywxNjU1NjU4OTMzLDE1MTcyMDgzMjMsLTEwOTA1OTA2NywtMT
+U0MzE5OTYyMCwtMTk3ODE2MDY5OSwtMTcwNjUyNzk4MywxNzYz
+MzAwODUyLDE1ODAxODA5OTIsODMzMDc0NTc4LC0zNTI3MjY1ND
+IsMTc2MDgzNjA5NSwxODkxMDY4NTcyLC0xMDc2ODcyMzA5LDE3
+OTg1NjMyMjVdfQ==
 -->
