@@ -114,7 +114,7 @@ Content-Type：application/json
 ###JsonData
 |名称|类型|示例值|描述|
 |---|---|---|---|
-|hasNewData|boolean|true|当前查询条件下查询到的数据是未全部传输，如果是yes则表示数据量太多数据未全部传输，此时再次以当前查询条件进行查询会返上次未返回的数据，以此类推重复调用此接口获取心s。如果值为false则此查询条件下的数据，已经全部返回|
+|hasNewData|boolean|true|当前查询条件下查询到的数据是未全部传输，如果是yes则表示数据量太多数据未全部传输，此时再次以当前查询条件进行查询会返上次未返回的数据，以此类推重复调用此接口获取新数据。如果值为false则此查询条件下的数据已经全部返回|
 |orderDate|Date|2023-05-01 10:00:00|订单日期|
 |detailList|OrderDetail|-|细单数据详见下方OrderDetail|
 #### OrderData
@@ -288,7 +288,7 @@ Content-Type：application/json
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE4NDUyOTY2LC0yMTQxMzAzNzU5LDk5Nj
+eyJoaXN0b3J5IjpbNjk5NDEyMTQ2LC0yMTQxMzAzNzU5LDk5Nj
 c5NTg5MywxNjU1NjU4OTMzLDE1MTcyMDgzMjMsLTEwOTA1OTA2
 NywtMTU0MzE5OTYyMCwtMTk3ODE2MDY5OSwtMTcwNjUyNzk4My
 wxNzYzMzAwODUyLDE1ODAxODA5OTIsODMzMDc0NTc4LC0zNTI3
