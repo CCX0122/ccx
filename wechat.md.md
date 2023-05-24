@@ -137,55 +137,55 @@ Content-Type：application/json
 > 返回示例
 ```json
 {
-    "code":0,
-    "msg":"success",
-    "data":{
-        "hasNewData":true,
-        "orderData":[
-            {
-                "orderDate":"2023-05-14 10:00:00",
-                "orderNo":"SA2023405685",
-                "orderType":1,
-                "customerId":1,
-                "receivePerson":"张三",
-                "address":"北京市朝阳区XXX",
-                "phone":"13112341234",
-                "detailList":[
-                    {
-                        "productModel":"1-14-1W",
-                        "quantity":12,
-                        "taxPrice":7777.89
-                    },
-                    {
-                        "productModel":"1-14-1B",
-                        "quantity":10,
-                        "taxPrice":4763.22
-                    }
-                ]
-            },
-            {
-                "orderDate":"2023-03-12 13:22:01",
-                "orderNo":"SA202333385",
-                "orderType":2,
-                "customerId":5,
-                "receivePerson":"李四",
-                "address":"北京市海淀XXX",
-                "phone":"13156788765",
-                "detailList":[
-                    {
-                        "productModel":"1-14-1W",
-                        "quantity":2,
-                        "taxPrice":4834.89
-                    },
-                    {
-                        "productModel":"1-14-1B",
-                        "quantity":5,
-                        "taxPrice":1234.66
-                    }
-                ]
-            }
-        ]
-    }
+    "code":0,
+    "msg":"success",
+    "data":{
+        "hasNewData":true,
+        "orderData":[
+            {
+                "orderDate":"2023-05-14 10:00:00",
+                "orderNo":"SA2023405685",
+                "orderType":1,
+                "customerId":1,
+                "receivePerson":"张三",
+                "address":"北京市朝阳区XXX",
+                "phone":"13112341234",
+                "detailList":[
+                    {
+                        "productModel":"1-14-1W",
+                        "quantity":12,
+                        "taxPrice":7777.89
+                    },
+                    {
+                        "productModel":"1-14-1B",
+                        "quantity":10,
+                        "taxPrice":4763.22
+                    }
+                ]
+            },
+            {
+                "orderDate":"2023-03-12 13:22:01",
+                "orderNo":"SA202333385",
+                "orderType":2,
+                "customerId":5,
+                "receivePerson":"李四",
+                "address":"北京市海淀XXX",
+                "phone":"13156788765",
+                "detailList":[
+                    {
+                        "productModel":"1-14-1W",
+                        "quantity":2,
+                        "taxPrice":4834.89
+                    },
+                    {
+                        "productModel":"1-14-1B",
+                        "quantity":5,
+                        "taxPrice":1234.66
+                    }
+                ]
+            }
+        ]
+    }
 }
 ```
 
@@ -224,13 +224,14 @@ Content-Type：application/json
 |名称|类型|示例值|描述|
 |---|---|---|---|
 |hasNewData|boolean|true|当前查询条件下查询到的数据是未全部传输，如果是yes则表示数据量太多数据未全部传输，此时再次以当前查询条件进行查询会返上次未返回的数据，以此类推重复调用此接口获取新数据。如果值为false则此查询条件下的数据已经全部返回|
-|orderData|OrderData|-|细单数据详见下方OrderDetail|
-#### OrderData
+|shipmentData|ShipmentData|-|细单数据详见下方OrderDetail|
+#### ShipmentData
 |名称|类型|示例值|描述|
 |---|---|---|---|
-|orderDate|Date|2023-05-01 10:00:00|订单日期|
+|shipmentDate|Date|2023-05-01 10:00:00|发货日期|
+|shipmentNo|String|SA203457256|唯众系统订单号|
 |orderNo|String|SA203457256|唯众系统订单号|
-|orderType|Integer|1|订单类型|
+|shipmentType|Integer|1|订单类型|
 |customerId|Integer|2222|代理商编码|
 |receivePerson|String|张三|收货人|
 |address|String|北京市朝阳区XXX|收货地址|
@@ -312,7 +313,7 @@ Content-Type：application/json
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDgzNjc1NzQsMzU3NDIxNTI5LC0xNz
+eyJoaXN0b3J5IjpbLTExNzIyMjQxNTUsMzU3NDIxNTI5LC0xNz
 U4NTg3NDM5LDgwMTc3MzcyNSwtMjE0MTMwMzc1OSw5OTY3OTU4
 OTMsMTY1NTY1ODkzMywxNTE3MjA4MzIzLC0xMDkwNTkwNjcsLT
 E1NDMxOTk2MjAsLTE5NzgxNjA2OTksLTE3MDY1Mjc5ODMsMTc2
