@@ -95,7 +95,7 @@ Content-Type：application/json
 
 |名称|类型|必填|示例值|描述|
 |---|---|---|---|---|
-|appkey|String|是| HSDFSDAF233432 |唯众系统分配的appKey|
+|customerId|Integer|否| 1||
 |appsecret|String|是| 39RSDLFJAFDFSDF |唯众系统分配的appSecret|
 
 ### 返回参数
@@ -139,8 +139,8 @@ Content-Type：application/json
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2MzMwMDg1MiwxNTgwMTgwOTkyLDgzMz
-A3NDU3OCwtMzUyNzI2NTQyLDE3NjA4MzYwOTUsMTg5MTA2ODU3
-MiwtMTA3Njg3MjMwOSwxNzk4NTYzMjI1LC02NDQ2NjU2MCwxMj
-gwOTA2NTM2XX0=
+eyJoaXN0b3J5IjpbMzc1NDY4NTExLDE3NjMzMDA4NTIsMTU4MD
+E4MDk5Miw4MzMwNzQ1NzgsLTM1MjcyNjU0MiwxNzYwODM2MDk1
+LDE4OTEwNjg1NzIsLTEwNzY4NzIzMDksMTc5ODU2MzIyNSwtNj
+Q0NjY1NjAsMTI4MDkwNjUzNl19
 -->
