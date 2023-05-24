@@ -108,7 +108,7 @@ Content-Type：application/json
 |---|---|---|---|
 |code|Integer|0|返回码|
 |msg|String|success|成功|
-|data|OrderData|-|总单数据与细单数据|
+|data|OrderData|-|总单数据与细单数据详见下方OrderData|
 #### OrderData
 |名称|类型|示例值|描述|
 |---|---|---|---|
@@ -117,9 +117,20 @@ Content-Type：application/json
 |orderType|Integer|1|订单类型|
 |customerId|Integer|2222|代理商编码|
 |receivePerson|String|张三|收货人|
-|address|String|张三|收货地址|
-|phone|OrderData|-|总单数据与细单数据|
-|detailList|OrderData|-|总单数据与细单数据|
+|address|String|北京市朝阳区XXX|收货地址|
+|phone|String|13112341234|电话|
+|detailList|OrderDetail|-|细单数据详见下方OrderDetail|
+#### OrderData
+|名称|类型|示例值|描述|
+|---|---|---|---|
+|orderDate|Date|2023-05-01 10:00:00|订单日期|
+|orderNo|String|SA203457256|唯众系统订单号|
+|orderType|Integer|1|订单类型|
+|customerId|Integer|2222|代理商编码|
+|receivePerson|String|张三|收货人|
+|address|String|北京市朝阳区XXX|收货地址|
+|phone|String|13112341234|电话|
+|detailList|OrderDetail|-|细单数据详见下方OrderDetail|
 > 返回示例
 ```json
 {  
@@ -151,9 +162,9 @@ Content-Type：application/json
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTkyODY1MjE2LC0xOTc4MTYwNjk5LC0xNz
-A2NTI3OTgzLDE3NjMzMDA4NTIsMTU4MDE4MDk5Miw4MzMwNzQ1
-NzgsLTM1MjcyNjU0MiwxNzYwODM2MDk1LDE4OTEwNjg1NzIsLT
-EwNzY4NzIzMDksMTc5ODU2MzIyNSwtNjQ0NjY1NjAsMTI4MDkw
-NjUzNl19
+eyJoaXN0b3J5IjpbLTQwOTY3OTM0MywtMTk3ODE2MDY5OSwtMT
+cwNjUyNzk4MywxNzYzMzAwODUyLDE1ODAxODA5OTIsODMzMDc0
+NTc4LC0zNTI3MjY1NDIsMTc2MDgzNjA5NSwxODkxMDY4NTcyLC
+0xMDc2ODcyMzA5LDE3OTg1NjMyMjUsLTY0NDY2NTYwLDEyODA5
+MDY1MzZdfQ==
 -->
