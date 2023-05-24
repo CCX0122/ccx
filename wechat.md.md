@@ -132,35 +132,58 @@ Content-Type：application/json
 {  
 	"code":0,  
 	"msg":"success",  
-	"data":{  
-		"orderDate":"2023-05-14 10:00:00",  
-		"orderNo":"SA2023405685",  
-		"orderType":1,  
-		"customerId":1,  
-		"receivePerson":"张三",  
-		"address":"北京市朝阳区XXX",  
-		"phone":"13112341234",  
-		"detailList":[  
+	"data":[  
+		{  
+			"orderDate":"2023-05-14 10:00:00",  
+			"orderNo":"SA2023405685",  
+			"orderType":1,  
+			"customerId":1,  
+			"receivePerson":"张三",  
+			"address":"北京市朝阳区XXX",  
+			"phone":"13112341234",  
+			"detailList":[  
+				{  
+					"productModel":"1-14-1W",  
+					"quantity":12,  
+					"taxPrice":7777.89  
+				},  
+				{  
+					"productModel":"1-14-1B",  
+					"quantity":10,  
+					"taxPrice":4763.22  
+				}  
+						]  
+		},  
+		{  
+			"orderDate":"2023-03-12 13:22:01",  
+			"orderNo":"SA202333385",  
+			"orderType":2,  
+			"customerId":5,  
+			"receivePerson":"李四",  
+			"address":"北京市海淀XXX",  
+			"phone":"13156788765",  
+			"detailList":[  
 			{  
-				"productModel":"1-14-1W",  
-				"quantity":12,  
-				"taxPrice":7777.89  
+			"productModel":"1-14-1W",  
+			"quantity":2,  
+			"taxPrice":4834.89  
 			},  
 			{  
-				"productModel":"1-14-1B",  
-				"quantity":10,  
-				"taxPrice":4763.22  
+			"productModel":"1-14-1B",  
+			"quantity":5,  
+			"taxPrice":1234.66  
 			}  
-					]  
+			]  
 		}  
+		]  
 }
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDMxOTk2MjAsLTE5NzgxNjA2OTksLT
-E3MDY1Mjc5ODMsMTc2MzMwMDg1MiwxNTgwMTgwOTkyLDgzMzA3
-NDU3OCwtMzUyNzI2NTQyLDE3NjA4MzYwOTUsMTg5MTA2ODU3Mi
-wtMTA3Njg3MjMwOSwxNzk4NTYzMjI1LC02NDQ2NjU2MCwxMjgw
-OTA2NTM2XX0=
+eyJoaXN0b3J5IjpbLTYxNTI1MDI2NywtMTU0MzE5OTYyMCwtMT
+k3ODE2MDY5OSwtMTcwNjUyNzk4MywxNzYzMzAwODUyLDE1ODAx
+ODA5OTIsODMzMDc0NTc4LC0zNTI3MjY1NDIsMTc2MDgzNjA5NS
+wxODkxMDY4NTcyLC0xMDc2ODcyMzA5LDE3OTg1NjMyMjUsLTY0
+NDY2NTYwLDEyODA5MDY1MzZdfQ==
 -->
