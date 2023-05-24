@@ -81,7 +81,7 @@
 
 **    经销商在唯众平台的订货数据 **
 
-调用地址：jswz/apiservice/getaccesstoken?appkey=appkey&appsecert=appsecert
+调用地址：jswz/apiservice/getorders
 请求方式：GET
 返回类型：JSON
 ### 请求参数
@@ -117,7 +117,7 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDEzNTk3NDAsLTM1MjcyNjU0MiwxNz
-YwODM2MDk1LDE4OTEwNjg1NzIsLTEwNzY4NzIzMDksMTc5ODU2
-MzIyNSwtNjQ0NjY1NjAsMTI4MDkwNjUzNl19
+eyJoaXN0b3J5IjpbMTU2OTQwNjU5MSwtMzUyNzI2NTQyLDE3Nj
+A4MzYwOTUsMTg5MTA2ODU3MiwtMTA3Njg3MjMwOSwxNzk4NTYz
+MjI1LC02NDQ2NjU2MCwxMjgwOTA2NTM2XX0=
 -->
