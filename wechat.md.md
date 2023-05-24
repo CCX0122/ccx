@@ -56,7 +56,7 @@
 |---|---|---|---|
 |code|Integer|0|返回码|
 |msg|String|success|成功|
-|data|Obj|---|---|
+|data|Object|---|---|
 |---|---|---|---|
 |---|---|---|---|
 |---|---|---|---|
@@ -1597,7 +1597,7 @@ POST /control/implant/invoice
 # 数据模型
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzEwNzc5MTksMTg5MTA2ODU3MiwtMT
-A3Njg3MjMwOSwxNzk4NTYzMjI1LC02NDQ2NjU2MCwxMjgwOTA2
-NTM2XX0=
+eyJoaXN0b3J5IjpbMTc2MDgzNjA5NSwxODkxMDY4NTcyLC0xMD
+c2ODcyMzA5LDE3OTg1NjMyMjUsLTY0NDY2NTYwLDEyODA5MDY1
+MzZdfQ==
 -->
