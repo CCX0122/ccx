@@ -113,10 +113,11 @@ Content-Type：application/json
 |名称|类型|示例值|描述|
 |---|---|---|---|
 |orderDate|Date|2023-05-01 10:00:00|订单日期|
-|orderNo|String|SA203457256|订单|
-|orderType|OrderData|-|总单数据与细单数据|
-|customerId|OrderData|-|总单数据与细单数据|
-|receivePerson|OrderData|-|总单数据与细单数据|
+|orderNo|String|SA203457256|唯众系统订单号|
+|orderType|Integer|1|订单类型|
+|customerId|Integer|2222|代理商编码|
+|receivePerson|String|张三|收货人|
+|address|String|张三|收货地址|
 |phone|OrderData|-|总单数据与细单数据|
 |detailList|OrderData|-|总单数据与细单数据|
 > 返回示例
@@ -150,7 +151,7 @@ Content-Type：application/json
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc0NTIwNjQzLC0xOTc4MTYwNjk5LC0xNz
+eyJoaXN0b3J5IjpbOTkyODY1MjE2LC0xOTc4MTYwNjk5LC0xNz
 A2NTI3OTgzLDE3NjMzMDA4NTIsMTU4MDE4MDk5Miw4MzMwNzQ1
 NzgsLTM1MjcyNjU0MiwxNzYwODM2MDk1LDE4OTEwNjg1NzIsLT
 EwNzY4NzIzMDksMTc5ODU2MzIyNSwtNjQ0NjY1NjAsMTI4MDkw
