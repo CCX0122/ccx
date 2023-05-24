@@ -39,9 +39,12 @@
 4. 应用服务器开发测试完成申请对接正式环境 
 ## 2.唯众系统服务端API
 ### 2.1获取授权
-    ** 应用服务商可通过此接口获取授权的 access_token，调用服务端 API 获取应用资源时，
+**    通过此接口获取授权的 access_token，调用服务端 API 获取应用资源时需要通过 access_token 来鉴权调用者身份进行授权 **
+_调用地址：_http(s)://ali-deliver.showapi.com/fetchCom
 
-需要通过 access_token 来鉴权调用者身份进行授权
+_请求方式：_GET
+
+_返回类型：_JSON
 
 
 POST /control/order/list
@@ -1748,5 +1751,5 @@ POST /control/implant/invoice
 # 数据模型
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA0MDA3NzgxLDEyODA5MDY1MzZdfQ==
+eyJoaXN0b3J5IjpbMTI3ODkzNTc5MiwxMjgwOTA2NTM2XX0=
 -->
