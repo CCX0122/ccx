@@ -77,9 +77,9 @@
 
 
 
-### 2.2 POST 订单详情
+### 2.2 POST 订单数据
 
-**    通过此接口获取授权的 access_token，调用服务端 API 获取应用资源时需要通过 access_token 来鉴权调用者身份进行授权 **
+**    经销商在唯众平台的订货数据 **
 
 调用地址：jswz/apiservice/getaccesstoken?appkey=appkey&appsecert=appsecert
 请求方式：GET
@@ -117,7 +117,7 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1MjcyNjU0MiwxNzYwODM2MDk1LDE4OT
-EwNjg1NzIsLTEwNzY4NzIzMDksMTc5ODU2MzIyNSwtNjQ0NjY1
-NjAsMTI4MDkwNjUzNl19
+eyJoaXN0b3J5IjpbLTExNDEzNTk3NDAsLTM1MjcyNjU0MiwxNz
+YwODM2MDk1LDE4OTEwNjg1NzIsLTEwNzY4NzIzMDksMTc5ODU2
+MzIyNSwtNjQ0NjY1NjAsMTI4MDkwNjUzNl19
 -->
