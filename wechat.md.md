@@ -82,9 +82,17 @@
 **    经销商在唯众平台的订货数据 **
 
 调用地址：jswz/apiservice/getorders
-请求方式：GET
+请求方式：POST			 
+Content-Type：application/json
 返回类型：JSON
-### 请求参数
+### Header参数
+
+|名称|类型|必填|示例值|描述|
+|---|---|---|---|---|
+|appkey|String|是| HSDFSDAF233432 |唯众系统分配的appKey|
+|appsecret|String|是| 39RSDLFJAFDFSDF |唯众系统分配的appSecret|
+
+### Body参数
 
 |名称|类型|必填|示例值|描述|
 |---|---|---|---|---|
@@ -117,7 +125,7 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2OTQwNjU5MSwtMzUyNzI2NTQyLDE3Nj
-A4MzYwOTUsMTg5MTA2ODU3MiwtMTA3Njg3MjMwOSwxNzk4NTYz
-MjI1LC02NDQ2NjU2MCwxMjgwOTA2NTM2XX0=
+eyJoaXN0b3J5IjpbLTEzMTE2MDU3NTAsLTM1MjcyNjU0MiwxNz
+YwODM2MDk1LDE4OTEwNjg1NzIsLTEwNzY4NzIzMDksMTc5ODU2
+MzIyNSwtNjQ0NjY1NjAsMTI4MDkwNjUzNl19
 -->
