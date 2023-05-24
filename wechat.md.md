@@ -54,10 +54,14 @@
 ### 返回参数
 |名称|类型|示例值|描述|
 |---|---|---|---|
-|名称|类型|示例值|描述|
-|---|---|---|---|---|
-|名称|类型|必填|示例值|描述|
-|---|---|---|---|---|
+|code|Integer|0|---|
+|---|---|---|---|
+|---|---|---|---|
+|---|---|---|---|
+|---|---|---|---|
+|---|---|---|---|
+
+
 
 > 成功
 
@@ -1747,7 +1751,7 @@ POST /control/implant/invoice
 # 数据模型
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg5NDk3MTEwLDE4OTEwNjg1NzIsLTEwNz
-Y4NzIzMDksMTc5ODU2MzIyNSwtNjQ0NjY1NjAsMTI4MDkwNjUz
-Nl19
+eyJoaXN0b3J5IjpbLTExMjEwMTQ3OTQsMTg5MTA2ODU3MiwtMT
+A3Njg3MjMwOSwxNzk4NTYzMjI1LC02NDQ2NjU2MCwxMjgwOTA2
+NTM2XX0=
 -->
