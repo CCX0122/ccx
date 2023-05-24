@@ -109,7 +109,14 @@ Content-Type：application/json
 |---|---|---|---|
 |code|Integer|0|返回码|
 |msg|String|success|成功|
-|data|OrderData|-|总单数据与细单数据详见下方OrderData|
+|data|JsonData|-|数据详见下方JsonData|
+
+###JsonData
+|名称|类型|示例值|描述|
+|---|---|---|---|
+|orderDate|Date|2023-05-01 10:00:00|订单日期|
+|orderDate|Date|2023-05-01 10:00:00|订单日期|
+|detailList|OrderDetail|-|细单数据详见下方OrderDetail|
 #### OrderData
 |名称|类型|示例值|描述|
 |---|---|---|---|
@@ -281,10 +288,10 @@ Content-Type：application/json
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk2Nzk1ODkzLDE2NTU2NTg5MzMsMTUxNz
-IwODMyMywtMTA5MDU5MDY3LC0xNTQzMTk5NjIwLC0xOTc4MTYw
-Njk5LC0xNzA2NTI3OTgzLDE3NjMzMDA4NTIsMTU4MDE4MDk5Mi
-w4MzMwNzQ1NzgsLTM1MjcyNjU0MiwxNzYwODM2MDk1LDE4OTEw
-Njg1NzIsLTEwNzY4NzIzMDksMTc5ODU2MzIyNSwtNjQ0NjY1Nj
-AsMTI4MDkwNjUzNl19
+eyJoaXN0b3J5IjpbLTc3MTc1MTg1Miw5OTY3OTU4OTMsMTY1NT
+Y1ODkzMywxNTE3MjA4MzIzLC0xMDkwNTkwNjcsLTE1NDMxOTk2
+MjAsLTE5NzgxNjA2OTksLTE3MDY1Mjc5ODMsMTc2MzMwMDg1Mi
+wxNTgwMTgwOTkyLDgzMzA3NDU3OCwtMzUyNzI2NTQyLDE3NjA4
+MzYwOTUsMTg5MTA2ODU3MiwtMTA3Njg3MjMwOSwxNzk4NTYzMj
+I1LC02NDQ2NjU2MCwxMjgwOTA2NTM2XX0=
 -->
