@@ -44,14 +44,11 @@
 调用地址：jswz/apiservice/getaccesstoken?appkey=appkey&appsecert=appsecert
 请求方式：GET
 返回类型：JSON
-
-POST /control/order/list
-
 ### 请求参数
 
 |名称|位置|类型|必选|说明|
 |---|---|---|---|---|
-|page|query|integer| 是 |none|
+|appkey|query|integer| 是 |none|
 |rows|query|integer| 是 |none|
 |startDate|query|string| 否 |none|
 |endDate|query|string| 否 |none|
@@ -1749,6 +1746,6 @@ POST /control/implant/invoice
 # 数据模型
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5ODU2MzIyNSwtNjQ0NjY1NjAsMTI4MD
-kwNjUzNl19
+eyJoaXN0b3J5IjpbMTAzMjA3MzYwLDE3OTg1NjMyMjUsLTY0ND
+Y2NTYwLDEyODA5MDY1MzZdfQ==
 -->
