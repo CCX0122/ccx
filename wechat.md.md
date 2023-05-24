@@ -67,83 +67,11 @@
 {
   "code": 0,
   "msg": "success",
-  "data": [
+  "data": 
     {
       "id": 100284,
       "order_no": "SA2209190049",
-      "customer_id": 2610,
-      "customer_person_id": 1880,
-      "customer_address_id": 6712,
-      "producer_id": 1799,
-      "quantity": 22,
-      "value": 123600,
-      "orig_value": 123600,
-      "order_type_id": 1,
-      "status": 0,
-      "erp_status": 0,
-      "received_quantity": 0,
-      "transit_quantity": 0,
-      "transit_company_id": null,
-      "transit_type_id": null,
-      "date": "2022-09-19 10:22:58",
-      "memo": "",
-      "doc_memo": "055-127要改进型的经桡的，抽吸导管请发最新批号效期的，谢谢",
-      "wz_id": "",
-      "created_at": "2022-09-19 10:22:58",
-      "updated_at": "2022-09-19 14:31:33",
-      "wz_updated": null,
-      "yj_status": 5,
-      "is_zy": 0,
-      "is_yj": 1,
-      "is_modified": 0,
-      "platform_id": 17,
-      "shipment_quantity": 22,
-      "coupon_status": 1,
-      "coupon_matched": null,
-      "paid_time": "2022-09-19 14:11:25",
-      "send_status": 0,
-      "suite_group_id": null
-    },
-    {
-      "id": 100286,
-      "order_no": "SA2209190051",
-      "customer_id": 2610,
-      "customer_person_id": 1880,
-      "customer_address_id": 6712,
-      "producer_id": 1799,
-      "quantity": 2,
-      "value": 0,
-      "orig_value": 0,
-      "order_type_id": 3,
-      "status": 0,
-      "erp_status": 0,
-      "received_quantity": 0,
-      "transit_quantity": 0,
-      "transit_company_id": null,
-      "transit_type_id": null,
-      "date": "2022-09-19 10:23:40",
-      "memo": "",
-      "doc_memo": null,
-      "wz_id": "",
-      "created_at": "2022-09-19 10:23:40",
-      "updated_at": "2022-09-19 14:31:33",
-      "wz_updated": null,
-      "yj_status": 5,
-      "is_zy": 0,
-      "is_yj": 1,
-      "is_modified": 0,
-      "platform_id": 17,
-      "shipment_quantity": 2,
-      "coupon_status": 1,
-      "coupon_matched": null,
-      "paid_time": "2022-09-19 14:11:25",
-      "send_status": 0,
-      "suite_group_id": null
     }
-  ],
-  
-    
-  "total": 441
 }
 ```
 
@@ -1669,7 +1597,7 @@ POST /control/implant/invoice
 # 数据模型
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU0MTUwNDMyLDE4OTEwNjg1NzIsLTEwNz
-Y4NzIzMDksMTc5ODU2MzIyNSwtNjQ0NjY1NjAsMTI4MDkwNjUz
-Nl19
+eyJoaXN0b3J5IjpbLTg2OTEzMTU0NSwxODkxMDY4NTcyLC0xMD
+c2ODcyMzA5LDE3OTg1NjMyMjUsLTY0NDY2NTYwLDEyODA5MDY1
+MzZdfQ==
 -->
