@@ -111,7 +111,7 @@ Content-Type：application/json
 |msg|String|success|成功|
 |data|JsonData|-|数据详见下方JsonData|
 
-###JsonData
+### JsonData
 |名称|类型|示例值|描述|
 |---|---|---|---|
 |hasNewData|boolean|true|当前查询条件下查询到的数据是未全部传输，如果是yes则表示数据量太多数据未全部传输，此时再次以当前查询条件进行查询会返上次未返回的数据，以此类推重复调用此接口获取新数据。如果值为false则此查询条件下的数据已经全部返回|
@@ -191,7 +191,7 @@ Content-Type：application/json
 
 ### 2.2 获取出库数据
 
-**    唯众平台出库至经销商的数据，可根据上传参数进行条件筛选查询 **
+**    唯众平台出库至经销商的数据，可根据上传参数进行条件查询 **
 
 调用地址：jswz/apiservice/getorders
 请求方式：POST			 
@@ -207,8 +207,7 @@ Content-Type：application/json
 
 |名称|类型|必填|示例值|描述|
 |---|---|---|---|---|
-|page|Integer|是| 1|页码|
-|rows|Integer|是| 20|每页条数，默认20，最大100|
+|rows|Integer|是| 200|默认200|
 |customerId|Integer|否| 1|代理商编码，查询某个代理商的数据|
 |startDate|String|否| 2023-01-01|开始时间|
 |startDate|String|否| 2023-01-01|结束时间|
@@ -296,11 +295,11 @@ Content-Type：application/json
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzNDEyNTg2MywtMTc1ODU4NzQzOSw4MD
-E3NzM3MjUsLTIxNDEzMDM3NTksOTk2Nzk1ODkzLDE2NTU2NTg5
-MzMsMTUxNzIwODMyMywtMTA5MDU5MDY3LC0xNTQzMTk5NjIwLC
-0xOTc4MTYwNjk5LC0xNzA2NTI3OTgzLDE3NjMzMDA4NTIsMTU4
-MDE4MDk5Miw4MzMwNzQ1NzgsLTM1MjcyNjU0MiwxNzYwODM2MD
-k1LDE4OTEwNjg1NzIsLTEwNzY4NzIzMDksMTc5ODU2MzIyNSwt
-NjQ0NjY1NjBdfQ==
+eyJoaXN0b3J5IjpbMzU3NDIxNTI5LC0xNzU4NTg3NDM5LDgwMT
+c3MzcyNSwtMjE0MTMwMzc1OSw5OTY3OTU4OTMsMTY1NTY1ODkz
+MywxNTE3MjA4MzIzLC0xMDkwNTkwNjcsLTE1NDMxOTk2MjAsLT
+E5NzgxNjA2OTksLTE3MDY1Mjc5ODMsMTc2MzMwMDg1MiwxNTgw
+MTgwOTkyLDgzMzA3NDU3OCwtMzUyNzI2NTQyLDE3NjA4MzYwOT
+UsMTg5MTA2ODU3MiwtMTA3Njg3MjMwOSwxNzk4NTYzMjI1LC02
+NDQ2NjU2MF19
 -->
