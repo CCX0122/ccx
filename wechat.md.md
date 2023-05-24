@@ -110,20 +110,37 @@ Content-Type：application/json
 
 > 返回示例
 ```json
-{
-  "code": 0,
-  "msg": "success",
-  "data": 
-    {
-      "access_token": "fghjkrtyuifgbn5678",
-      "expires": 7200
-    }
+{  
+	"code":0,  
+	"msg":"success",  
+	"data":{  
+		"orderDate":"2023-05-14 10:00:00",  
+		"orderNo":"SA2023405685",  
+		"orderType":1,  
+		"customerId":1,  
+		"receivePerson":"张三",  
+		"address":"北京市朝阳区XXX",  
+		"phone":"13112341234",  
+		"detailList":[  
+			{  
+				"productModel":"1-14-1W",  
+				"quantity":12,  
+				"taxPrice":7777.89  
+			},  
+			{  
+				"productModel":"1-14-1B",  
+				"quantity":10,  
+				"taxPrice":4763.22  
+			}  
+					]  
+}  
 }
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4MDE4MDk5Miw4MzMwNzQ1NzgsLTM1Mj
-cyNjU0MiwxNzYwODM2MDk1LDE4OTEwNjg1NzIsLTEwNzY4NzIz
-MDksMTc5ODU2MzIyNSwtNjQ0NjY1NjAsMTI4MDkwNjUzNl19
+eyJoaXN0b3J5IjpbMTAzODg4Mzc4MCwxNTgwMTgwOTkyLDgzMz
+A3NDU3OCwtMzUyNzI2NTQyLDE3NjA4MzYwOTUsMTg5MTA2ODU3
+MiwtMTA3Njg3MjMwOSwxNzk4NTYzMjI1LC02NDQ2NjU2MCwxMj
+gwOTA2NTM2XX0=
 -->
