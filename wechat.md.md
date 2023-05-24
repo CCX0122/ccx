@@ -229,17 +229,21 @@ Content-Type：application/json
 |名称|类型|示例值|描述|
 |---|---|---|---|
 |shipmentDate|Date|2023-05-01 10:00:00|发货日期|
-|shipmentNo|String|SA203457256|唯众系统订单号|
-|orderNo|String|SA203457256|唯众系统订单号|
-|shipmentType|Integer|1|订单类型|
+|shipmentNo|String|SA203457256|发货单号|
+|orderNo|String|SA203457256|关联订单号|
+|shipmentType|Integer|1|发货类型编码|
 |customerId|Integer|2222|代理商编码|
 |receivePerson|String|张三|收货人|
 |address|String|北京市朝阳区XXX|收货地址|
 |phone|String|13112341234|电话|
-|detailList|OrderDetail|-|细单数据详见下方OrderDetail|
-#### OrderDetail
+|detailList|ShipmentDetail|-|细单数据详见下方ShipmentDetail|
+#### ShipmentDetail
 |名称|类型|示例值|描述|
 |---|---|---|---|
+|productModel|String|1-14-1W|产品规格型号|
+|validDate|Date|2030-01-01|有效期|
+|batchNumber|String|DEF3425|产品规格型号|
+|productModel|String|1-14-1W|产品规格型号|
 |productModel|String|1-14-1W|产品规格型号|
 |quantity|Integer|14|数量|
 |taxPrice|Integer|1|订单类型|
@@ -313,7 +317,7 @@ Content-Type：application/json
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzIyMjQxNTUsMzU3NDIxNTI5LC0xNz
+eyJoaXN0b3J5IjpbLTE1MTIzMzg4NDAsMzU3NDIxNTI5LC0xNz
 U4NTg3NDM5LDgwMTc3MzcyNSwtMjE0MTMwMzc1OSw5OTY3OTU4
 OTMsMTY1NTY1ODkzMywxNTE3MjA4MzIzLC0xMDkwNTkwNjcsLT
 E1NDMxOTk2MjAsLTE5NzgxNjA2OTksLTE3MDY1Mjc5ODMsMTc2
