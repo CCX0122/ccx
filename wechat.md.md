@@ -46,15 +46,10 @@
 返回类型：JSON
 ### 请求参数
 
-|名称|位置|类型|必选|说明|
-|---|---|---|---|---|
-|appkey|query|integer| 是 |none|
-|rows|query|integer| 是 |none|
-|startDate|query|string| 否 |none|
-|endDate|query|string| 否 |none|
-|customerName|query|string| 否 |none|
-|orderStatus|query|integer| 否 |-9:提交失败 -4:已提交 -3:退回修改 -2:中止 -1:作废 1:待提交 2:审批中 3:备货中 4:已发货 5:已完成|
-|orderNo|query|string| 否 |订单号|
+|名称|类型|必选|示例值|描述|
+|---|---|---|---|
+|appkey|integer| 是 |none|
+|appsecert|integer| 是 |none|
 
 > 返回示例
 
@@ -1746,6 +1741,6 @@ POST /control/implant/invoice
 # 数据模型
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzMjA3MzYwLDE3OTg1NjMyMjUsLTY0ND
-Y2NTYwLDEyODA5MDY1MzZdfQ==
+eyJoaXN0b3J5IjpbMTYwMTk0NTM2MiwxNzk4NTYzMjI1LC02ND
+Q2NjU2MCwxMjgwOTA2NTM2XX0=
 -->
