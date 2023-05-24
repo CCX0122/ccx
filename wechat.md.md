@@ -120,17 +120,13 @@ Content-Type：application/json
 |address|String|北京市朝阳区XXX|收货地址|
 |phone|String|13112341234|电话|
 |detailList|OrderDetail|-|细单数据详见下方OrderDetail|
-#### OrderData
+#### OrderDetail
 |名称|类型|示例值|描述|
 |---|---|---|---|
-|orderDate|Date|2023-05-01 10:00:00|订单日期|
-|orderNo|String|SA203457256|唯众系统订单号|
-|orderType|Integer|1|订单类型|
-|customerId|Integer|2222|代理商编码|
-|receivePerson|String|张三|收货人|
-|address|String|北京市朝阳区XXX|收货地址|
-|phone|String|13112341234|电话|
-|detailList|OrderDetail|-|细单数据详见下方OrderDetail|
+|productModel|String|1-14-1W|产品规格型号|
+|quantity|Integer|14|数量|
+|taxPrice|Integer|1|订单类型|
+
 > 返回示例
 ```json
 {  
@@ -162,9 +158,9 @@ Content-Type：application/json
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwOTY3OTM0MywtMTk3ODE2MDY5OSwtMT
-cwNjUyNzk4MywxNzYzMzAwODUyLDE1ODAxODA5OTIsODMzMDc0
-NTc4LC0zNTI3MjY1NDIsMTc2MDgzNjA5NSwxODkxMDY4NTcyLC
-0xMDc2ODcyMzA5LDE3OTg1NjMyMjUsLTY0NDY2NTYwLDEyODA5
-MDY1MzZdfQ==
+eyJoaXN0b3J5IjpbLTE1NDMxOTk2MjAsLTE5NzgxNjA2OTksLT
+E3MDY1Mjc5ODMsMTc2MzMwMDg1MiwxNTgwMTgwOTkyLDgzMzA3
+NDU3OCwtMzUyNzI2NTQyLDE3NjA4MzYwOTUsMTg5MTA2ODU3Mi
+wtMTA3Njg3MjMwOSwxNzk4NTYzMjI1LC02NDQ2NjU2MCwxMjgw
+OTA2NTM2XX0=
 -->
