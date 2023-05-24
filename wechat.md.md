@@ -219,7 +219,13 @@ Content-Type：application/json
 |---|---|---|---|
 |code|Integer|0|返回码|
 |msg|String|success|成功|
-|data|ShipmentData|-|总单数据与细单数据详见下方ShipmentData|
+|data|JsonData|-|数据详见下方JsonData|
+
+### JsonData
+|名称|类型|示例值|描述|
+|---|---|---|---|
+|hasNewData|boolean|true|当前查询条件下查询到的数据是未全部传输，如果是yes则表示数据量太多数据未全部传输，此时再次以当前查询条件进行查询会返上次未返回的数据，以此类推重复调用此接口获取新数据。如果值为false则此查询条件下的数据已经全部返回|
+|orderData|OrderData|-|细单数据详见下方OrderDetail|
 #### OrderData
 |名称|类型|示例值|描述|
 |---|---|---|---|
@@ -290,7 +296,7 @@ Content-Type：application/json
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwODQ1MDU2NSwtMTc1ODU4NzQzOSw4MD
+eyJoaXN0b3J5IjpbMTgzNDEyNTg2MywtMTc1ODU4NzQzOSw4MD
 E3NzM3MjUsLTIxNDEzMDM3NTksOTk2Nzk1ODkzLDE2NTU2NTg5
 MzMsMTUxNzIwODMyMywtMTA5MDU5MDY3LC0xNTQzMTk5NjIwLC
 0xOTc4MTYwNjk5LC0xNzA2NTI3OTgzLDE3NjMzMDA4NTIsMTU4
