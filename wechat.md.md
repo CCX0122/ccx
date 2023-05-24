@@ -99,8 +99,7 @@ Content-Type：application/json
 
 |名称|类型|必填|示例值|描述|
 |---|---|---|---|---|
-|page|Integer|是| 1|页码|
-|rows|Integer|是| 20|每页条数，默认20，最大100|
+|rows|Integer|是| 100|数据条数默认100 最大200|
 |customerId|Integer|否| 1|代理商编码，查询某个代理商的数据|
 |startDate|String|否| 2023-01-01|开始时间|
 |startDate|String|否| 2023-01-01|结束时间|
@@ -282,10 +281,10 @@ Content-Type：application/json
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1NTY1ODkzMywxNTE3MjA4MzIzLC0xMD
-kwNTkwNjcsLTE1NDMxOTk2MjAsLTE5NzgxNjA2OTksLTE3MDY1
-Mjc5ODMsMTc2MzMwMDg1MiwxNTgwMTgwOTkyLDgzMzA3NDU3OC
-wtMzUyNzI2NTQyLDE3NjA4MzYwOTUsMTg5MTA2ODU3MiwtMTA3
-Njg3MjMwOSwxNzk4NTYzMjI1LC02NDQ2NjU2MCwxMjgwOTA2NT
-M2XX0=
+eyJoaXN0b3J5IjpbOTk2Nzk1ODkzLDE2NTU2NTg5MzMsMTUxNz
+IwODMyMywtMTA5MDU5MDY3LC0xNTQzMTk5NjIwLC0xOTc4MTYw
+Njk5LC0xNzA2NTI3OTgzLDE3NjMzMDA4NTIsMTU4MDE4MDk5Mi
+w4MzMwNzQ1NzgsLTM1MjcyNjU0MiwxNzYwODM2MDk1LDE4OTEw
+Njg1NzIsLTEwNzY4NzIzMDksMTc5ODU2MzIyNSwtNjQ0NjY1Nj
+AsMTI4MDkwNjUzNl19
 -->
