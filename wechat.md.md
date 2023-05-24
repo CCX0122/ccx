@@ -108,11 +108,13 @@ Content-Type：application/json
 |---|---|---|---|
 |code|Integer|0|返回码|
 |msg|String|success|成功|
-|data|Object|---|---|
+|data|OrderData|-|总单数据与细单数据|
+#### OrderData
+|名称|类型|示例值|描述|
 |---|---|---|---|
-|---|---|---|---|
-|---|---|---|---|
-
+|orderDate|Integer|0|返回码|
+|orderNo|String|success|成功|
+|data|OrderData|-|总单数据与细单数据|
 > 返回示例
 ```json
 {  
@@ -144,8 +146,9 @@ Content-Type：application/json
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzgxNjA2OTksLTE3MDY1Mjc5ODMsMT
-c2MzMwMDg1MiwxNTgwMTgwOTkyLDgzMzA3NDU3OCwtMzUyNzI2
-NTQyLDE3NjA4MzYwOTUsMTg5MTA2ODU3MiwtMTA3Njg3MjMwOS
-wxNzk4NTYzMjI1LC02NDQ2NjU2MCwxMjgwOTA2NTM2XX0=
+eyJoaXN0b3J5IjpbLTYxMTk0MTI5MiwtMTk3ODE2MDY5OSwtMT
+cwNjUyNzk4MywxNzYzMzAwODUyLDE1ODAxODA5OTIsODMzMDc0
+NTc4LC0zNTI3MjY1NDIsMTc2MDgzNjA5NSwxODkxMDY4NTcyLC
+0xMDc2ODcyMzA5LDE3OTg1NjMyMjUsLTY0NDY2NTYwLDEyODA5
+MDY1MzZdfQ==
 -->
