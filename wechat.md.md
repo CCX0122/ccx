@@ -112,9 +112,13 @@ Content-Type：application/json
 #### OrderData
 |名称|类型|示例值|描述|
 |---|---|---|---|
-|orderDate|Integer|0|返回码|
-|orderNo|String|success|成功|
-|data|OrderData|-|总单数据与细单数据|
+|orderDate|Date|2023-05-01 10:00:00|订单日期|
+|orderNo|String|SA203457256|订单|
+|orderType|OrderData|-|总单数据与细单数据|
+|customerId|OrderData|-|总单数据与细单数据|
+|receivePerson|OrderData|-|总单数据与细单数据|
+|phone|OrderData|-|总单数据与细单数据|
+|detailList|OrderData|-|总单数据与细单数据|
 > 返回示例
 ```json
 {  
@@ -146,9 +150,9 @@ Content-Type：application/json
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxMTk0MTI5MiwtMTk3ODE2MDY5OSwtMT
-cwNjUyNzk4MywxNzYzMzAwODUyLDE1ODAxODA5OTIsODMzMDc0
-NTc4LC0zNTI3MjY1NDIsMTc2MDgzNjA5NSwxODkxMDY4NTcyLC
-0xMDc2ODcyMzA5LDE3OTg1NjMyMjUsLTY0NDY2NTYwLDEyODA5
-MDY1MzZdfQ==
+eyJoaXN0b3J5IjpbOTc0NTIwNjQzLC0xOTc4MTYwNjk5LC0xNz
+A2NTI3OTgzLDE3NjMzMDA4NTIsMTU4MDE4MDk5Miw4MzMwNzQ1
+NzgsLTM1MjcyNjU0MiwxNzYwODM2MDk1LDE4OTEwNjg1NzIsLT
+EwNzY4NzIzMDksMTc5ODU2MzIyNSwtNjQ0NjY1NjAsMTI4MDkw
+NjUzNl19
 -->
