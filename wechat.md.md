@@ -51,7 +51,8 @@
 |appkey|String|是| HSDFSDAF233432 |唯众系统分配的appKey|
 |appsecret|String|是| 39RSDLFJAFDFSDF |唯众系统分配的appSecret|
 
-> 返回示例
+> 返回参数
+> 
 
 > 成功
 
@@ -1741,6 +1742,6 @@ POST /control/implant/invoice
 # 数据模型
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzY4NzIzMDksMTc5ODU2MzIyNSwtNj
-Q0NjY1NjAsMTI4MDkwNjUzNl19
+eyJoaXN0b3J5IjpbMTg5MTA2ODU3MiwtMTA3Njg3MjMwOSwxNz
+k4NTYzMjI1LC02NDQ2NjU2MCwxMjgwOTA2NTM2XX0=
 -->
