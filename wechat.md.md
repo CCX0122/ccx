@@ -41,7 +41,7 @@
 ### 2.1获取授权
 **    通过此接口获取授权的 access_token，调用服务端 API 获取应用资源时需要通过 access_token 来鉴权调用者身份进行授权 **
 
-调用地址：
+调用地址：jswz/apiservice/getaccesstoken?appkey=appkey&appsecert=appsecert
 请求方式：GET
 返回类型：JSON
 
@@ -1749,5 +1749,6 @@ POST /control/implant/invoice
 # 数据模型
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0NDY2NTYwLDEyODA5MDY1MzZdfQ==
+eyJoaXN0b3J5IjpbMTc5ODU2MzIyNSwtNjQ0NjY1NjAsMTI4MD
+kwNjUzNl19
 -->
