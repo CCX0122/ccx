@@ -114,7 +114,7 @@ Content-Type：application/json
 ###JsonData
 |名称|类型|示例值|描述|
 |---|---|---|---|
-|hasNewData|boolean|true|当前查询条件下查询到的数据是未全部传输，如果是yes则表示数据量太多，需要分批传输，此时再次以当前查询条件进行查询会返上次未返回的数据，以此类推，如果值为false则此查询条件下的数据，已经全部返回|
+|hasNewData|boolean|true|当前查询条件下查询到的数据是未全部传输，如果是yes则表示数据量太多数据未全部传输，此时再次以当前查询条件进行查询会返上次未返回的数据，以此类推重复调用此接口获取心s。如果值为false则此查询条件下的数据，已经全部返回|
 |orderDate|Date|2023-05-01 10:00:00|订单日期|
 |detailList|OrderDetail|-|细单数据详见下方OrderDetail|
 #### OrderData
@@ -288,11 +288,11 @@ Content-Type：application/json
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1MzAxMDQ5OCwtMjE0MTMwMzc1OSw5OT
-Y3OTU4OTMsMTY1NTY1ODkzMywxNTE3MjA4MzIzLC0xMDkwNTkw
-NjcsLTE1NDMxOTk2MjAsLTE5NzgxNjA2OTksLTE3MDY1Mjc5OD
-MsMTc2MzMwMDg1MiwxNTgwMTgwOTkyLDgzMzA3NDU3OCwtMzUy
-NzI2NTQyLDE3NjA4MzYwOTUsMTg5MTA2ODU3MiwtMTA3Njg3Mj
-MwOSwxNzk4NTYzMjI1LC02NDQ2NjU2MCwxMjgwOTA2NTM2XX0=
+eyJoaXN0b3J5IjpbMzE4NDUyOTY2LC0yMTQxMzAzNzU5LDk5Nj
+c5NTg5MywxNjU1NjU4OTMzLDE1MTcyMDgzMjMsLTEwOTA1OTA2
+NywtMTU0MzE5OTYyMCwtMTk3ODE2MDY5OSwtMTcwNjUyNzk4My
+wxNzYzMzAwODUyLDE1ODAxODA5OTIsODMzMDc0NTc4LC0zNTI3
+MjY1NDIsMTc2MDgzNjA5NSwxODkxMDY4NTcyLC0xMDc2ODcyMz
+A5LDE3OTg1NjMyMjUsLTY0NDY2NTYwLDEyODA5MDY1MzZdfQ==
 
 -->
