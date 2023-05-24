@@ -115,7 +115,7 @@ Content-Type：application/json
 |名称|类型|示例值|描述|
 |---|---|---|---|
 |hasNewData|boolean|true|当前查询条件下查询到的数据是未全部传输，如果是yes则表示数据量太多数据未全部传输，此时再次以当前查询条件进行查询会返上次未返回的数据，以此类推重复调用此接口获取新数据。如果值为false则此查询条件下的数据已经全部返回|
-|detailList|OrderDetail|-|细单数据详见下方OrderDetail|
+|orderData|OrderData|-|细单数据详见下方OrderDetail|
 #### OrderData
 |名称|类型|示例值|描述|
 |---|---|---|---|
@@ -287,11 +287,11 @@ Content-Type：application/json
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODAxNzczNzI1LC0yMTQxMzAzNzU5LDk5Nj
-c5NTg5MywxNjU1NjU4OTMzLDE1MTcyMDgzMjMsLTEwOTA1OTA2
-NywtMTU0MzE5OTYyMCwtMTk3ODE2MDY5OSwtMTcwNjUyNzk4My
-wxNzYzMzAwODUyLDE1ODAxODA5OTIsODMzMDc0NTc4LC0zNTI3
-MjY1NDIsMTc2MDgzNjA5NSwxODkxMDY4NTcyLC0xMDc2ODcyMz
-A5LDE3OTg1NjMyMjUsLTY0NDY2NTYwLDEyODA5MDY1MzZdfQ==
-
+eyJoaXN0b3J5IjpbLTE3NTg1ODc0MzksODAxNzczNzI1LC0yMT
+QxMzAzNzU5LDk5Njc5NTg5MywxNjU1NjU4OTMzLDE1MTcyMDgz
+MjMsLTEwOTA1OTA2NywtMTU0MzE5OTYyMCwtMTk3ODE2MDY5OS
+wtMTcwNjUyNzk4MywxNzYzMzAwODUyLDE1ODAxODA5OTIsODMz
+MDc0NTc4LC0zNTI3MjY1NDIsMTc2MDgzNjA5NSwxODkxMDY4NT
+cyLC0xMDc2ODcyMzA5LDE3OTg1NjMyMjUsLTY0NDY2NTYwLDEy
+ODA5MDY1MzZdfQ==
 -->
