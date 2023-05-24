@@ -56,13 +56,9 @@
 |---|---|---|---|
 |code|Integer|0|返回码|
 |msg|String|success|成功|
-|data|Object|---|---|
+|data|JSON|---|---|
 
-|名称|类型|示例值|描述|
-|---|---|---|---|
-|code|Integer|0|返回码|
-|msg|String|success|成功|
-|data|Object|---|---|
+
 > 返回示例
 
 ```json
@@ -99,7 +95,7 @@ Content-Type：application/json
 |---|---|---|---|---|
 |customerId|Integer|否| 1|代理商编码，查询某个代理商的数据|
 |startDate|String|否| 2023-01-01|开始时间|
-|startDate|String|否| 2023-05-01|结束时间|
+|startDate|String|否| 2023-01-01|结束时间|
 
 ### 返回参数
 |名称|类型|示例值|描述|
@@ -142,7 +138,7 @@ Content-Type：application/json
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0MzM2NzY1NywtMTcwNjUyNzk4MywxNz
+eyJoaXN0b3J5IjpbMTM1ODk4NjA5OCwtMTcwNjUyNzk4MywxNz
 YzMzAwODUyLDE1ODAxODA5OTIsODMzMDc0NTc4LC0zNTI3MjY1
 NDIsMTc2MDgzNjA5NSwxODkxMDY4NTcyLC0xMDc2ODcyMzA5LD
 E3OTg1NjMyMjUsLTY0NDY2NTYwLDEyODA5MDY1MzZdfQ==
