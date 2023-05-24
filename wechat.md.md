@@ -69,7 +69,7 @@
   "msg": "success",
   "data": 
     {
-      "access_token": "fghjkrtyuifgbn5678",
+      "accessToken": "fghjkrtyuifgbn5678",
       "expires": 7200
     }
 }
@@ -89,8 +89,7 @@ Content-Type：application/json
 
 |名称|类型|必填|示例值|描述|
 |---|---|---|---|---|
-|appkey|String|是| HSDFSDAF233432 |唯众系统分配的appKey|
-|appsecret|String|是| 39RSDLFJAFDFSDF |唯众系统分配的appSecret|
+|accessToken|String|是| fghjkrtyuifgbn5678 |授权信息|
 
 ### Body参数
 
@@ -125,7 +124,7 @@ Content-Type：application/json
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTE2MDU3NTAsLTM1MjcyNjU0MiwxNz
-YwODM2MDk1LDE4OTEwNjg1NzIsLTEwNzY4NzIzMDksMTc5ODU2
-MzIyNSwtNjQ0NjY1NjAsMTI4MDkwNjUzNl19
+eyJoaXN0b3J5IjpbODMzMDc0NTc4LC0zNTI3MjY1NDIsMTc2MD
+gzNjA5NSwxODkxMDY4NTcyLC0xMDc2ODcyMzA5LDE3OTg1NjMy
+MjUsLTY0NDY2NTYwLDEyODA5MDY1MzZdfQ==
 -->
