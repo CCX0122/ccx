@@ -163,25 +163,25 @@ Content-Type：application/json
 			"address":"北京市海淀XXX",  
 			"phone":"13156788765",  
 			"detailList":[  
-			{  
-			"productModel":"1-14-1W",  
-			"quantity":2,  
-			"taxPrice":4834.89  
-			},  
-			{  
-			"productModel":"1-14-1B",  
-			"quantity":5,  
-			"taxPrice":1234.66  
-			}  
-			]  
+				{  
+					"productModel":"1-14-1W",  
+					"quantity":2,  
+					"taxPrice":4834.89  
+				},  
+				{  
+					"productModel":"1-14-1B",  
+					"quantity":5,  
+					"taxPrice":1234.66  
+				}  
+						]  
 		}  
-		]  
+			]  
 }
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxNTI1MDI2NywtMTU0MzE5OTYyMCwtMT
+eyJoaXN0b3J5IjpbLTEwOTA1OTA2NywtMTU0MzE5OTYyMCwtMT
 k3ODE2MDY5OSwtMTcwNjUyNzk4MywxNzYzMzAwODUyLDE1ODAx
 ODA5OTIsODMzMDc0NTc4LC0zNTI3MjY1NDIsMTc2MDgzNjA5NS
 wxODkxMDY4NTcyLC0xMDc2ODcyMzA5LDE3OTg1NjMyMjUsLTY0
