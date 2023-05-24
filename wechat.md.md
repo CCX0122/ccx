@@ -79,7 +79,7 @@
 
 ### 2.2 POST 订单数据
 
-**    经销商在唯众平台的订货数据 **
+**    经销商在唯众平台的订货数据mor **
 
 调用地址：jswz/apiservice/getorders
 请求方式：POST			 
@@ -95,8 +95,9 @@ Content-Type：application/json
 
 |名称|类型|必填|示例值|描述|
 |---|---|---|---|---|
-|customerId|Integer|否| 1||
-|appsecret|String|是| 39RSDLFJAFDFSDF |唯众系统分配的appSecret|
+|customerId|Integer|否| 1|代理商编码，查询某个代理商的数据|
+|startDate|String|否| 2023-01-01|开始时间|
+|startDate|String|否| 2023-01-01|结束时间|
 
 ### 返回参数
 |名称|类型|示例值|描述|
@@ -139,8 +140,8 @@ Content-Type：application/json
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc1NDY4NTExLDE3NjMzMDA4NTIsMTU4MD
-E4MDk5Miw4MzMwNzQ1NzgsLTM1MjcyNjU0MiwxNzYwODM2MDk1
-LDE4OTEwNjg1NzIsLTEwNzY4NzIzMDksMTc5ODU2MzIyNSwtNj
-Q0NjY1NjAsMTI4MDkwNjUzNl19
+eyJoaXN0b3J5IjpbLTU5OTUzNTc1MiwxNzYzMzAwODUyLDE1OD
+AxODA5OTIsODMzMDc0NTc4LC0zNTI3MjY1NDIsMTc2MDgzNjA5
+NSwxODkxMDY4NTcyLC0xMDc2ODcyMzA5LDE3OTg1NjMyMjUsLT
+Y0NDY2NTYwLDEyODA5MDY1MzZdfQ==
 -->
