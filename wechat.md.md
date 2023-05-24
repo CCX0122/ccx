@@ -56,9 +56,14 @@
 |---|---|---|---|
 |code|Integer|0|返回码|
 |msg|String|success|成功|
-|data|JSON|---|accessToken信息|
+|data|JSON|-|accessToken信息,见下方JSON1|
 
-
+#### JSOIN1字段信息
+|名称|类型|示例值|描述|
+|---|---|---|---|
+|code|Integer|0|返回码|
+|msg|String|success|成功|
+|data|JSON|-|accessToken信息,见下方JSON1|
 
 > 返回示例
 
@@ -139,7 +144,7 @@ Content-Type：application/json
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0MTc4ODg1NCwtMTcwNjUyNzk4MywxNz
+eyJoaXN0b3J5IjpbMTA3MzYwNzE5OSwtMTcwNjUyNzk4MywxNz
 YzMzAwODUyLDE1ODAxODA5OTIsODMzMDc0NTc4LC0zNTI3MjY1
 NDIsMTc2MDgzNjA5NSwxODkxMDY4NTcyLC0xMDc2ODcyMzA5LD
 E3OTg1NjMyMjUsLTY0NDY2NTYwLDEyODA5MDY1MzZdfQ==
