@@ -114,7 +114,7 @@ Content-Type：application/json
 ###JsonData
 |名称|类型|示例值|描述|
 |---|---|---|---|
-|hasNewData|boolean|YES|订单日期|
+|hasNewData|boolean|true|当前筛选条件下查询到的数据是未全部传输，如果是yes则表示数据量太多，需要分批cha|
 |orderDate|Date|2023-05-01 10:00:00|订单日期|
 |detailList|OrderDetail|-|细单数据详见下方OrderDetail|
 #### OrderData
@@ -288,7 +288,7 @@ Content-Type：application/json
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzE1NDMxOTcsOTk2Nzk1ODkzLDE2NT
+eyJoaXN0b3J5IjpbLTE0MjY1OTE5MDgsOTk2Nzk1ODkzLDE2NT
 U2NTg5MzMsMTUxNzIwODMyMywtMTA5MDU5MDY3LC0xNTQzMTk5
 NjIwLC0xOTc4MTYwNjk5LC0xNzA2NTI3OTgzLDE3NjMzMDA4NT
 IsMTU4MDE4MDk5Miw4MzMwNzQ1NzgsLTM1MjcyNjU0MiwxNzYw
