@@ -136,56 +136,56 @@ Content-Type：application/json
 
 > 返回示例
 ```json
-{  
-	"code":0,  
-	"msg":"success",  
-	"data":{  
-		"hasNewData":true,  
-		"orderData":[  
-			{  
-				"orderDate":"2023-05-14 10:00:00",  
-				"orderNo":"SA2023405685",  
-				"orderType":1,  
-				"customerId":1,  
-				"receivePerson":"张三",  
-				"address":"北京市朝阳区XXX",  
-				"phone":"13112341234",  
-				"detailList":[  
-					{  
-						"productModel":"1-14-1W",  
-						"quantity":12,  
-						"taxPrice":7777.89  
-					},  
-					{  
-						"productModel":"1-14-1B",  
-						"quantity":10,  
-						"taxPrice":4763.22  
-					}  
-							]  
-				},  
-				{  
-					"orderDate":"2023-03-12 13:22:01",  
-					"orderNo":"SA202333385",  
-					"orderType":2,  
-					"customerId":5,  
-					"receivePerson":"李四",  
-					"address":"北京市海淀XXX",  
-					"phone":"13156788765",  
-					"detailList":[  
-						{  
-							"productModel":"1-14-1W",  
-							"quantity":2,  
-							"taxPrice":4834.89  
-						},  
-						{  
-							"productModel":"1-14-1B",  
-							"quantity":5,  
-							"taxPrice":1234.66  
-						}  
-				]  
-			}  
-		]  
-		}  
+{
+    "code":0,
+    "msg":"success",
+    "data":{
+        "hasNewData":true,
+        "orderData":[
+            {
+                "orderDate":"2023-05-14 10:00:00",
+                "orderNo":"SA2023405685",
+                "orderType":1,
+                "customerId":1,
+                "receivePerson":"张三",
+                "address":"北京市朝阳区XXX",
+                "phone":"13112341234",
+                "detailList":[
+                    {
+                        "productModel":"1-14-1W",
+                        "quantity":12,
+                        "taxPrice":7777.89
+                    },
+                    {
+                        "productModel":"1-14-1B",
+                        "quantity":10,
+                        "taxPrice":4763.22
+                    }
+                ]
+            },
+            {
+                "orderDate":"2023-03-12 13:22:01",
+                "orderNo":"SA202333385",
+                "orderType":2,
+                "customerId":5,
+                "receivePerson":"李四",
+                "address":"北京市海淀XXX",
+                "phone":"13156788765",
+                "detailList":[
+                    {
+                        "productModel":"1-14-1W",
+                        "quantity":2,
+                        "taxPrice":4834.89
+                    },
+                    {
+                        "productModel":"1-14-1B",
+                        "quantity":5,
+                        "taxPrice":1234.66
+                    }
+                ]
+            }
+        ]
+    }
 }
 ```
 
@@ -245,61 +245,78 @@ Content-Type：application/json
 
 > 返回示例
 ```json
-{  
-	"code":0,  
-	"msg":"success",  
-	"data":[  
-		{  
-			"orderDate":"2023-05-14 10:00:00",  
-			"orderNo":"SA2023405685",  
-			"orderType":1,  
-			"customerId":1,  
-			"receivePerson":"张三",  
-			"address":"北京市朝阳区XXX",  
-			"phone":"13112341234",  
-			"detailList":[  
-				{  
-					"productModel":"1-14-1W",  
-					"quantity":12,  
-					"taxPrice":7777.89  
-				},  
-				{  
-					"productModel":"1-14-1B",  
-					"quantity":10,  
-					"taxPrice":4763.22  
-				}  
-						]  
-		},  
-		{  
-			"orderDate":"2023-03-12 13:22:01",  
-			"orderNo":"SA202333385",  
-			"orderType":2,  
-			"customerId":5,  
-			"receivePerson":"李四",  
-			"address":"北京市海淀XXX",  
-			"phone":"13156788765",  
-			"detailList":[  
-				{  
-					"productModel":"1-14-1W",  
-					"quantity":2,  
-					"taxPrice":4834.89  
-				},  
-				{  
-					"productModel":"1-14-1B",  
-					"quantity":5,  
-					"taxPrice":1234.66  
-				}  
-						]  
-		}  
-			]  
+{
+    "code":0,
+    "msg":"success",
+    "data":{
+        "hasNewData":true,
+        "orderData":[
+            {
+                "shipmentDate":"2023-05-14 10:00:00",
+                "shipmentNo":"34232",
+                "orderNo":"SA2023405685",
+                "shipmentType":1,
+                "customerId":1,
+                "receivePerson":"张三",
+                "address":"北京市朝阳区XXX",
+                "phone":"13112341234",
+                "detailList":[
+                    {
+                        "productModel":"1-14-1W",
+                        "validDate":"2029-09-09",
+                        "batchNumber":"1-14-1W",
+                        "sn":"FE2452D",
+                        "quantity":10,
+                        "taxPrice":7777.89
+                    },
+                    {
+                        "productModel":"1-14-1B",
+                        "validDate":"2029-09-09",
+                        "batchNumber":"SSS",
+                        "sn":"FE2452D",
+                        "quantity":10,
+                        "taxPrice":4763.22
+                    }
+                ]
+            },
+            {
+                "shipmentDate":"2023-05-20 10:00:00",
+                "shipmentNo":"366662",
+                "orderNo":"SA202366665",
+                "shipmentType":1,
+                "customerId":1,
+                "receivePerson":"李四",
+                "address":"北京市朝阳区XXX",
+                "phone":"13134566543",
+                "detailList":[
+                    {
+                        "productModel":"1-14-1W",
+                        "validDate":"2029-09-09",
+                        "batchNumber":"1-14-1W",
+                        "sn":"FE2452D",
+                        "quantity":10,
+                        "taxPrice":7777.89
+                    },
+                    {
+                        "productModel":"1-14-1B",
+                        "validDate":"2029-09-09",
+                        "batchNumber":"SSS",
+                        "sn":"FE2452D",
+                        "quantity":10,
+                        "taxPrice":4763.22
+                    }
+                ]
+            }
+        ]
+    }
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU3NDIxNTI5LC0xNzU4NTg3NDM5LDgwMT
-c3MzcyNSwtMjE0MTMwMzc1OSw5OTY3OTU4OTMsMTY1NTY1ODkz
-MywxNTE3MjA4MzIzLC0xMDkwNTkwNjcsLTE1NDMxOTk2MjAsLT
-E5NzgxNjA2OTksLTE3MDY1Mjc5ODMsMTc2MzMwMDg1MiwxNTgw
-MTgwOTkyLDgzMzA3NDU3OCwtMzUyNzI2NTQyLDE3NjA4MzYwOT
-UsMTg5MTA2ODU3MiwtMTA3Njg3MjMwOSwxNzk4NTYzMjI1LC02
-NDQ2NjU2MF19
+eyJoaXN0b3J5IjpbLTExNDgzNjc1NzQsMzU3NDIxNTI5LC0xNz
+U4NTg3NDM5LDgwMTc3MzcyNSwtMjE0MTMwMzc1OSw5OTY3OTU4
+OTMsMTY1NTY1ODkzMywxNTE3MjA4MzIzLC0xMDkwNTkwNjcsLT
+E1NDMxOTk2MjAsLTE5NzgxNjA2OTksLTE3MDY1Mjc5ODMsMTc2
+MzMwMDg1MiwxNTgwMTgwOTkyLDgzMzA3NDU3OCwtMzUyNzI2NT
+QyLDE3NjA4MzYwOTUsMTg5MTA2ODU3MiwtMTA3Njg3MjMwOSwx
+Nzk4NTYzMjI1XX0=
 -->
