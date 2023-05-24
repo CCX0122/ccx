@@ -48,8 +48,8 @@
 
 |名称|类型|必填|示例值|描述|
 |---|---|---|---|---|
-|appkey|String|integer| 是 |none|
-|appkey|query|integer| 是 |none|
+|appkey|String|是| 是 |none|
+|appsecret|String|是| 是 |none|
 
 > 返回示例
 
@@ -1741,6 +1741,6 @@ POST /control/implant/invoice
 # 数据模型
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyODQ3MjM4NSwxNzk4NTYzMjI1LC02ND
+eyJoaXN0b3J5IjpbLTgxODM5MjIwNSwxNzk4NTYzMjI1LC02ND
 Q2NjU2MCwxMjgwOTA2NTM2XX0=
 -->
