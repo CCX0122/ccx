@@ -139,8 +139,10 @@ Content-Type：application/json
 {  
 	"code":0,  
 	"msg":"success",  
-	"data":[  
-		{  
+	"data":{  
+		"hasNewData":true,  
+		"orderData":[  
+			{  
 			"orderDate":"2023-05-14 10:00:00",  
 			"orderNo":"SA2023405685",  
 			"orderType":1,  
@@ -149,19 +151,19 @@ Content-Type：application/json
 			"address":"北京市朝阳区XXX",  
 			"phone":"13112341234",  
 			"detailList":[  
-				{  
-					"productModel":"1-14-1W",  
-					"quantity":12,  
-					"taxPrice":7777.89  
-				},  
-				{  
-					"productModel":"1-14-1B",  
-					"quantity":10,  
-					"taxPrice":4763.22  
-				}  
-						]  
-		},  
-		{  
+			{  
+			"productModel":"1-14-1W",  
+			"quantity":12,  
+			"taxPrice":7777.89  
+			},  
+			{  
+			"productModel":"1-14-1B",  
+			"quantity":10,  
+			"taxPrice":4763.22  
+			}  
+			]  
+			},  
+			{  
 			"orderDate":"2023-03-12 13:22:01",  
 			"orderNo":"SA202333385",  
 			"orderType":2,  
@@ -170,19 +172,20 @@ Content-Type：application/json
 			"address":"北京市海淀XXX",  
 			"phone":"13156788765",  
 			"detailList":[  
-				{  
-					"productModel":"1-14-1W",  
-					"quantity":2,  
-					"taxPrice":4834.89  
-				},  
-				{  
-					"productModel":"1-14-1B",  
-					"quantity":5,  
-					"taxPrice":1234.66  
-				}  
-						]  
-		}  
+			{  
+			"productModel":"1-14-1W",  
+			"quantity":2,  
+			"taxPrice":4834.89  
+			},  
+			{  
+			"productModel":"1-14-1B",  
+			"quantity":5,  
+			"taxPrice":1234.66  
+			}  
 			]  
+			}  
+		]  
+		}  
 }
 ```
 
@@ -287,11 +290,11 @@ Content-Type：application/json
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTg1ODc0MzksODAxNzczNzI1LC0yMT
-QxMzAzNzU5LDk5Njc5NTg5MywxNjU1NjU4OTMzLDE1MTcyMDgz
-MjMsLTEwOTA1OTA2NywtMTU0MzE5OTYyMCwtMTk3ODE2MDY5OS
-wtMTcwNjUyNzk4MywxNzYzMzAwODUyLDE1ODAxODA5OTIsODMz
-MDc0NTc4LC0zNTI3MjY1NDIsMTc2MDgzNjA5NSwxODkxMDY4NT
-cyLC0xMDc2ODcyMzA5LDE3OTg1NjMyMjUsLTY0NDY2NTYwLDEy
-ODA5MDY1MzZdfQ==
+eyJoaXN0b3J5IjpbMTMyMTQzMzkwMSwtMTc1ODU4NzQzOSw4MD
+E3NzM3MjUsLTIxNDEzMDM3NTksOTk2Nzk1ODkzLDE2NTU2NTg5
+MzMsMTUxNzIwODMyMywtMTA5MDU5MDY3LC0xNTQzMTk5NjIwLC
+0xOTc4MTYwNjk5LC0xNzA2NTI3OTgzLDE3NjMzMDA4NTIsMTU4
+MDE4MDk5Miw4MzMwNzQ1NzgsLTM1MjcyNjU0MiwxNzYwODM2MD
+k1LDE4OTEwNjg1NzIsLTEwNzY4NzIzMDksMTc5ODU2MzIyNSwt
+NjQ0NjY1NjBdfQ==
 -->
