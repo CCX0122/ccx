@@ -54,9 +54,9 @@
 ### 返回参数
 |名称|类型|示例值|描述|
 |---|---|---|---|
-|code|Integer|0|ch|
-|---|---|---|---|
-|---|---|---|---|
+|code|Integer|0|返回码|
+|msg|String|success|成功|
+|data|JSON|---|---|
 |---|---|---|---|
 |---|---|---|---|
 |---|---|---|---|
@@ -1751,7 +1751,7 @@ POST /control/implant/invoice
 # 数据模型
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwMzg4MTIyMiwxODkxMDY4NTcyLC0xMD
+eyJoaXN0b3J5IjpbMTMxNjM5NjA2OCwxODkxMDY4NTcyLC0xMD
 c2ODcyMzA5LDE3OTg1NjMyMjUsLTY0NDY2NTYwLDEyODA5MDY1
 MzZdfQ==
 -->
