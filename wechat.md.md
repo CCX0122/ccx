@@ -39,7 +39,7 @@
 4. 应用服务器开发测试完成申请对接正式环境 
 ## 2.唯众系统服务端API
 ### 2.1获取授权
-**    通过此接口获取授权的 access_token，调用服务端 API 获取应用资源时需要通过 access_token 来鉴权调用者身份进行授权 **
+**    通过此接口获取授权的 access_token，调用服务端 API 获取应用资源时需要通过 access_token 来鉴权调用者身份进行授权，7200秒内有效，过期后重新获取 **
 
 调用地址：jswz/apiservice/getaccesstoken?appkey=appkey&appsecert=appsecert
 请求方式：GET
@@ -62,7 +62,7 @@
 |名称|类型|示例值|描述|
 |---|---|---|---|
 |accessToken|String|fghjkrtyuifgbn5678|生成的授权码|
-|expires|Integer|7200|成功|
+|expires|Integer|7200|accessToken过期时间，单位秒，7200秒以内有效，过期重新获取|
 
 
 > 返回示例
@@ -144,8 +144,8 @@ Content-Type：application/json
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3NzA1NzE4MiwtMTcwNjUyNzk4MywxNz
-YzMzAwODUyLDE1ODAxODA5OTIsODMzMDc0NTc4LC0zNTI3MjY1
-NDIsMTc2MDgzNjA5NSwxODkxMDY4NTcyLC0xMDc2ODcyMzA5LD
-E3OTg1NjMyMjUsLTY0NDY2NTYwLDEyODA5MDY1MzZdfQ==
+eyJoaXN0b3J5IjpbLTE5NzgxNjA2OTksLTE3MDY1Mjc5ODMsMT
+c2MzMwMDg1MiwxNTgwMTgwOTkyLDgzMzA3NDU3OCwtMzUyNzI2
+NTQyLDE3NjA4MzYwOTUsMTg5MTA2ODU3MiwtMTA3Njg3MjMwOS
+wxNzk4NTYzMjI1LC02NDQ2NjU2MCwxMjgwOTA2NTM2XX0=
 -->
