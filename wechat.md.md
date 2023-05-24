@@ -57,10 +57,12 @@
 |code|Integer|0|返回码|
 |msg|String|success|成功|
 |data|Object|---|---|
-|---|---|---|---|
-|---|---|---|---|
-|---|---|---|---|
 
+|名称|类型|示例值|描述|
+|---|---|---|---|
+|code|Integer|0|返回码|
+|msg|String|success|成功|
+|data|Object|---|---|
 > 返回示例
 
 ```json
@@ -140,8 +142,8 @@ Content-Type：application/json
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDY1Mjc5ODMsMTc2MzMwMDg1MiwxNT
-gwMTgwOTkyLDgzMzA3NDU3OCwtMzUyNzI2NTQyLDE3NjA4MzYw
-OTUsMTg5MTA2ODU3MiwtMTA3Njg3MjMwOSwxNzk4NTYzMjI1LC
-02NDQ2NjU2MCwxMjgwOTA2NTM2XX0=
+eyJoaXN0b3J5IjpbMTg0MzM2NzY1NywtMTcwNjUyNzk4MywxNz
+YzMzAwODUyLDE1ODAxODA5OTIsODMzMDc0NTc4LC0zNTI3MjY1
+NDIsMTc2MDgzNjA5NSwxODkxMDY4NTcyLC0xMDc2ODcyMzA5LD
+E3OTg1NjMyMjUsLTY0NDY2NTYwLDEyODA5MDY1MzZdfQ==
 -->
