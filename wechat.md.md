@@ -61,9 +61,7 @@
 |---|---|---|---|
 |---|---|---|---|
 
-
-
-> 成功
+> 返回示例
 
 ```json
 {
@@ -143,88 +141,8 @@
       "suite_group_id": null
     }
   ],
-  "dictionary": [
-    {
-      "field": "yj_status",
-      "describe": "订单状态",
-      "info": [
-        {
-          "code": -2,
-          "name": "作废"
-        },
-        {
-          "code": -3,
-          "name": "退回修改"
-        },
-        {
-          "code": 2,
-          "name": "审批中"
-        },
-        {
-          "code": 3,
-          "name": "备货中"
-        },
-        {
-          "code": 4,
-          "name": "已发货"
-        },
-        {
-          "code": 5,
-          "name": "已完成"
-        }
-      ]
-    },
-    {
-      "field": "order_type_id",
-      "describe": "类型",
-      "info": [
-        {
-          "code": 32,
-          "name": "过期换货补货单"
-        },
-        {
-          "code": 1,
-          "name": "正常订单"
-        },
-        {
-          "code": 33,
-          "name": "投诉换货补货单"
-        },
-        {
-          "code": 2,
-          "name": "寄售订单"
-        },
-        {
-          "code": 3,
-          "name": "促销订单"
-        },
-        {
-          "code": 31,
-          "name": "赠品订单"
-        }
-      ]
-    },
-    {
-      "field": "platform_id",
-      "describe": "平台名称",
-      "info": [
-        {
-          "code": 17,
-          "name": "嘉事唯众"
-        }
-      ]
-    },
-    {
-      "field": "customer_id",
-      "describe": "代理商名称",
-      "info": [
-        {
-          "code": 2610,
-          "name": "山东瑞卓医疗科技有限公司"
-        }
-      ]
-    }
-  ],
+  
+    
   "total": 441
 }
 ```
@@ -1751,7 +1669,7 @@ POST /control/implant/invoice
 # 数据模型
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxNjM5NjA2OCwxODkxMDY4NTcyLC0xMD
-c2ODcyMzA5LDE3OTg1NjMyMjUsLTY0NDY2NTYwLDEyODA5MDY1
-MzZdfQ==
+eyJoaXN0b3J5IjpbMzU0MTUwNDMyLDE4OTEwNjg1NzIsLTEwNz
+Y4NzIzMDksMTc5ODU2MzIyNSwtNjQ0NjY1NjAsMTI4MDkwNjUz
+Nl19
 -->
