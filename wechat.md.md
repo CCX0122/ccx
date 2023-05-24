@@ -75,25 +75,9 @@
 }
 ```
 
-### 返回结果
 
-|状态码|状态码含义|说明|数据模型|
-|---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|成功|Inline|
 
-### 返回数据结构
-
-状态码 **200**
-
-|名称|类型|必选|约束|中文名|说明|
-|---|---|---|---|---|---|
-|» code|integer|true|none||none|
-|» msg|string|true|none||none|
-|» data|null|true|none||none|
-|» dictionary|null|true|none||none|
-|» total|integer|true|none||none|
-
-## POST 订单详情
+### 2.2 POST 订单详情
 
 POST /control/order/detail
 
@@ -1597,7 +1581,7 @@ POST /control/implant/invoice
 # 数据模型
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2MDgzNjA5NSwxODkxMDY4NTcyLC0xMD
-c2ODcyMzA5LDE3OTg1NjMyMjUsLTY0NDY2NTYwLDEyODA5MDY1
-MzZdfQ==
+eyJoaXN0b3J5IjpbLTEyMjg0Nzg5NzYsMTc2MDgzNjA5NSwxOD
+kxMDY4NTcyLC0xMDc2ODcyMzA5LDE3OTg1NjMyMjUsLTY0NDY2
+NTYwLDEyODA5MDY1MzZdfQ==
 -->
