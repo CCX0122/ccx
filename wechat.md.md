@@ -79,7 +79,7 @@
 
 ### 2.2 POST 订单数据
 
-**    经销商在唯众平台的订货数据mor **
+**    经销商在唯众平台的订货数据默认查询全部代理商的数据，可根据上传参数进行条件筛选查询 **
 
 调用地址：jswz/apiservice/getorders
 请求方式：POST			 
@@ -97,7 +97,7 @@ Content-Type：application/json
 |---|---|---|---|---|
 |customerId|Integer|否| 1|代理商编码，查询某个代理商的数据|
 |startDate|String|否| 2023-01-01|开始时间|
-|startDate|String|否| 2023-01-01|结束时间|
+|startDate|String|否| 2023-05-01|结束时间|
 
 ### 返回参数
 |名称|类型|示例值|描述|
@@ -140,8 +140,8 @@ Content-Type：application/json
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5OTUzNTc1MiwxNzYzMzAwODUyLDE1OD
-AxODA5OTIsODMzMDc0NTc4LC0zNTI3MjY1NDIsMTc2MDgzNjA5
-NSwxODkxMDY4NTcyLC0xMDc2ODcyMzA5LDE3OTg1NjMyMjUsLT
-Y0NDY2NTYwLDEyODA5MDY1MzZdfQ==
+eyJoaXN0b3J5IjpbLTE3MDY1Mjc5ODMsMTc2MzMwMDg1MiwxNT
+gwMTgwOTkyLDgzMzA3NDU3OCwtMzUyNzI2NTQyLDE3NjA4MzYw
+OTUsMTg5MTA2ODU3MiwtMTA3Njg3MjMwOSwxNzk4NTYzMjI1LC
+02NDQ2NjU2MCwxMjgwOTA2NTM2XX0=
 -->
