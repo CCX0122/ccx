@@ -490,23 +490,15 @@ Content-Type：application/json
 |名称|类型|示例值|描述|
 |---|---|---|---|
 |hasNewData|boolean|true|当前查询条件下查询到的数据是未全部传输，如果是yes则表示数据量太多数据未全部传输，此时再次以当前查询条件进行查询会返上次未返回的数据，以此类推重复调用此接口获取新数据。如果值为false则此查询条件下的数据已经全部返回|
-|returnData|ReturnData|-|细单数据详见下方ImplantData|
-#### ImplantData
+|returnData|ReturnData|-|细单数据详见下方ReturnData|
+#### ReturnData
 |名称|类型|示例值|描述|
 |---|---|---|---|
-|customerId|Integer|234|经销商代码|
-|hospitalId|Integer|3456|医院编码|
-|invoiceUnit|String|嘉事唯众|开票单位名称|
-|receiveName|String|张三|发票购货方名称|
-|invoiceNo|String|2222|发票号码|
-|invoiceDate|Date|2020-10-01|发票日期|
-|invoiceType|String|医院发票|发票类型*|
-|invoiceCode|String|45678|发票代码|
-|invoiceCheckCode|String|123456|发票校验码后六位|
-|invoiceAmount|Bigdecimal|4567.67|发票金额|
-|reportDate|Date|2022-10-11|上报日期|
-|detailList|ImplantDetail|-|细单数据详见下方ImplantDetail|
-#### ImplantDetail
+|returnDate|Date|2020-10-10|退货日期|
+|customerId|Integer|3456|代理商编码|
+|returnTypeId|Integer|123|退货类型编码|
+|detailList|ImplantDetail|-|细单数据详见下方ReturnDetail|
+#### ReturnDetail
 |名称|类型|示例值|描述|
 |---|---|---|---|
 |productModel|String|1-14-1W|产品规格型号|
@@ -596,11 +588,11 @@ Content-Type：application/json
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1ODA5Mzg5OSwtMTA2NTA1OTk1LDE1ND
-Y1MDU2NzgsMTgzMzkxMzk4OCwtNzU3NDkxMDM2LC0xODA0NjM2
-NzQyLDE0MjgwNjM1MzQsMzU3NDIxNTI5LC0xNzU4NTg3NDM5LD
-gwMTc3MzcyNSwtMjE0MTMwMzc1OSw5OTY3OTU4OTMsMTY1NTY1
-ODkzMywxNTE3MjA4MzIzLC0xMDkwNTkwNjcsLTE1NDMxOTk2Mj
-AsLTE5NzgxNjA2OTksLTE3MDY1Mjc5ODMsMTc2MzMwMDg1Miwx
-NTgwMTgwOTkyXX0=
+eyJoaXN0b3J5IjpbLTE1NTU0Mzk2NDYsLTEwNjUwNTk5NSwxNT
+Q2NTA1Njc4LDE4MzM5MTM5ODgsLTc1NzQ5MTAzNiwtMTgwNDYz
+Njc0MiwxNDI4MDYzNTM0LDM1NzQyMTUyOSwtMTc1ODU4NzQzOS
+w4MDE3NzM3MjUsLTIxNDEzMDM3NTksOTk2Nzk1ODkzLDE2NTU2
+NTg5MzMsMTUxNzIwODMyMywtMTA5MDU5MDY3LC0xNTQzMTk5Nj
+IwLC0xOTc4MTYwNjk5LC0xNzA2NTI3OTgzLDE3NjMzMDA4NTIs
+MTU4MDE4MDk5Ml19
 -->
