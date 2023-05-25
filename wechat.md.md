@@ -363,7 +363,7 @@ Content-Type：application/json
 |address|String|北京市朝阳区XXX|收货地址|
 |phone|String|13112341234|电话|
 |detailList|ShipmentDetail|-|细单数据详见下方ShipmentDetail|
-#### ShipmentDetail
+#### ImplantDetail
 |名称|类型|示例值|描述|
 |---|---|---|---|
 |productModel|String|1-14-1W|产品规格型号|
@@ -442,11 +442,11 @@ Content-Type：application/json
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1MDMyMjI4MCwxNDI4MDYzNTM0LDM1Nz
-QyMTUyOSwtMTc1ODU4NzQzOSw4MDE3NzM3MjUsLTIxNDEzMDM3
-NTksOTk2Nzk1ODkzLDE2NTU2NTg5MzMsMTUxNzIwODMyMywtMT
-A5MDU5MDY3LC0xNTQzMTk5NjIwLC0xOTc4MTYwNjk5LC0xNzA2
-NTI3OTgzLDE3NjMzMDA4NTIsMTU4MDE4MDk5Miw4MzMwNzQ1Nz
-gsLTM1MjcyNjU0MiwxNzYwODM2MDk1LDE4OTEwNjg1NzIsLTEw
-NzY4NzIzMDldfQ==
+eyJoaXN0b3J5IjpbLTEwOTAyNjkyMTUsMTQyODA2MzUzNCwzNT
+c0MjE1MjksLTE3NTg1ODc0MzksODAxNzczNzI1LC0yMTQxMzAz
+NzU5LDk5Njc5NTg5MywxNjU1NjU4OTMzLDE1MTcyMDgzMjMsLT
+EwOTA1OTA2NywtMTU0MzE5OTYyMCwtMTk3ODE2MDY5OSwtMTcw
+NjUyNzk4MywxNzYzMzAwODUyLDE1ODAxODA5OTIsODMzMDc0NT
+c4LC0zNTI3MjY1NDIsMTc2MDgzNjA5NSwxODkxMDY4NTcyLC0x
+MDc2ODcyMzA5XX0=
 -->
