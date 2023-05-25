@@ -85,7 +85,7 @@
 
 **    经销商在唯众平台的订货数据默认查询全部代理商的数据，可根据上传参数进行条件筛选查询 **
 
-调用地址：jswz/apiservice/getorders
+调用地址：jswz/apiservice/getOrders
 请求方式：POST			 
 Content-Type：application/json
 返回类型：JSON
@@ -596,11 +596,11 @@ Content-Type：application/json
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxODUxMzQ2NiwxODMzOTEzOTg4LC03NT
-c0OTEwMzYsLTE4MDQ2MzY3NDIsMTQyODA2MzUzNCwzNTc0MjE1
-MjksLTE3NTg1ODc0MzksODAxNzczNzI1LC0yMTQxMzAzNzU5LD
-k5Njc5NTg5MywxNjU1NjU4OTMzLDE1MTcyMDgzMjMsLTEwOTA1
-OTA2NywtMTU0MzE5OTYyMCwtMTk3ODE2MDY5OSwtMTcwNjUyNz
-k4MywxNzYzMzAwODUyLDE1ODAxODA5OTIsODMzMDc0NTc4LC0z
-NTI3MjY1NDJdfQ==
+eyJoaXN0b3J5IjpbLTE0MDE4MjM2NTQsMTgzMzkxMzk4OCwtNz
+U3NDkxMDM2LC0xODA0NjM2NzQyLDE0MjgwNjM1MzQsMzU3NDIx
+NTI5LC0xNzU4NTg3NDM5LDgwMTc3MzcyNSwtMjE0MTMwMzc1OS
+w5OTY3OTU4OTMsMTY1NTY1ODkzMywxNTE3MjA4MzIzLC0xMDkw
+NTkwNjcsLTE1NDMxOTk2MjAsLTE5NzgxNjA2OTksLTE3MDY1Mj
+c5ODMsMTc2MzMwMDg1MiwxNTgwMTgwOTkyLDgzMzA3NDU3OCwt
+MzUyNzI2NTQyXX0=
 -->
