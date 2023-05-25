@@ -224,7 +224,7 @@ Content-Type：application/json
 |名称|类型|示例值|描述|
 |---|---|---|---|
 |hasNewData|boolean|true|当前查询条件下查询到的数据是未全部传输，如果是yes则表示数据量太多数据未全部传输，此时再次以当前查询条件进行查询会返上次未返回的数据，以此类推重复调用此接口获取新数据。如果值为false则此查询条件下的数据已经全部返回|
-|shipmentData|ShipmentData|-|细单数据详见下方OrderDetail|
+|shipmentData|ShipmentData|-|细单数据详见下方ShipmentData|
 #### ShipmentData
 |名称|类型|示例值|描述|
 |---|---|---|---|
@@ -254,7 +254,7 @@ Content-Type：application/json
     "msg":"success",
     "data":{
         "hasNewData":true,
-        "orderData":[
+        "shipmentData":[
             {
                 "shipmentDate":"2023-05-14 10:00:00",
                 "shipmentNo":"34232",
@@ -442,7 +442,7 @@ Content-Type：application/json
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTAyNjkyMTUsMTQyODA2MzUzNCwzNT
+eyJoaXN0b3J5IjpbLTE4MDQ2MzY3NDIsMTQyODA2MzUzNCwzNT
 c0MjE1MjksLTE3NTg1ODc0MzksODAxNzczNzI1LC0yMTQxMzAz
 NzU5LDk5Njc5NTg5MywxNjU1NjU4OTMzLDE1MTcyMDgzMjMsLT
 EwOTA1OTA2NywtMTU0MzE5OTYyMCwtMTk3ODE2MDY5OSwtMTcw
