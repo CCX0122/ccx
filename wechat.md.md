@@ -242,7 +242,7 @@ Content-Type：application/json
 |---|---|---|---|
 |productModel|String|1-14-1W|产品规格型号|
 |validDate|Date|2030-01-01|有效期|
-|batchNumber|String|DEF3425|批号|
+|lot|String|DEF3425|批号|
 |sn|String|34567|序列号|
 |quantity|Integer|14|数量|
 |taxPrice|Integer|1|订单类型|
@@ -268,7 +268,7 @@ Content-Type：application/json
                     {
                         "productModel":"1-14-1W",
                         "validDate":"2029-09-09",
-                        "batchNumber":"1-14-1W",
+                        "lot":"1-14-1W",
                         "sn":"FE2452D",
                         "quantity":10,
                         "taxPrice":7777.89
@@ -276,7 +276,7 @@ Content-Type：application/json
                     {
                         "productModel":"1-14-1B",
                         "validDate":"2029-09-09",
-                        "batchNumber":"SSS",
+                        "lot":"SSS",
                         "sn":"FE2452D",
                         "quantity":10,
                         "taxPrice":4763.22
@@ -296,7 +296,7 @@ Content-Type：application/json
                     {
                         "productModel":"1-14-1W",
                         "validDate":"2029-09-09",
-                        "batchNumber":"1-14-1W",
+                        "lot":"1-14-1W",
                         "sn":"FE2452D",
                         "quantity":10,
                         "taxPrice":7777.89
@@ -304,7 +304,7 @@ Content-Type：application/json
                     {
                         "productModel":"1-14-1B",
                         "validDate":"2029-09-09",
-                        "batchNumber":"SSS",
+                        "lot":"SSS",
                         "sn":"FE2452D",
                         "quantity":10,
                         "taxPrice":4763.22
@@ -368,7 +368,7 @@ Content-Type：application/json
 |---|---|---|---|
 |productModel|String|1-14-1W|产品规格型号|
 |validDate|Date|2030-01-01|有效期|
-|batchNumber|String|DEF3425|批号|
+|lot|String|DEF3425|批号|
 |sn|String|34567|序列号|
 |quantity|Integer|14|数量|
 |taxPrice|Integer|1|订单类型|
@@ -380,60 +380,70 @@ Content-Type：application/json
     "msg":"success",
     "data":{
         "hasNewData":true,
-        "orderData":[
+        "implantData":[
             {
-                "shipmentDate":"2023-05-14 10:00:00",
-                "shipmentNo":"34232",
-                "orderNo":"SA2023405685",
-                "shipmentType":1,
-                "customerId":1,
-                "receivePerson":"张三",
-                "address":"北京市朝阳区XXX",
-                "phone":"13112341234",
+                "customerId":2324,
+                "hospitalId":4563,
+                "invoiceUnit":"开票单位名称A",
+                "receiveName":"发票购货方名称B",
+                "invoiceNo":"666453",
+                "invoiceDate":"2023-05-01",
+                "invoiceType":"医院发票",
+                "invoiceCode":"45678",
+                "invoiceCheckCode":"123456",
+                "invoiceAmount":"6574.57",
+                "reportDate":"2022-10-23",
                 "detailList":[
                     {
                         "productModel":"1-14-1W",
                         "validDate":"2029-09-09",
-                        "batchNumber":"1-14-1W",
+                        "lot":"1-14-1W",
                         "sn":"FE2452D",
                         "quantity":10,
-                        "taxPrice":7777.89
+                        "taxPrice":7777.89,
+                        "hospitalPrice":7777.89
                     },
                     {
                         "productModel":"1-14-1B",
                         "validDate":"2029-09-09",
-                        "batchNumber":"SSS",
+                        "lot":"SSS",
                         "sn":"FE2452D",
                         "quantity":10,
-                        "taxPrice":4763.22
+                        "taxPrice":4763.22,
+                        "hospitalPrice":4377.89
                     }
                 ]
             },
             {
-                "shipmentDate":"2023-05-20 10:00:00",
-                "shipmentNo":"366662",
-                "orderNo":"SA202366665",
-                "shipmentType":1,
-                "customerId":1,
-                "receivePerson":"李四",
-                "address":"北京市朝阳区XXX",
-                "phone":"13134566543",
+                "customerId":432,
+                "hospitalId":564,
+                "invoiceUnit":"开票单位名称C",
+                "receiveName":"发票购货方名称D",
+                "invoiceNo":"3421",
+                "invoiceDate":"2023-04-01",
+                "invoiceType":"医院发票",
+                "invoiceCode":"2312",
+                "invoiceCheckCode":"543423",
+                "invoiceAmount":"6574.57",
+                "reportDate":"2022-10-23",
                 "detailList":[
                     {
                         "productModel":"1-14-1W",
                         "validDate":"2029-09-09",
-                        "batchNumber":"1-14-1W",
+                        "lot":"1-14-1W",
                         "sn":"FE2452D",
                         "quantity":10,
-                        "taxPrice":7777.89
+                        "taxPrice":7777.89,
+                        "hospitalPrice":7777.89
                     },
                     {
                         "productModel":"1-14-1B",
                         "validDate":"2029-09-09",
-                        "batchNumber":"SSS",
+                        "lot":"SSS",
                         "sn":"FE2452D",
                         "quantity":10,
-                        "taxPrice":4763.22
+                        "taxPrice":4763.22,
+                        "hospitalPrice":4377.89
                     }
                 ]
             }
@@ -442,11 +452,11 @@ Content-Type：application/json
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDQ2MzY3NDIsMTQyODA2MzUzNCwzNT
-c0MjE1MjksLTE3NTg1ODc0MzksODAxNzczNzI1LC0yMTQxMzAz
-NzU5LDk5Njc5NTg5MywxNjU1NjU4OTMzLDE1MTcyMDgzMjMsLT
-EwOTA1OTA2NywtMTU0MzE5OTYyMCwtMTk3ODE2MDY5OSwtMTcw
-NjUyNzk4MywxNzYzMzAwODUyLDE1ODAxODA5OTIsODMzMDc0NT
-c4LC0zNTI3MjY1NDIsMTc2MDgzNjA5NSwxODkxMDY4NTcyLC0x
-MDc2ODcyMzA5XX0=
+eyJoaXN0b3J5IjpbLTc1NzQ5MTAzNiwtMTgwNDYzNjc0MiwxND
+I4MDYzNTM0LDM1NzQyMTUyOSwtMTc1ODU4NzQzOSw4MDE3NzM3
+MjUsLTIxNDEzMDM3NTksOTk2Nzk1ODkzLDE2NTU2NTg5MzMsMT
+UxNzIwODMyMywtMTA5MDU5MDY3LC0xNTQzMTk5NjIwLC0xOTc4
+MTYwNjk5LC0xNzA2NTI3OTgzLDE3NjMzMDA4NTIsMTU4MDE4MD
+k5Miw4MzMwNzQ1NzgsLTM1MjcyNjU0MiwxNzYwODM2MDk1LDE4
+OTEwNjg1NzJdfQ==
 -->
