@@ -245,7 +245,7 @@ Content-Type：application/json
 |lot|String|DEF3425|批号|
 |sn|String|34567|序列号|
 |quantity|Integer|14|数量|
-|taxPrice|Integer|1|订单类型|
+|taxPrice|Bigdecimal|345.87|发票单价|
 
 > 返回示例
 ```json
@@ -374,7 +374,8 @@ Content-Type：application/json
 |lot|String|DEF3425|批号|
 |sn|String|34567|序列号|
 |quantity|Integer|14|数量|
-|taxPrice|Integer|1|订单类型|
+|taxPrice|Bigdecimal|345.74|发票单价|
+|hospitalPrice|Bigdecimal|345.74|医院单价|
 
 > 返回示例
 ```json
@@ -455,7 +456,7 @@ Content-Type：application/json
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwNjE2NTYwNCwtNzU3NDkxMDM2LC0xOD
+eyJoaXN0b3J5IjpbMTgzMzkxMzk4OCwtNzU3NDkxMDM2LC0xOD
 A0NjM2NzQyLDE0MjgwNjM1MzQsMzU3NDIxNTI5LC0xNzU4NTg3
 NDM5LDgwMTc3MzcyNSwtMjE0MTMwMzc1OSw5OTY3OTU4OTMsMT
 Y1NTY1ODkzMywxNTE3MjA4MzIzLC0xMDkwNTkwNjcsLTE1NDMx
