@@ -510,10 +510,60 @@ Content-Type：application/json
 
 > 返回示例
 ```json
-
+{
+    "code":0,
+    "msg":"success",
+    "data":{
+        "hasNewData":true,
+        "returnData":[
+            {
+                "returnDate":"2023-05-01",
+                "customerId":2324,
+                "returnTypeId":4563,
+                "detailList":[
+                    {
+                        "productModel":"1-14-1W",
+                        "validDate":"2029-09-09",
+                        "lot":"1-14-1W",
+                        "sn":"FE2452D",
+                        "quantity":10
+                    },
+                    {
+                        "productModel":"1-14-1B",
+                        "validDate":"2029-09-09",
+                        "lot":"SSS",
+                        "sn":"FE2452D",
+                        "quantity":10
+                    }
+                ]
+            },
+            {
+                "returnDate":"2023-05-01",
+                "customerId":2324,
+                "returnTypeId":4563,
+                "detailList":[
+                    {
+                        "productModel":"1-14-1W",
+                        "validDate":"2029-09-09",
+                        "lot":"1-14-1W",
+                        "sn":"FE2452D",
+                        "quantity":10
+                    },
+                    {
+                        "productModel":"1-14-1B",
+                        "validDate":"2029-09-09",
+                        "lot":"SSS",
+                        "sn":"FE2452D",
+                        "quantity":10
+                    }
+                ]
+            }
+        ]
+    }
+}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDA4NjI0OCwtMTU1NTQzOTY0NiwtMT
+eyJoaXN0b3J5IjpbLTkwOTI5NzcxMywtMTU1NTQzOTY0NiwtMT
 A2NTA1OTk1LDE1NDY1MDU2NzgsMTgzMzkxMzk4OCwtNzU3NDkx
 MDM2LC0xODA0NjM2NzQyLDE0MjgwNjM1MzQsMzU3NDIxNTI5LC
 0xNzU4NTg3NDM5LDgwMTc3MzcyNSwtMjE0MTMwMzc1OSw5OTY3
