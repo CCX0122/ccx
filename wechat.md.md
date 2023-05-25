@@ -319,7 +319,7 @@ Content-Type：application/json
 
 **    经销商在唯众系统上报的植入数据，可根据上传参数进行条件查询 **
 
-调用地址：jswz/apiservice/getorders
+调用地址：jswz/apiservice/getimplants
 请求方式：POST			 
 Content-Type：application/json
 返回类型：JSON
@@ -442,7 +442,7 @@ Content-Type：application/json
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTQwNTYyNzgsMTQyODA2MzUzNCwzNT
+eyJoaXN0b3J5IjpbLTE3NjA5MTg4MzEsMTQyODA2MzUzNCwzNT
 c0MjE1MjksLTE3NTg1ODc0MzksODAxNzczNzI1LC0yMTQxMzAz
 NzU5LDk5Njc5NTg5MywxNjU1NjU4OTMzLDE1MTcyMDgzMjMsLT
 EwOTA1OTA2NywtMTU0MzE5OTYyMCwtMTk3ODE2MDY5OSwtMTcw
