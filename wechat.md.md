@@ -357,9 +357,9 @@ Content-Type：application/json
 |customerId|Integer|234|经销商代码|
 |hospitalId|Integer|3456|医院编码|
 |invoiceUnit|String|嘉事唯众|开票单位名称|
-|receiveName|String|1|发货类型编码|
-|invoiceNo|Integer|2222|代理商编码|
-|invoiceDate|String|张三|收货人|
+|receiveName|String|张三|发票购货方名称|
+|invoiceNo|String|2222|发票号码|
+|invoiceDate|Date|2020-10-01|发票日期|
 |invoiceType|String|北京市朝阳区XXX|收货地址|
 |invoiceCode|String|13112341234|电话|
 |invoiceCheckCode|ShipmentDetail|-|细单数据详见下方ShipmentDetail|
@@ -455,7 +455,7 @@ Content-Type：application/json
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1MDgzODUwMiwtNzU3NDkxMDM2LC0xOD
+eyJoaXN0b3J5IjpbMTAxODMwNjE2NiwtNzU3NDkxMDM2LC0xOD
 A0NjM2NzQyLDE0MjgwNjM1MzQsMzU3NDIxNTI5LC0xNzU4NTg3
 NDM5LDgwMTc3MzcyNSwtMjE0MTMwMzc1OSw5OTY3OTU4OTMsMT
 Y1NTY1ODkzMywxNTE3MjA4MzIzLC0xMDkwNTkwNjcsLTE1NDMx
