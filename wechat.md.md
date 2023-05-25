@@ -455,12 +455,152 @@ Content-Type：application/json
     }
 }
 ```
+### 2.5 获取退货数据
+
+**    经销商在唯众系统上报的植入数据，可根据上传参数进行条件查询 **
+
+调用地址：jswz/apiservice/getimplants
+请求方式：POST			 
+Content-Type：application/json
+返回类型：JSON
+### Header参数
+
+|名称|类型|必填|示例值|描述|
+|---|---|---|---|---|
+|accessToken|String|是| fghjkrtyuifgbn5678 |授权信息|
+
+### Body参数
+
+|名称|类型|必填|示例值|描述|
+|---|---|---|---|---|
+|rows|Integer|是| 200|默认200|
+|customerId|Integer|否| 1|代理商编码，查询某个代理商的数据|
+|startDate|String|否| 2023-01-01|开始时间|
+|startDate|String|否| 2023-01-01|结束时间|
+
+
+### 返回参数
+|名称|类型|示例值|描述|
+|---|---|---|---|
+|code|Integer|0|返回码|
+|msg|String|success|成功|
+|data|JsonData|-|数据详见下方JsonData|
+
+### JsonData
+|名称|类型|示例值|描述|
+|---|---|---|---|
+|hasNewData|boolean|true|当前查询条件下查询到的数据是未全部传输，如果是yes则表示数据量太多数据未全部传输，此时再次以当前查询条件进行查询会返上次未返回的数据，以此类推重复调用此接口获取新数据。如果值为false则此查询条件下的数据已经全部返回|
+|implantData|ImplantData|-|细单数据详见下方ImplantData|
+#### ImplantData
+|名称|类型|示例值|描述|
+|---|---|---|---|
+|customerId|Integer|234|经销商代码|
+|hospitalId|Integer|3456|医院编码|
+|invoiceUnit|String|嘉事唯众|开票单位名称|
+|receiveName|String|张三|发票购货方名称|
+|invoiceNo|String|2222|发票号码|
+|invoiceDate|Date|2020-10-01|发票日期|
+|invoiceType|String|医院发票|发票类型*|
+|invoiceCode|String|45678|发票代码|
+|invoiceCheckCode|String|123456|发票校验码后六位|
+|invoiceAmount|Bigdecimal|4567.67|发票金额|
+|reportDate|Date|2022-10-11|上报日期|
+|detailList|ImplantDetail|-|细单数据详见下方ImplantDetail|
+#### ImplantDetail
+|名称|类型|示例值|描述|
+|---|---|---|---|
+|productModel|String|1-14-1W|产品规格型号|
+|validDate|Date|2030-01-01|有效期|
+|lot|String|DEF3425|批号|
+|sn|String|34567|序列号|
+|quantity|Integer|14|数量|
+|taxPrice|Bigdecimal|345.74|发票单价|
+|hospitalPrice|Bigdecimal|345.74|医院单价|
+
+> 返回示例
+```json
+{
+    "code":0,
+    "msg":"success",
+    "data":{
+        "hasNewData":true,
+        "implantData":[
+            {
+                "customerId":2324,
+                "hospitalId":4563,
+                "invoiceUnit":"开票单位名称A",
+                "receiveName":"发票购货方名称B",
+                "invoiceNo":"666453",
+                "invoiceDate":"2023-05-01",
+                "invoiceType":"医院发票",
+                "invoiceCode":"45678",
+                "invoiceCheckCode":"123456",
+                "invoiceAmount":"6574.57",
+                "reportDate":"2022-10-23",
+                "detailList":[
+                    {
+                        "productModel":"1-14-1W",
+                        "validDate":"2029-09-09",
+                        "lot":"1-14-1W",
+                        "sn":"FE2452D",
+                        "quantity":10,
+                        "taxPrice":7777.89,
+                        "hospitalPrice":7777.89
+                    },
+                    {
+                        "productModel":"1-14-1B",
+                        "validDate":"2029-09-09",
+                        "lot":"SSS",
+                        "sn":"FE2452D",
+                        "quantity":10,
+                        "taxPrice":4763.22,
+                        "hospitalPrice":4377.89
+                    }
+                ]
+            },
+            {
+                "customerId":432,
+                "hospitalId":564,
+                "invoiceUnit":"开票单位名称C",
+                "receiveName":"发票购货方名称D",
+                "invoiceNo":"3421",
+                "invoiceDate":"2023-04-01",
+                "invoiceType":"医院发票",
+                "invoiceCode":"2312",
+                "invoiceCheckCode":"543423",
+                "invoiceAmount":"6574.57",
+                "reportDate":"2022-10-23",
+                "detailList":[
+                    {
+                        "productModel":"1-14-1W",
+                        "validDate":"2029-09-09",
+                        "lot":"1-14-1W",
+                        "sn":"FE2452D",
+                        "quantity":10,
+                        "taxPrice":7777.89,
+                        "hospitalPrice":7777.89
+                    },
+                    {
+                        "productModel":"1-14-1B",
+                        "validDate":"2029-09-09",
+                        "lot":"SSS",
+                        "sn":"FE2452D",
+                        "quantity":10,
+                        "taxPrice":4763.22,
+                        "hospitalPrice":4377.89
+                    }
+                ]
+            }
+        ]
+    }
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzMzkxMzk4OCwtNzU3NDkxMDM2LC0xOD
-A0NjM2NzQyLDE0MjgwNjM1MzQsMzU3NDIxNTI5LC0xNzU4NTg3
-NDM5LDgwMTc3MzcyNSwtMjE0MTMwMzc1OSw5OTY3OTU4OTMsMT
-Y1NTY1ODkzMywxNTE3MjA4MzIzLC0xMDkwNTkwNjcsLTE1NDMx
-OTk2MjAsLTE5NzgxNjA2OTksLTE3MDY1Mjc5ODMsMTc2MzMwMD
-g1MiwxNTgwMTgwOTkyLDgzMzA3NDU3OCwtMzUyNzI2NTQyLDE3
-NjA4MzYwOTVdfQ==
+eyJoaXN0b3J5IjpbMTQ5NjA5MDcwOSwxODMzOTEzOTg4LC03NT
+c0OTEwMzYsLTE4MDQ2MzY3NDIsMTQyODA2MzUzNCwzNTc0MjE1
+MjksLTE3NTg1ODc0MzksODAxNzczNzI1LC0yMTQxMzAzNzU5LD
+k5Njc5NTg5MywxNjU1NjU4OTMzLDE1MTcyMDgzMjMsLTEwOTA1
+OTA2NywtMTU0MzE5OTYyMCwtMTk3ODE2MDY5OSwtMTcwNjUyNz
+k4MywxNzYzMzAwODUyLDE1ODAxODA5OTIsODMzMDc0NTc4LC0z
+NTI3MjY1NDJdfQ==
 -->
