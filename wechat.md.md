@@ -193,7 +193,7 @@ Content-Type：application/json
 
 **    唯众平台出库至经销商的数据，可根据上传参数进行条件查询 **
 
-调用地址：jswz/apiservice/getorders
+调用地址：jswz/apiservice/getShipments
 请求方式：POST			 
 Content-Type：application/json
 返回类型：JSON
@@ -459,7 +459,7 @@ Content-Type：application/json
 
 **    以任何原因由代理商退货到唯众的产品，可根据上传参数进行条件查询 **
 
-调用地址：jswz/apiservice/getreturn
+调用地址：jswz/apiservice/getReturnData
 请求方式：POST			 
 Content-Type：application/json
 返回类型：JSON
@@ -596,11 +596,11 @@ Content-Type：application/json
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDE4MjM2NTQsMTgzMzkxMzk4OCwtNz
-U3NDkxMDM2LC0xODA0NjM2NzQyLDE0MjgwNjM1MzQsMzU3NDIx
-NTI5LC0xNzU4NTg3NDM5LDgwMTc3MzcyNSwtMjE0MTMwMzc1OS
-w5OTY3OTU4OTMsMTY1NTY1ODkzMywxNTE3MjA4MzIzLC0xMDkw
-NTkwNjcsLTE1NDMxOTk2MjAsLTE5NzgxNjA2OTksLTE3MDY1Mj
-c5ODMsMTc2MzMwMDg1MiwxNTgwMTgwOTkyLDgzMzA3NDU3OCwt
-MzUyNzI2NTQyXX0=
+eyJoaXN0b3J5IjpbMTU0NjUwNTY3OCwxODMzOTEzOTg4LC03NT
+c0OTEwMzYsLTE4MDQ2MzY3NDIsMTQyODA2MzUzNCwzNTc0MjE1
+MjksLTE3NTg1ODc0MzksODAxNzczNzI1LC0yMTQxMzAzNzU5LD
+k5Njc5NTg5MywxNjU1NjU4OTMzLDE1MTcyMDgzMjMsLTEwOTA1
+OTA2NywtMTU0MzE5OTYyMCwtMTk3ODE2MDY5OSwtMTcwNjUyNz
+k4MywxNzYzMzAwODUyLDE1ODAxODA5OTIsODMzMDc0NTc4LC0z
+NTI3MjY1NDJdfQ==
 -->
