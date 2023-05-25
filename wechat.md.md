@@ -189,7 +189,133 @@ Content-Type：application/json
 }
 ```
 
-### 2.2 获取出库数据
+### 2.3 获取出库数据
+
+**    唯众平台出库至经销商的数据，可根据上传参数进行条件查询 **
+
+调用地址：jswz/apiservice/getorders
+请求方式：POST			 
+Content-Type：application/json
+返回类型：JSON
+### Header参数
+
+|名称|类型|必填|示例值|描述|
+|---|---|---|---|---|
+|accessToken|String|是| fghjkrtyuifgbn5678 |授权信息|
+
+### Body参数
+
+|名称|类型|必填|示例值|描述|
+|---|---|---|---|---|
+|rows|Integer|是| 200|默认200|
+|customerId|Integer|否| 1|代理商编码，查询某个代理商的数据|
+|startDate|String|否| 2023-01-01|开始时间|
+|startDate|String|否| 2023-01-01|结束时间|
+
+
+### 返回参数
+|名称|类型|示例值|描述|
+|---|---|---|---|
+|code|Integer|0|返回码|
+|msg|String|success|成功|
+|data|JsonData|-|数据详见下方JsonData|
+
+### JsonData
+|名称|类型|示例值|描述|
+|---|---|---|---|
+|hasNewData|boolean|true|当前查询条件下查询到的数据是未全部传输，如果是yes则表示数据量太多数据未全部传输，此时再次以当前查询条件进行查询会返上次未返回的数据，以此类推重复调用此接口获取新数据。如果值为false则此查询条件下的数据已经全部返回|
+|shipmentData|ShipmentData|-|细单数据详见下方OrderDetail|
+#### ShipmentData
+|名称|类型|示例值|描述|
+|---|---|---|---|
+|shipmentDate|Date|2023-05-01 10:00:00|发货日期|
+|shipmentNo|String|SA203457256|发货单号|
+|orderNo|String|SA203457256|关联订单号|
+|shipmentType|Integer|1|发货类型编码|
+|customerId|Integer|2222|代理商编码|
+|receivePerson|String|张三|收货人|
+|address|String|北京市朝阳区XXX|收货地址|
+|phone|String|13112341234|电话|
+|detailList|ShipmentDetail|-|细单数据详见下方ShipmentDetail|
+#### ShipmentDetail
+|名称|类型|示例值|描述|
+|---|---|---|---|
+|productModel|String|1-14-1W|产品规格型号|
+|validDate|Date|2030-01-01|有效期|
+|batchNumber|String|DEF3425|批号|
+|sn|String|34567|序列号|
+|quantity|Integer|14|数量|
+|taxPrice|Integer|1|订单类型|
+
+> 返回示例
+```json
+{
+    "code":0,
+    "msg":"success",
+    "data":{
+        "hasNewData":true,
+        "orderData":[
+            {
+                "shipmentDate":"2023-05-14 10:00:00",
+                "shipmentNo":"34232",
+                "orderNo":"SA2023405685",
+                "shipmentType":1,
+                "customerId":1,
+                "receivePerson":"张三",
+                "address":"北京市朝阳区XXX",
+                "phone":"13112341234",
+                "detailList":[
+                    {
+                        "productModel":"1-14-1W",
+                        "validDate":"2029-09-09",
+                        "batchNumber":"1-14-1W",
+                        "sn":"FE2452D",
+                        "quantity":10,
+                        "taxPrice":7777.89
+                    },
+                    {
+                        "productModel":"1-14-1B",
+                        "validDate":"2029-09-09",
+                        "batchNumber":"SSS",
+                        "sn":"FE2452D",
+                        "quantity":10,
+                        "taxPrice":4763.22
+                    }
+                ]
+            },
+            {
+                "shipmentDate":"2023-05-20 10:00:00",
+                "shipmentNo":"366662",
+                "orderNo":"SA202366665",
+                "shipmentType":1,
+                "customerId":1,
+                "receivePerson":"李四",
+                "address":"北京市朝阳区XXX",
+                "phone":"13134566543",
+                "detailList":[
+                    {
+                        "productModel":"1-14-1W",
+                        "validDate":"2029-09-09",
+                        "batchNumber":"1-14-1W",
+                        "sn":"FE2452D",
+                        "quantity":10,
+                        "taxPrice":7777.89
+                    },
+                    {
+                        "productModel":"1-14-1B",
+                        "validDate":"2029-09-09",
+                        "batchNumber":"SSS",
+                        "sn":"FE2452D",
+                        "quantity":10,
+                        "taxPrice":4763.22
+                    }
+                ]
+            }
+        ]
+    }
+}
+```
+### 2.4 获取植入数据
 
 **    唯众平台出库至经销商的数据，可根据上传参数进行条件查询 **
 
@@ -316,11 +442,11 @@ Content-Type：application/json
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyODA2MzUzNCwzNTc0MjE1MjksLTE3NT
-g1ODc0MzksODAxNzczNzI1LC0yMTQxMzAzNzU5LDk5Njc5NTg5
-MywxNjU1NjU4OTMzLDE1MTcyMDgzMjMsLTEwOTA1OTA2NywtMT
-U0MzE5OTYyMCwtMTk3ODE2MDY5OSwtMTcwNjUyNzk4MywxNzYz
-MzAwODUyLDE1ODAxODA5OTIsODMzMDc0NTc4LC0zNTI3MjY1ND
-IsMTc2MDgzNjA5NSwxODkxMDY4NTcyLC0xMDc2ODcyMzA5LDE3
-OTg1NjMyMjVdfQ==
+eyJoaXN0b3J5IjpbLTI2ODA0NDkyMCwxNDI4MDYzNTM0LDM1Nz
+QyMTUyOSwtMTc1ODU4NzQzOSw4MDE3NzM3MjUsLTIxNDEzMDM3
+NTksOTk2Nzk1ODkzLDE2NTU2NTg5MzMsMTUxNzIwODMyMywtMT
+A5MDU5MDY3LC0xNTQzMTk5NjIwLC0xOTc4MTYwNjk5LC0xNzA2
+NTI3OTgzLDE3NjMzMDA4NTIsMTU4MDE4MDk5Miw4MzMwNzQ1Nz
+gsLTM1MjcyNjU0MiwxNzYwODM2MDk1LDE4OTEwNjg1NzIsLTEw
+NzY4NzIzMDldfQ==
 -->
