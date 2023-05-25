@@ -27,6 +27,7 @@
 
 
 ## <center> 目录<center/>
+
 <br>
  说明：该文档为第三方应用接入唯众系统的接口说明文档初稿，后续可能会根据实际开发情况进行调整
 
@@ -511,63 +512,63 @@ Content-Type：application/json
 > 返回示例
 ```json
 {
-    "code":0,
-    "msg":"success",
-    "data":{
-        "hasNewData":true,
-        "returnData":[
-            {
-                "returnDate":"2023-05-01",
-                "customerId":2324,
-                "returnTypeId":4563,
-                "detailList":[
-                    {
-                        "productModel":"1-14-1W",
-                        "validDate":"2029-09-09",
-                        "lot":"1-14-1W",
-                        "sn":"FE2452D",
-                        "quantity":10
-                    },
-                    {
-                        "productModel":"1-14-1B",
-                        "validDate":"2029-09-09",
-                        "lot":"SSS",
-                        "sn":"FE2452D",
-                        "quantity":10
-                    }
-                ]
-            },
-            {
-                "returnDate":"2023-05-01",
-                "customerId":2324,
-                "returnTypeId":4563,
-                "detailList":[
-                    {
-                        "productModel":"1-14-1W",
-                        "validDate":"2029-09-09",
-                        "lot":"1-14-1W",
-                        "sn":"FE2452D",
-                        "quantity":10
-                    },
-                    {
-                        "productModel":"1-14-1B",
-                        "validDate":"2029-09-09",
-                        "lot":"SSS",
-                        "sn":"FE2452D",
-                        "quantity":10
-                    }
-                ]
-            }
-        ]
-    }
+    "code":0,
+    "msg":"success",
+    "data":{
+        "hasNewData":true,
+        "returnData":[
+            {
+                "returnDate":"2023-05-01",
+                "customerId":2324,
+                "returnTypeId":4563,
+                "detailList":[
+                    {
+                        "productModel":"1-14-1W",
+                        "validDate":"2029-09-09",
+                        "lot":"1-14-1W",
+                        "sn":"FE2452D",
+                        "quantity":10
+                    },
+                    {
+                        "productModel":"1-14-1B",
+                        "validDate":"2029-09-09",
+                        "lot":"SSS",
+                        "sn":"FE2452D",
+                        "quantity":10
+                    }
+                ]
+            },
+            {
+                "returnDate":"2023-05-01",
+                "customerId":2324,
+                "returnTypeId":4563,
+                "detailList":[
+                    {
+                        "productModel":"1-14-1W",
+                        "validDate":"2029-09-09",
+                        "lot":"1-14-1W",
+                        "sn":"FE2452D",
+                        "quantity":10
+                    },
+                    {
+                        "productModel":"1-14-1B",
+                        "validDate":"2029-09-09",
+                        "lot":"SSS",
+                        "sn":"FE2452D",
+                        "quantity":10
+                    }
+                ]
+            }
+        ]
+    }
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwOTI5NzcxMywtMTU1NTQzOTY0NiwtMT
-A2NTA1OTk1LDE1NDY1MDU2NzgsMTgzMzkxMzk4OCwtNzU3NDkx
-MDM2LC0xODA0NjM2NzQyLDE0MjgwNjM1MzQsMzU3NDIxNTI5LC
-0xNzU4NTg3NDM5LDgwMTc3MzcyNSwtMjE0MTMwMzc1OSw5OTY3
-OTU4OTMsMTY1NTY1ODkzMywxNTE3MjA4MzIzLC0xMDkwNTkwNj
-csLTE1NDMxOTk2MjAsLTE5NzgxNjA2OTksLTE3MDY1Mjc5ODMs
-MTc2MzMwMDg1Ml19
+eyJoaXN0b3J5IjpbMTMxNzYyODU3NywtOTA5Mjk3NzEzLC0xNT
+U1NDM5NjQ2LC0xMDY1MDU5OTUsMTU0NjUwNTY3OCwxODMzOTEz
+OTg4LC03NTc0OTEwMzYsLTE4MDQ2MzY3NDIsMTQyODA2MzUzNC
+wzNTc0MjE1MjksLTE3NTg1ODc0MzksODAxNzczNzI1LC0yMTQx
+MzAzNzU5LDk5Njc5NTg5MywxNjU1NjU4OTMzLDE1MTcyMDgzMj
+MsLTEwOTA1OTA2NywtMTU0MzE5OTYyMCwtMTk3ODE2MDY5OSwt
+MTcwNjUyNzk4M119
 -->
