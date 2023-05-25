@@ -490,7 +490,7 @@ Content-Type：application/json
 |名称|类型|示例值|描述|
 |---|---|---|---|
 |hasNewData|boolean|true|当前查询条件下查询到的数据是未全部传输，如果是yes则表示数据量太多数据未全部传输，此时再次以当前查询条件进行查询会返上次未返回的数据，以此类推重复调用此接口获取新数据。如果值为false则此查询条件下的数据已经全部返回|
-|implantData|ImplantData|-|细单数据详见下方ImplantData|
+|returnData|ReturnData|-|细单数据详见下方ImplantData|
 #### ImplantData
 |名称|类型|示例值|描述|
 |---|---|---|---|
@@ -596,11 +596,11 @@ Content-Type：application/json
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjUwNTk5NSwxNTQ2NTA1Njc4LDE4Mz
-M5MTM5ODgsLTc1NzQ5MTAzNiwtMTgwNDYzNjc0MiwxNDI4MDYz
-NTM0LDM1NzQyMTUyOSwtMTc1ODU4NzQzOSw4MDE3NzM3MjUsLT
-IxNDEzMDM3NTksOTk2Nzk1ODkzLDE2NTU2NTg5MzMsMTUxNzIw
-ODMyMywtMTA5MDU5MDY3LC0xNTQzMTk5NjIwLC0xOTc4MTYwNj
-k5LC0xNzA2NTI3OTgzLDE3NjMzMDA4NTIsMTU4MDE4MDk5Miw4
-MzMwNzQ1NzhdfQ==
+eyJoaXN0b3J5IjpbMTQ1ODA5Mzg5OSwtMTA2NTA1OTk1LDE1ND
+Y1MDU2NzgsMTgzMzkxMzk4OCwtNzU3NDkxMDM2LC0xODA0NjM2
+NzQyLDE0MjgwNjM1MzQsMzU3NDIxNTI5LC0xNzU4NTg3NDM5LD
+gwMTc3MzcyNSwtMjE0MTMwMzc1OSw5OTY3OTU4OTMsMTY1NTY1
+ODkzMywxNTE3MjA4MzIzLC0xMDkwNTkwNjcsLTE1NDMxOTk2Mj
+AsLTE5NzgxNjA2OTksLTE3MDY1Mjc5ODMsMTc2MzMwMDg1Miwx
+NTgwMTgwOTkyXX0=
 -->
