@@ -362,8 +362,8 @@ Content-Type：application/json
 |invoiceDate|Date|2020-10-01|发票日期|
 |invoiceType|String|医院发票|发票类型*|
 |invoiceCode|String|45678|发票代码|
-|invoiceCheckCode|ShipmentDetail|-|细单数据详见下方ShipmentDetail|
-|invoiceAmount|ShipmentDetail|-|细单数据详见下方ShipmentDetail|
+|invoiceCheckCode|String|123456|发票校验码后六位|
+|invoiceAmount|Beg|-|细单数据详见下方ShipmentDetail|
 |reportDate|ShipmentDetail|-|细单数据详见下方ShipmentDetail|
 |detailList|ShipmentDetail|-|细单数据详见下方ShipmentDetail|
 #### ImplantDetail
@@ -455,7 +455,7 @@ Content-Type：application/json
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzIzMzk1MDYzLC03NTc0OTEwMzYsLTE4MD
+eyJoaXN0b3J5IjpbNDEwNDQzOTc2LC03NTc0OTEwMzYsLTE4MD
 Q2MzY3NDIsMTQyODA2MzUzNCwzNTc0MjE1MjksLTE3NTg1ODc0
 MzksODAxNzczNzI1LC0yMTQxMzAzNzU5LDk5Njc5NTg5MywxNj
 U1NjU4OTMzLDE1MTcyMDgzMjMsLTEwOTA1OTA2NywtMTU0MzE5
