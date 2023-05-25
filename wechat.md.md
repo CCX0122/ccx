@@ -459,7 +459,7 @@ Content-Type：application/json
 
 **    以任何原因由代理商退货到唯众的产品，可根据上传参数进行条件查询 **
 
-调用地址：jswz/apiservice/getimplants
+调用地址：jswz/apiservice/getreturn
 请求方式：POST			 
 Content-Type：application/json
 返回类型：JSON
@@ -596,11 +596,11 @@ Content-Type：application/json
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5MjU0MTczOCwxODMzOTEzOTg4LC03NT
-c0OTEwMzYsLTE4MDQ2MzY3NDIsMTQyODA2MzUzNCwzNTc0MjE1
-MjksLTE3NTg1ODc0MzksODAxNzczNzI1LC0yMTQxMzAzNzU5LD
-k5Njc5NTg5MywxNjU1NjU4OTMzLDE1MTcyMDgzMjMsLTEwOTA1
-OTA2NywtMTU0MzE5OTYyMCwtMTk3ODE2MDY5OSwtMTcwNjUyNz
-k4MywxNzYzMzAwODUyLDE1ODAxODA5OTIsODMzMDc0NTc4LC0z
-NTI3MjY1NDJdfQ==
+eyJoaXN0b3J5IjpbMTU4MTM0Nzc4LDE4MzM5MTM5ODgsLTc1Nz
+Q5MTAzNiwtMTgwNDYzNjc0MiwxNDI4MDYzNTM0LDM1NzQyMTUy
+OSwtMTc1ODU4NzQzOSw4MDE3NzM3MjUsLTIxNDEzMDM3NTksOT
+k2Nzk1ODkzLDE2NTU2NTg5MzMsMTUxNzIwODMyMywtMTA5MDU5
+MDY3LC0xNTQzMTk5NjIwLC0xOTc4MTYwNjk5LC0xNzA2NTI3OT
+gzLDE3NjMzMDA4NTIsMTU4MDE4MDk5Miw4MzMwNzQ1NzgsLTM1
+MjcyNjU0Ml19
 -->
