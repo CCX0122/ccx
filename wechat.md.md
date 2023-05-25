@@ -203,13 +203,13 @@ Body参数
 请求方式：POST			 
 Content-Type：application/json
 返回类型：JSON
-### Header参数
+ Header参数
 
 |名称|类型|必填|示例值|描述|
 |---|---|---|---|---|
 |accessToken|String|是| fghjkrtyuifgbn5678 |授权信息|
 
-### Body参数
+ Body参数
 
 |名称|类型|必填|示例值|描述|
 |---|---|---|---|---|
@@ -219,19 +219,19 @@ Content-Type：application/json
 |startDate|String|否| 2023-01-01|结束时间|
 
 
-### 返回参数
+ 返回参数
 |名称|类型|示例值|描述|
 |---|---|---|---|
 |code|Integer|0|返回码|
 |msg|String|success|成功|
 |data|JsonData|-|数据详见下方JsonData|
 
-### JsonData
+ JsonData
 |名称|类型|示例值|描述|
 |---|---|---|---|
 |hasNewData|boolean|true|当前查询条件下查询到的数据是未全部传输，如果是yes则表示数据量太多数据未全部传输，此时再次以当前查询条件进行查询会返上次未返回的数据，以此类推重复调用此接口获取新数据。如果值为false则此查询条件下的数据已经全部返回|
 |shipmentData|ShipmentData|-|细单数据详见下方ShipmentData|
-#### ShipmentData
+ ShipmentData
 |名称|类型|示例值|描述|
 |---|---|---|---|
 |shipmentDate|Date|2023-05-01 10:00:00|发货日期|
@@ -243,7 +243,7 @@ Content-Type：application/json
 |address|String|北京市朝阳区XXX|收货地址|
 |phone|String|13112341234|电话|
 |detailList|ShipmentDetail|-|细单数据详见下方ShipmentDetail|
-#### ShipmentDetail
+ ShipmentDetail
 |名称|类型|示例值|描述|
 |---|---|---|---|
 |productModel|String|1-14-1W|产品规格型号|
@@ -329,13 +329,13 @@ Content-Type：application/json
 请求方式：POST			 
 Content-Type：application/json
 返回类型：JSON
-### Header参数
+ Header参数
 
 |名称|类型|必填|示例值|描述|
 |---|---|---|---|---|
 |accessToken|String|是| fghjkrtyuifgbn5678 |授权信息|
 
-### Body参数
+ Body参数
 
 |名称|类型|必填|示例值|描述|
 |---|---|---|---|---|
@@ -345,19 +345,19 @@ Content-Type：application/json
 |startDate|String|否| 2023-01-01|结束时间|
 
 
-### 返回参数
+ 返回参数
 |名称|类型|示例值|描述|
 |---|---|---|---|
 |code|Integer|0|返回码|
 |msg|String|success|成功|
 |data|JsonData|-|数据详见下方JsonData|
 
-### JsonData
+ JsonData
 |名称|类型|示例值|描述|
 |---|---|---|---|
 |hasNewData|boolean|true|当前查询条件下查询到的数据是未全部传输，如果是yes则表示数据量太多数据未全部传输，此时再次以当前查询条件进行查询会返上次未返回的数据，以此类推重复调用此接口获取新数据。如果值为false则此查询条件下的数据已经全部返回|
 |implantData|ImplantData|-|细单数据详见下方ImplantData|
-#### ImplantData
+ ImplantData
 |名称|类型|示例值|描述|
 |---|---|---|---|
 |customerId|Integer|234|经销商代码|
@@ -372,7 +372,7 @@ Content-Type：application/json
 |invoiceAmount|Bigdecimal|4567.67|发票金额|
 |reportDate|Date|2022-10-11|上报日期|
 |detailList|ImplantDetail|-|细单数据详见下方ImplantDetail|
-#### ImplantDetail
+ ImplantDetail
 |名称|类型|示例值|描述|
 |---|---|---|---|
 |productModel|String|1-14-1W|产品规格型号|
@@ -469,13 +469,13 @@ Content-Type：application/json
 请求方式：POST			 
 Content-Type：application/json
 返回类型：JSON
-### Header参数
+ Header参数
 
 |名称|类型|必填|示例值|描述|
 |---|---|---|---|---|
 |accessToken|String|是| fghjkrtyuifgbn5678 |授权信息|
 
-### Body参数
+ Body参数
 
 |名称|类型|必填|示例值|描述|
 |---|---|---|---|---|
@@ -485,26 +485,26 @@ Content-Type：application/json
 |startDate|String|否| 2023-01-01|结束时间|
 
 
-### 返回参数
+ 返回参数
 |名称|类型|示例值|描述|
 |---|---|---|---|
 |code|Integer|0|返回码|
 |msg|String|success|成功|
 |data|JsonData|-|数据详见下方JsonData|
 
-### JsonData
+ JsonData
 |名称|类型|示例值|描述|
 |---|---|---|---|
 |hasNewData|boolean|true|当前查询条件下查询到的数据是未全部传输，如果是yes则表示数据量太多数据未全部传输，此时再次以当前查询条件进行查询会返上次未返回的数据，以此类推重复调用此接口获取新数据。如果值为false则此查询条件下的数据已经全部返回|
 |returnData|ReturnData|-|细单数据详见下方ReturnData|
-#### ReturnData
+ ReturnData
 |名称|类型|示例值|描述|
 |---|---|---|---|
 |returnDate|Date|2020-10-10|退货日期|
 |customerId|Integer|3456|代理商编码|
 |returnTypeId|Integer|123|退货类型编码|
 |detailList|ReturnDetail|-|细单数据详见下方ReturnDetail|
-#### ReturnDetail
+ ReturnDetail
 |名称|类型|示例值|描述|
 |---|---|---|---|
 |productModel|String|1-14-1W|产品型号|
@@ -569,11 +569,11 @@ Content-Type：application/json
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzgyMzIwODUsMTY5MjY0NTM1LDg5OD
-YxNDE4MywxMzE3NjI4NTc3LC05MDkyOTc3MTMsLTE1NTU0Mzk2
-NDYsLTEwNjUwNTk5NSwxNTQ2NTA1Njc4LDE4MzM5MTM5ODgsLT
-c1NzQ5MTAzNiwtMTgwNDYzNjc0MiwxNDI4MDYzNTM0LDM1NzQy
-MTUyOSwtMTc1ODU4NzQzOSw4MDE3NzM3MjUsLTIxNDEzMDM3NT
-ksOTk2Nzk1ODkzLDE2NTU2NTg5MzMsMTUxNzIwODMyMywtMTA5
-MDU5MDY3XX0=
+eyJoaXN0b3J5IjpbLTM3NDM0MDksMTY5MjY0NTM1LDg5ODYxND
+E4MywxMzE3NjI4NTc3LC05MDkyOTc3MTMsLTE1NTU0Mzk2NDYs
+LTEwNjUwNTk5NSwxNTQ2NTA1Njc4LDE4MzM5MTM5ODgsLTc1Nz
+Q5MTAzNiwtMTgwNDYzNjc0MiwxNDI4MDYzNTM0LDM1NzQyMTUy
+OSwtMTc1ODU4NzQzOSw4MDE3NzM3MjUsLTIxNDEzMDM3NTksOT
+k2Nzk1ODkzLDE2NTU2NTg5MzMsMTUxNzIwODMyMywtMTA5MDU5
+MDY3XX0=
 -->
