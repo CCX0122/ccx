@@ -497,17 +497,16 @@ Content-Type：application/json
 |returnDate|Date|2020-10-10|退货日期|
 |customerId|Integer|3456|代理商编码|
 |returnTypeId|Integer|123|退货类型编码|
-|detailList|ImplantDetail|-|细单数据详见下方ReturnDetail|
+|detailList|ReturnDetail|-|细单数据详见下方ReturnDetail|
 #### ReturnDetail
 |名称|类型|示例值|描述|
 |---|---|---|---|
-|productModel|String|1-14-1W|产品规格型号|
+|productModel|String|1-14-1W|产品型号|
 |validDate|Date|2030-01-01|有效期|
 |lot|String|DEF3425|批号|
 |sn|String|34567|序列号|
 |quantity|Integer|14|数量|
-|taxPrice|Bigdecimal|345.74|发票单价|
-|hospitalPrice|Bigdecimal|345.74|医院单价|
+
 
 > 返回示例
 ```json
@@ -588,11 +587,11 @@ Content-Type：application/json
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTU0Mzk2NDYsLTEwNjUwNTk5NSwxNT
-Q2NTA1Njc4LDE4MzM5MTM5ODgsLTc1NzQ5MTAzNiwtMTgwNDYz
-Njc0MiwxNDI4MDYzNTM0LDM1NzQyMTUyOSwtMTc1ODU4NzQzOS
-w4MDE3NzM3MjUsLTIxNDEzMDM3NTksOTk2Nzk1ODkzLDE2NTU2
-NTg5MzMsMTUxNzIwODMyMywtMTA5MDU5MDY3LC0xNTQzMTk5Nj
-IwLC0xOTc4MTYwNjk5LC0xNzA2NTI3OTgzLDE3NjMzMDA4NTIs
-MTU4MDE4MDk5Ml19
+eyJoaXN0b3J5IjpbMjE3NjU3MzA0LC0xNTU1NDM5NjQ2LC0xMD
+Y1MDU5OTUsMTU0NjUwNTY3OCwxODMzOTEzOTg4LC03NTc0OTEw
+MzYsLTE4MDQ2MzY3NDIsMTQyODA2MzUzNCwzNTc0MjE1MjksLT
+E3NTg1ODc0MzksODAxNzczNzI1LC0yMTQxMzAzNzU5LDk5Njc5
+NTg5MywxNjU1NjU4OTMzLDE1MTcyMDgzMjMsLTEwOTA1OTA2Ny
+wtMTU0MzE5OTYyMCwtMTk3ODE2MDY5OSwtMTcwNjUyNzk4Mywx
+NzYzMzAwODUyXX0=
 -->
