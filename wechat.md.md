@@ -354,15 +354,18 @@ Content-Type：application/json
 #### ImplantData
 |名称|类型|示例值|描述|
 |---|---|---|---|
-|customerId|Date|2023-05-01 10:00:00|发货日期|
-|hospitalId|String|SA203457256|发货单号|
-|invoiceUnit|String|SA203457256|关联订单号|
-|receiveName|Integer|1|发货类型编码|
+|customerId|Integer|234|经销商代码|
+|hospitalId|Integer|3456|医院编码|
+|invoiceUnit|String|嘉事唯众|开票单位名称|
+|receiveName|String|1|发货类型编码|
 |invoiceNo|Integer|2222|代理商编码|
 |invoiceDate|String|张三|收货人|
 |invoiceType|String|北京市朝阳区XXX|收货地址|
 |invoiceCode|String|13112341234|电话|
 |invoiceCheckCode|ShipmentDetail|-|细单数据详见下方ShipmentDetail|
+|invoiceAmount|ShipmentDetail|-|细单数据详见下方ShipmentDetail|
+|reportDate|ShipmentDetail|-|细单数据详见下方ShipmentDetail|
+|detailList|ShipmentDetail|-|细单数据详见下方ShipmentDetail|
 #### ImplantDetail
 |名称|类型|示例值|描述|
 |---|---|---|---|
@@ -452,11 +455,11 @@ Content-Type：application/json
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODMyMjE1LC03NTc0OTEwMzYsLTE4MD
-Q2MzY3NDIsMTQyODA2MzUzNCwzNTc0MjE1MjksLTE3NTg1ODc0
-MzksODAxNzczNzI1LC0yMTQxMzAzNzU5LDk5Njc5NTg5MywxNj
-U1NjU4OTMzLDE1MTcyMDgzMjMsLTEwOTA1OTA2NywtMTU0MzE5
-OTYyMCwtMTk3ODE2MDY5OSwtMTcwNjUyNzk4MywxNzYzMzAwOD
-UyLDE1ODAxODA5OTIsODMzMDc0NTc4LC0zNTI3MjY1NDIsMTc2
-MDgzNjA5NV19
+eyJoaXN0b3J5IjpbLTU1MDgzODUwMiwtNzU3NDkxMDM2LC0xOD
+A0NjM2NzQyLDE0MjgwNjM1MzQsMzU3NDIxNTI5LC0xNzU4NTg3
+NDM5LDgwMTc3MzcyNSwtMjE0MTMwMzc1OSw5OTY3OTU4OTMsMT
+Y1NTY1ODkzMywxNTE3MjA4MzIzLC0xMDkwNTkwNjcsLTE1NDMx
+OTk2MjAsLTE5NzgxNjA2OTksLTE3MDY1Mjc5ODMsMTc2MzMwMD
+g1MiwxNTgwMTgwOTkyLDgzMzA3NDU3OCwtMzUyNzI2NTQyLDE3
+NjA4MzYwOTVdfQ==
 -->
