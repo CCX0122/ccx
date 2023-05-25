@@ -510,88 +510,14 @@ Content-Type：application/json
 
 > 返回示例
 ```json
-{
-    "code":0,
-    "msg":"success",
-    "data":{
-        "hasNewData":true,
-        "implantData":[
-            {
-                "customerId":2324,
-                "hospitalId":4563,
-                "invoiceUnit":"开票单位名称A",
-                "receiveName":"发票购货方名称B",
-                "invoiceNo":"666453",
-                "invoiceDate":"2023-05-01",
-                "invoiceType":"医院发票",
-                "invoiceCode":"45678",
-                "invoiceCheckCode":"123456",
-                "invoiceAmount":"6574.57",
-                "reportDate":"2022-10-23",
-                "detailList":[
-                    {
-                        "productModel":"1-14-1W",
-                        "validDate":"2029-09-09",
-                        "lot":"1-14-1W",
-                        "sn":"FE2452D",
-                        "quantity":10,
-                        "taxPrice":7777.89,
-                        "hospitalPrice":7777.89
-                    },
-                    {
-                        "productModel":"1-14-1B",
-                        "validDate":"2029-09-09",
-                        "lot":"SSS",
-                        "sn":"FE2452D",
-                        "quantity":10,
-                        "taxPrice":4763.22,
-                        "hospitalPrice":4377.89
-                    }
-                ]
-            },
-            {
-                "customerId":432,
-                "hospitalId":564,
-                "invoiceUnit":"开票单位名称C",
-                "receiveName":"发票购货方名称D",
-                "invoiceNo":"3421",
-                "invoiceDate":"2023-04-01",
-                "invoiceType":"医院发票",
-                "invoiceCode":"2312",
-                "invoiceCheckCode":"543423",
-                "invoiceAmount":"6574.57",
-                "reportDate":"2022-10-23",
-                "detailList":[
-                    {
-                        "productModel":"1-14-1W",
-                        "validDate":"2029-09-09",
-                        "lot":"1-14-1W",
-                        "sn":"FE2452D",
-                        "quantity":10,
-                        "taxPrice":7777.89,
-                        "hospitalPrice":7777.89
-                    },
-                    {
-                        "productModel":"1-14-1B",
-                        "validDate":"2029-09-09",
-                        "lot":"SSS",
-                        "sn":"FE2452D",
-                        "quantity":10,
-                        "taxPrice":4763.22,
-                        "hospitalPrice":4377.89
-                    }
-                ]
-            }
-        ]
-    }
-}
+
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE3NjU3MzA0LC0xNTU1NDM5NjQ2LC0xMD
-Y1MDU5OTUsMTU0NjUwNTY3OCwxODMzOTEzOTg4LC03NTc0OTEw
-MzYsLTE4MDQ2MzY3NDIsMTQyODA2MzUzNCwzNTc0MjE1MjksLT
-E3NTg1ODc0MzksODAxNzczNzI1LC0yMTQxMzAzNzU5LDk5Njc5
-NTg5MywxNjU1NjU4OTMzLDE1MTcyMDgzMjMsLTEwOTA1OTA2Ny
-wtMTU0MzE5OTYyMCwtMTk3ODE2MDY5OSwtMTcwNjUyNzk4Mywx
-NzYzMzAwODUyXX0=
+eyJoaXN0b3J5IjpbLTE5NDA4NjI0OCwtMTU1NTQzOTY0NiwtMT
+A2NTA1OTk1LDE1NDY1MDU2NzgsMTgzMzkxMzk4OCwtNzU3NDkx
+MDM2LC0xODA0NjM2NzQyLDE0MjgwNjM1MzQsMzU3NDIxNTI5LC
+0xNzU4NTg3NDM5LDgwMTc3MzcyNSwtMjE0MTMwMzc1OSw5OTY3
+OTU4OTMsMTY1NTY1ODkzMywxNTE3MjA4MzIzLC0xMDkwNTkwNj
+csLTE1NDMxOTk2MjAsLTE5NzgxNjA2OTksLTE3MDY1Mjc5ODMs
+MTc2MzMwMDg1Ml19
 -->
