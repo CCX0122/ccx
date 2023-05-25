@@ -50,21 +50,21 @@
 调用地址：jswz/apiservice/getAccessToken?appkey=appkey&appsecert=appsecert
 请求方式：GET
 返回类型：JSON
-### Query参数
+ Query参数
 
 |名称|类型|必填|示例值|描述|
 |---|---|---|---|---|
 |appkey|String|是| HSDFSDAF233432 |唯众系统分配的appKey|
 |appsecret|String|是| 39RSDLFJAFDFSDF |唯众系统分配的appSecret|
 
-### 返回参数
+ 返回参数
 |名称|类型|示例值|描述|
 |---|---|---|---|
 |code|Integer|0|返回码|
 |msg|String|success|成功|
 |data|AccessToken|-|accessToken信息,见下方JSON1|
 
-#### AccessToken字段信息
+ AccessToken字段信息
 |名称|类型|示例值|描述|
 |---|---|---|---|
 |accessToken|String|fghjkrtyuifgbn5678|生成的授权码|
@@ -569,11 +569,11 @@ Content-Type：application/json
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5MjY0NTM1LDg5ODYxNDE4MywxMzE3Nj
-I4NTc3LC05MDkyOTc3MTMsLTE1NTU0Mzk2NDYsLTEwNjUwNTk5
-NSwxNTQ2NTA1Njc4LDE4MzM5MTM5ODgsLTc1NzQ5MTAzNiwtMT
-gwNDYzNjc0MiwxNDI4MDYzNTM0LDM1NzQyMTUyOSwtMTc1ODU4
-NzQzOSw4MDE3NzM3MjUsLTIxNDEzMDM3NTksOTk2Nzk1ODkzLD
-E2NTU2NTg5MzMsMTUxNzIwODMyMywtMTA5MDU5MDY3LC0xNTQz
-MTk5NjIwXX0=
+eyJoaXN0b3J5IjpbLTI3MDUzMDM0OSwxNjkyNjQ1MzUsODk4Nj
+E0MTgzLDEzMTc2Mjg1NzcsLTkwOTI5NzcxMywtMTU1NTQzOTY0
+NiwtMTA2NTA1OTk1LDE1NDY1MDU2NzgsMTgzMzkxMzk4OCwtNz
+U3NDkxMDM2LC0xODA0NjM2NzQyLDE0MjgwNjM1MzQsMzU3NDIx
+NTI5LC0xNzU4NTg3NDM5LDgwMTc3MzcyNSwtMjE0MTMwMzc1OS
+w5OTY3OTU4OTMsMTY1NTY1ODkzMywxNTE3MjA4MzIzLC0xMDkw
+NTkwNjddfQ==
 -->
