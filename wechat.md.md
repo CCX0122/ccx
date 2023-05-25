@@ -365,7 +365,7 @@ Content-Type：application/json
 |invoiceCheckCode|String|123456|发票校验码后六位|
 |invoiceAmount|Bigdecimal|4567.67|发票金额|
 |reportDate|Date|2022-10-11|上报日期|
-|detailList|ShipmentDetail|-|细单数据详见下方ShipmentDetail|
+|detailList|ImplantDetail|-|细单数据详见下方ImplantDetail|
 #### ImplantDetail
 |名称|类型|示例值|描述|
 |---|---|---|---|
@@ -455,7 +455,7 @@ Content-Type：application/json
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwODQ4MjA5NCwtNzU3NDkxMDM2LC0xOD
+eyJoaXN0b3J5IjpbMTIwNjE2NTYwNCwtNzU3NDkxMDM2LC0xOD
 A0NjM2NzQyLDE0MjgwNjM1MzQsMzU3NDIxNTI5LC0xNzU4NTg3
 NDM5LDgwMTc3MzcyNSwtMjE0MTMwMzc1OSw5OTY3OTU4OTMsMT
 Y1NTY1ODkzMywxNTE3MjA4MzIzLC0xMDkwNTkwNjcsLTE1NDMx
