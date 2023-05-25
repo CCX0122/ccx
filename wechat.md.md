@@ -350,8 +350,8 @@ Content-Type：application/json
 |名称|类型|示例值|描述|
 |---|---|---|---|
 |hasNewData|boolean|true|当前查询条件下查询到的数据是未全部传输，如果是yes则表示数据量太多数据未全部传输，此时再次以当前查询条件进行查询会返上次未返回的数据，以此类推重复调用此接口获取新数据。如果值为false则此查询条件下的数据已经全部返回|
-|shipmentData|ShipmentData|-|细单数据详见下方OrderDetail|
-#### ShipmentData
+|implantData|ImplantData|-|细单数据详见下方ImplantData|
+#### ImplantData
 |名称|类型|示例值|描述|
 |---|---|---|---|
 |shipmentDate|Date|2023-05-01 10:00:00|发货日期|
@@ -442,11 +442,11 @@ Content-Type：application/json
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjA5MTg4MzEsMTQyODA2MzUzNCwzNT
-c0MjE1MjksLTE3NTg1ODc0MzksODAxNzczNzI1LC0yMTQxMzAz
-NzU5LDk5Njc5NTg5MywxNjU1NjU4OTMzLDE1MTcyMDgzMjMsLT
-EwOTA1OTA2NywtMTU0MzE5OTYyMCwtMTk3ODE2MDY5OSwtMTcw
-NjUyNzk4MywxNzYzMzAwODUyLDE1ODAxODA5OTIsODMzMDc0NT
-c4LC0zNTI3MjY1NDIsMTc2MDgzNjA5NSwxODkxMDY4NTcyLC0x
-MDc2ODcyMzA5XX0=
+eyJoaXN0b3J5IjpbLTU1MDMyMjI4MCwxNDI4MDYzNTM0LDM1Nz
+QyMTUyOSwtMTc1ODU4NzQzOSw4MDE3NzM3MjUsLTIxNDEzMDM3
+NTksOTk2Nzk1ODkzLDE2NTU2NTg5MzMsMTUxNzIwODMyMywtMT
+A5MDU5MDY3LC0xNTQzMTk5NjIwLC0xOTc4MTYwNjk5LC0xNzA2
+NTI3OTgzLDE3NjMzMDA4NTIsMTU4MDE4MDk5Miw4MzMwNzQ1Nz
+gsLTM1MjcyNjU0MiwxNzYwODM2MDk1LDE4OTEwNjg1NzIsLTEw
+NzY4NzIzMDldfQ==
 -->
