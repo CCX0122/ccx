@@ -30,7 +30,14 @@
 
 ## 目录
 [TOC]
-
+-   [目录](https://stackedit.cn/app#%E7%9B%AE%E5%BD%95)
+-   [1. 三方接入流程](https://stackedit.cn/app#%E4%B8%89%E6%96%B9%E6%8E%A5%E5%85%A5%E6%B5%81%E7%A8%8B)
+-   [2.唯众系统服务端API](https://stackedit.cn/app#%E5%94%AF%E4%BC%97%E7%B3%BB%E7%BB%9F%E6%9C%8D%E5%8A%A1%E7%AB%AFapi)
+    -   [2.1获取授权](https://stackedit.cn/app#%E8%8E%B7%E5%8F%96%E6%8E%88%E6%9D%83)
+    -   [2.2 获取订单数据](https://stackedit.cn/app#%E8%8E%B7%E5%8F%96%E8%AE%A2%E5%8D%95%E6%95%B0%E6%8D%AE)
+    -   [2.3 获取出库数据](https://stackedit.cn/app#%E8%8E%B7%E5%8F%96%E5%87%BA%E5%BA%93%E6%95%B0%E6%8D%AE)
+    -   [2.4 获取植入数据](https://stackedit.cn/app#%E8%8E%B7%E5%8F%96%E6%A4%8D%E5%85%A5%E6%95%B0%E6%8D%AE)
+    -   [2.5 获取退货数据](https://stackedit.cn/app#%E8%8E%B7%E5%8F%96%E9%80%80%E8%B4%A7%E6%95%B0%E6%8D%AE)
 
 <br>
 <br><br><br><br><br><br><br><br><br><br>
@@ -573,11 +580,11 @@ Content-Type：application/json
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1NjgxNDY3MCw3MDE0MDc0NjUsLTI4MT
-kzMjM0MywxNjkyNjQ1MzUsODk4NjE0MTgzLDEzMTc2Mjg1Nzcs
-LTkwOTI5NzcxMywtMTU1NTQzOTY0NiwtMTA2NTA1OTk1LDE1ND
-Y1MDU2NzgsMTgzMzkxMzk4OCwtNzU3NDkxMDM2LC0xODA0NjM2
-NzQyLDE0MjgwNjM1MzQsMzU3NDIxNTI5LC0xNzU4NTg3NDM5LD
-gwMTc3MzcyNSwtMjE0MTMwMzc1OSw5OTY3OTU4OTMsMTY1NTY1
-ODkzM119
+eyJoaXN0b3J5IjpbLTE1MzQyNzg2MTksNzAxNDA3NDY1LC0yOD
+E5MzIzNDMsMTY5MjY0NTM1LDg5ODYxNDE4MywxMzE3NjI4NTc3
+LC05MDkyOTc3MTMsLTE1NTU0Mzk2NDYsLTEwNjUwNTk5NSwxNT
+Q2NTA1Njc4LDE4MzM5MTM5ODgsLTc1NzQ5MTAzNiwtMTgwNDYz
+Njc0MiwxNDI4MDYzNTM0LDM1NzQyMTUyOSwtMTc1ODU4NzQzOS
+w4MDE3NzM3MjUsLTIxNDEzMDM3NTksOTk2Nzk1ODkzLDE2NTU2
+NTg5MzNdfQ==
 -->
