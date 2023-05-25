@@ -457,7 +457,7 @@ Content-Type：application/json
 ```
 ### 2.5 获取退货数据
 
-**    经销商在唯众系统上报的植入数据，可根据上传参数进行条件查询 **
+**    以任何原因由代理商退货到唯众的产品，可根据上传参数进行条件查询 **
 
 调用地址：jswz/apiservice/getimplants
 请求方式：POST			 
@@ -596,7 +596,7 @@ Content-Type：application/json
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5NjA5MDcwOSwxODMzOTEzOTg4LC03NT
+eyJoaXN0b3J5IjpbLTU5MjU0MTczOCwxODMzOTEzOTg4LC03NT
 c0OTEwMzYsLTE4MDQ2MzY3NDIsMTQyODA2MzUzNCwzNTc0MjE1
 MjksLTE3NTg1ODc0MzksODAxNzczNzI1LC0yMTQxMzAzNzU5LD
 k5Njc5NTg5MywxNjU1NjU4OTMzLDE1MTcyMDgzMjMsLTEwOTA1
