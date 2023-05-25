@@ -363,8 +363,8 @@ Content-Type：application/json
 |invoiceType|String|医院发票|发票类型*|
 |invoiceCode|String|45678|发票代码|
 |invoiceCheckCode|String|123456|发票校验码后六位|
-|invoiceAmount|Beg|-|细单数据详见下方ShipmentDetail|
-|reportDate|ShipmentDetail|-|细单数据详见下方ShipmentDetail|
+|invoiceAmount|Bigdecimal|4567.67|发票金额|
+|reportDate|Date|2022-10-11|上报日期|
 |detailList|ShipmentDetail|-|细单数据详见下方ShipmentDetail|
 #### ImplantDetail
 |名称|类型|示例值|描述|
@@ -455,11 +455,11 @@ Content-Type：application/json
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDEwNDQzOTc2LC03NTc0OTEwMzYsLTE4MD
-Q2MzY3NDIsMTQyODA2MzUzNCwzNTc0MjE1MjksLTE3NTg1ODc0
-MzksODAxNzczNzI1LC0yMTQxMzAzNzU5LDk5Njc5NTg5MywxNj
-U1NjU4OTMzLDE1MTcyMDgzMjMsLTEwOTA1OTA2NywtMTU0MzE5
-OTYyMCwtMTk3ODE2MDY5OSwtMTcwNjUyNzk4MywxNzYzMzAwOD
-UyLDE1ODAxODA5OTIsODMzMDc0NTc4LC0zNTI3MjY1NDIsMTc2
-MDgzNjA5NV19
+eyJoaXN0b3J5IjpbLTkwODQ4MjA5NCwtNzU3NDkxMDM2LC0xOD
+A0NjM2NzQyLDE0MjgwNjM1MzQsMzU3NDIxNTI5LC0xNzU4NTg3
+NDM5LDgwMTc3MzcyNSwtMjE0MTMwMzc1OSw5OTY3OTU4OTMsMT
+Y1NTY1ODkzMywxNTE3MjA4MzIzLC0xMDkwNTkwNjcsLTE1NDMx
+OTk2MjAsLTE5NzgxNjA2OTksLTE3MDY1Mjc5ODMsMTc2MzMwMD
+g1MiwxNTgwMTgwOTkyLDgzMzA3NDU3OCwtMzUyNzI2NTQyLDE3
+NjA4MzYwOTVdfQ==
 -->
