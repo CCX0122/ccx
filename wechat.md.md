@@ -41,7 +41,7 @@
 ### 2.1获取授权
 **    通过此接口获取授权的 access_token，调用服务端 API 获取应用资源时需要通过 access_token 来鉴权调用者身份进行授权，7200秒内有效，过期后重新获取 **
 
-调用地址：jswz/apiservice/getaccesstoken?appkey=appkey&appsecert=appsecert
+调用地址：jswz/apiservice/getAccessToken?appkey=appkey&appsecert=appsecert
 请求方式：GET
 返回类型：JSON
 ### 请求参数
@@ -596,11 +596,11 @@ Content-Type：application/json
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4MTM0Nzc4LDE4MzM5MTM5ODgsLTc1Nz
-Q5MTAzNiwtMTgwNDYzNjc0MiwxNDI4MDYzNTM0LDM1NzQyMTUy
-OSwtMTc1ODU4NzQzOSw4MDE3NzM3MjUsLTIxNDEzMDM3NTksOT
-k2Nzk1ODkzLDE2NTU2NTg5MzMsMTUxNzIwODMyMywtMTA5MDU5
-MDY3LC0xNTQzMTk5NjIwLC0xOTc4MTYwNjk5LC0xNzA2NTI3OT
-gzLDE3NjMzMDA4NTIsMTU4MDE4MDk5Miw4MzMwNzQ1NzgsLTM1
-MjcyNjU0Ml19
+eyJoaXN0b3J5IjpbMjAxODUxMzQ2NiwxODMzOTEzOTg4LC03NT
+c0OTEwMzYsLTE4MDQ2MzY3NDIsMTQyODA2MzUzNCwzNTc0MjE1
+MjksLTE3NTg1ODc0MzksODAxNzczNzI1LC0yMTQxMzAzNzU5LD
+k5Njc5NTg5MywxNjU1NjU4OTMzLDE1MTcyMDgzMjMsLTEwOTA1
+OTA2NywtMTU0MzE5OTYyMCwtMTk3ODE2MDY5OSwtMTcwNjUyNz
+k4MywxNzYzMzAwODUyLDE1ODAxODA5OTIsODMzMDc0NTc4LC0z
+NTI3MjY1NDJdfQ==
 -->
