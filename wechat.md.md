@@ -62,9 +62,9 @@
 |---|---|---|---|
 |code|Integer|0|返回码|
 |msg|String|success|成功|
-|data|JSON|-|accessToken信息,见下方JSON1|
+|data|AccessToken|-|accessToken信息,见下方JSON1|
 
-#### JSOIN1字段信息
+#### AccessToken字段信息
 |名称|类型|示例值|描述|
 |---|---|---|---|
 |accessToken|String|fghjkrtyuifgbn5678|生成的授权码|
@@ -569,11 +569,11 @@ Content-Type：application/json
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk4NjE0MTgzLDEzMTc2Mjg1NzcsLTkwOT
-I5NzcxMywtMTU1NTQzOTY0NiwtMTA2NTA1OTk1LDE1NDY1MDU2
-NzgsMTgzMzkxMzk4OCwtNzU3NDkxMDM2LC0xODA0NjM2NzQyLD
-E0MjgwNjM1MzQsMzU3NDIxNTI5LC0xNzU4NTg3NDM5LDgwMTc3
-MzcyNSwtMjE0MTMwMzc1OSw5OTY3OTU4OTMsMTY1NTY1ODkzMy
-wxNTE3MjA4MzIzLC0xMDkwNTkwNjcsLTE1NDMxOTk2MjAsLTE5
-NzgxNjA2OTldfQ==
+eyJoaXN0b3J5IjpbMTY5MjY0NTM1LDg5ODYxNDE4MywxMzE3Nj
+I4NTc3LC05MDkyOTc3MTMsLTE1NTU0Mzk2NDYsLTEwNjUwNTk5
+NSwxNTQ2NTA1Njc4LDE4MzM5MTM5ODgsLTc1NzQ5MTAzNiwtMT
+gwNDYzNjc0MiwxNDI4MDYzNTM0LDM1NzQyMTUyOSwtMTc1ODU4
+NzQzOSw4MDE3NzM3MjUsLTIxNDEzMDM3NTksOTk2Nzk1ODkzLD
+E2NTU2NTg5MzMsMTUxNzIwODMyMywtMTA5MDU5MDY3LC0xNTQz
+MTk5NjIwXX0=
 -->
