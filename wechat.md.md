@@ -317,7 +317,7 @@ Content-Type：application/json
 ```
 ### 2.4 获取植入数据
 
-**    唯众平台出库至经销商的数据，可根据上传参数进行条件查询 **
+**    经销商在唯众系统上报的植入数据，可根据上传参数进行条件查询 **
 
 调用地址：jswz/apiservice/getorders
 请求方式：POST			 
@@ -442,11 +442,11 @@ Content-Type：application/json
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2ODA0NDkyMCwxNDI4MDYzNTM0LDM1Nz
-QyMTUyOSwtMTc1ODU4NzQzOSw4MDE3NzM3MjUsLTIxNDEzMDM3
-NTksOTk2Nzk1ODkzLDE2NTU2NTg5MzMsMTUxNzIwODMyMywtMT
-A5MDU5MDY3LC0xNTQzMTk5NjIwLC0xOTc4MTYwNjk5LC0xNzA2
-NTI3OTgzLDE3NjMzMDA4NTIsMTU4MDE4MDk5Miw4MzMwNzQ1Nz
-gsLTM1MjcyNjU0MiwxNzYwODM2MDk1LDE4OTEwNjg1NzIsLTEw
-NzY4NzIzMDldfQ==
+eyJoaXN0b3J5IjpbLTE2NTQwNTYyNzgsMTQyODA2MzUzNCwzNT
+c0MjE1MjksLTE3NTg1ODc0MzksODAxNzczNzI1LC0yMTQxMzAz
+NzU5LDk5Njc5NTg5MywxNjU1NjU4OTMzLDE1MTcyMDgzMjMsLT
+EwOTA1OTA2NywtMTU0MzE5OTYyMCwtMTk3ODE2MDY5OSwtMTcw
+NjUyNzk4MywxNzYzMzAwODUyLDE1ODAxODA5OTIsODMzMDc0NT
+c4LC0zNTI3MjY1NDIsMTc2MDgzNjA5NSwxODkxMDY4NTcyLC0x
+MDc2ODcyMzA5XX0=
 -->
