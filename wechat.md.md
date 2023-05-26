@@ -577,8 +577,18 @@ Content-Type：application/json
 }
 ```
 ## 3 返回码
+|code|说明|
+|---|---|
+|0|api请求成功|
+|500|服务器异常|
+|5001|应用配置错误|
+|5002|access_token 校验失败|
+|0|api请求成功|
+|0|api请求成功|
+|0|api请求成功|
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDQ4MTM4OSwtNzgwNTQ3ODU3LC0xMj
+eyJoaXN0b3J5IjpbLTQ4Mzk1Mjg2NiwtNzgwNTQ3ODU3LC0xMj
 Y0NjYxMDI5LDY2NTY0NDc2NCwxNjU0MDA0NDk5LDY0MDA2NzEy
 MywtNjczMTE3OTU2LC0xOTQ0NDE4MzAzLC02NzMxMTc5NTYsLT
 EyMDY1Njg3MDMsMTA1NjgxNDY3MCw3MDE0MDc0NjUsLTI4MTkz
