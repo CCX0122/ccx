@@ -48,12 +48,12 @@
  ## 1. 三方接入流程
  
 1. 应用服务商向唯众申请接入请求
-2. 唯众系统 配置信息（包含不限于APPKEY、APPSECRET）、api文档、开发测试环境信息等
+2. 唯众系统提供配置信息（包含不限于APPKEY、APPSECRET）、api文档、开发测试环境信息等
 3. 应用服务商根据文档进行开发和调试
 4. 应用服务器开发测试完成申请对接正式环境 
 ## 2.唯众系统服务端API
 ### 2.1获取授权
-**    通过此接口获取授权的 access_token，调用服务端 API 获取应用资源时需要通过 access_token 来鉴权调用者身份进行授权，7200秒内有效，过期后重新获取 **
+**    通过此接口获取授权 access_token，调用服务端 API 获取应用资源时需要通过 access_token 来鉴权调用者身份进行授权，7200秒内有效，过期后重新获取 **
 
 调用地址：jswz/apiservice/getAccessToken?appkey=appkey&appsecert=appsecert
 请求方式：GET
@@ -70,7 +70,7 @@
 |---|---|---|---|
 |code|Integer|0|返回码|
 |msg|String|success|成功|
-|data|AccessToken|-|accessToken信息,见下方JSON1|
+|data|AccessToken|-|accessToken信息,见下方AccessToken|
 
  AccessToken字段信息
 |名称|类型|示例值|描述|
@@ -577,11 +577,11 @@ Content-Type：application/json
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1NDAwNDQ5OSw2NDAwNjcxMjMsLTY3Mz
-ExNzk1NiwtMTk0NDQxODMwMywtNjczMTE3OTU2LC0xMjA2NTY4
-NzAzLDEwNTY4MTQ2NzAsNzAxNDA3NDY1LC0yODE5MzIzNDMsMT
-Y5MjY0NTM1LDg5ODYxNDE4MywxMzE3NjI4NTc3LC05MDkyOTc3
-MTMsLTE1NTU0Mzk2NDYsLTEwNjUwNTk5NSwxNTQ2NTA1Njc4LD
-E4MzM5MTM5ODgsLTc1NzQ5MTAzNiwtMTgwNDYzNjc0MiwxNDI4
-MDYzNTM0XX0=
+eyJoaXN0b3J5IjpbNjY1NjQ0NzY0LDE2NTQwMDQ0OTksNjQwMD
+Y3MTIzLC02NzMxMTc5NTYsLTE5NDQ0MTgzMDMsLTY3MzExNzk1
+NiwtMTIwNjU2ODcwMywxMDU2ODE0NjcwLDcwMTQwNzQ2NSwtMj
+gxOTMyMzQzLDE2OTI2NDUzNSw4OTg2MTQxODMsMTMxNzYyODU3
+NywtOTA5Mjk3NzEzLC0xNTU1NDM5NjQ2LC0xMDY1MDU5OTUsMT
+U0NjUwNTY3OCwxODMzOTEzOTg4LC03NTc0OTEwMzYsLTE4MDQ2
+MzY3NDJdfQ==
 -->
