@@ -347,7 +347,6 @@ Content-Type：application/json
 
 |名称|类型|必填|示例值|描述|
 |---|---|---|---|---|
-|rows|Integer|是| 200|默认200|
 |customerId|Integer|否| 1|代理商编码，查询某个代理商的数据|
 |startDate|String|否| 2023-01-01|开始时间|
 |startDate|String|否| 2023-01-01|结束时间|
@@ -588,11 +587,11 @@ Content-Type：application/json
 |0|api请求成功|
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5MzA3NjE2OCwyMDYyOTc5OTgsLTc4MD
-U0Nzg1NywtMTI2NDY2MTAyOSw2NjU2NDQ3NjQsMTY1NDAwNDQ5
-OSw2NDAwNjcxMjMsLTY3MzExNzk1NiwtMTk0NDQxODMwMywtNj
-czMTE3OTU2LC0xMjA2NTY4NzAzLDEwNTY4MTQ2NzAsNzAxNDA3
-NDY1LC0yODE5MzIzNDMsMTY5MjY0NTM1LDg5ODYxNDE4MywxMz
-E3NjI4NTc3LC05MDkyOTc3MTMsLTE1NTU0Mzk2NDYsLTEwNjUw
-NTk5NV19
+eyJoaXN0b3J5IjpbMTEzODcwNDE1MiwxMDkzMDc2MTY4LDIwNj
+I5Nzk5OCwtNzgwNTQ3ODU3LC0xMjY0NjYxMDI5LDY2NTY0NDc2
+NCwxNjU0MDA0NDk5LDY0MDA2NzEyMywtNjczMTE3OTU2LC0xOT
+Q0NDE4MzAzLC02NzMxMTc5NTYsLTEyMDY1Njg3MDMsMTA1Njgx
+NDY3MCw3MDE0MDc0NjUsLTI4MTkzMjM0MywxNjkyNjQ1MzUsOD
+k4NjE0MTgzLDEzMTc2Mjg1NzcsLTkwOTI5NzcxMywtMTU1NTQz
+OTY0Nl19
 -->
