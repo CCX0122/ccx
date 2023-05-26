@@ -146,7 +146,7 @@ Body参数
 |---|---|---|---|
 |productModel|String|1-14-1W|产品规格型号|
 |quantity|Integer|14|数量|
-|taxPrice|Integer|1|含税单价|
+|taxPrice|Bigdecimal|1|含税单价|
 
 > 返回示例
 ```json
@@ -577,7 +577,7 @@ Content-Type：application/json
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODExNDI2NTgsNjY1NjQ0NzY0LDE2NT
+eyJoaXN0b3J5IjpbLTEyNjQ2NjEwMjksNjY1NjQ0NzY0LDE2NT
 QwMDQ0OTksNjQwMDY3MTIzLC02NzMxMTc5NTYsLTE5NDQ0MTgz
 MDMsLTY3MzExNzk1NiwtMTIwNjU2ODcwMywxMDU2ODE0NjcwLD
 cwMTQwNzQ2NSwtMjgxOTMyMzQzLDE2OTI2NDUzNSw4OTg2MTQx
