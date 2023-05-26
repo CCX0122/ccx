@@ -98,7 +98,7 @@ Content-Type：application/json
 
 ### 2.2 获取订单数据
 
-说明： 获取经销商在唯众平台的订货数据默认查询全部代理商的数据，可根据上传参数进行条件筛选查询 **
+说明： 获取经销商在唯众平台的增量订货数据，默认查询全部代理商的数据，可根据上传参数进行条件筛选查询 **
 
 调用地址：jswz/apiservice/getOrders
 请求方式：POST			 
@@ -589,7 +589,7 @@ Content-Type：application/json
 |0|api请求成功|
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3MjYyMTkzNSwyMDYyOTc5OTgsLTc4MD
+eyJoaXN0b3J5IjpbMTM0MzI5ODM2NCwyMDYyOTc5OTgsLTc4MD
 U0Nzg1NywtMTI2NDY2MTAyOSw2NjU2NDQ3NjQsMTY1NDAwNDQ5
 OSw2NDAwNjcxMjMsLTY3MzExNzk1NiwtMTk0NDQxODMwMywtNj
 czMTE3OTU2LC0xMjA2NTY4NzAzLDEwNTY4MTQ2NzAsNzAxNDA3
