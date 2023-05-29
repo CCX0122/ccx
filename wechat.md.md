@@ -622,11 +622,8 @@ Content-Type：application/json
 |名称|类型|示例值|描述|
 |---|---|---|---|
 |customerId|Integer|3456|代理商编码|
-|date|Integer|123|退货类型编码|
-|implantStatus|ReturnDetail|-|详见字典数据|
-
-
-
+|date|String|2023-01|2023年1月份|
+|implantStatus|ReturnDetail|1|详见字典数据|
 
 > 返回示例
 ```json
@@ -635,48 +632,16 @@ Content-Type：application/json
     "msg":"success",
     "data":{
         "total":4500,
-        "returnData":[
+        "returnStatusData":[
             {
                 "returnDate":"2023-05-01",
                 "customerId":2324,
-                "returnTypeId":4563,
-                "detailList":[
-                    {
-                        "productModel":"1-14-1W",
-                        "validDate":"2029-09-09",
-                        "lot":"1-14-1W",
-                        "sn":"FE2452D",
-                        "quantity":10
-                    },
-                    {
-                        "productModel":"1-14-1B",
-                        "validDate":"2029-09-09",
-                        "lot":"SSS",
-                        "sn":"FE2452D",
-                        "quantity":10
-                    }
-                ]
+                "returnTypeId":4563
             },
             {
                 "returnDate":"2023-05-01",
                 "customerId":2324,
-                "returnTypeId":4563,
-                "detailList":[
-                    {
-                        "productModel":"1-14-1W",
-                        "validDate":"2029-09-09",
-                        "lot":"1-14-1W",
-                        "sn":"FE2452D",
-                        "quantity":10
-                    },
-                    {
-                        "productModel":"1-14-1B",
-                        "validDate":"2029-09-09",
-                        "lot":"SSS",
-                        "sn":"FE2452D",
-                        "quantity":10
-                    }
-                ]
+                "returnTypeId":4563
             }
         ]
     }
@@ -696,11 +661,11 @@ Content-Type：application/json
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk1NDU0ODUsMTE4NTkwMjcyMCwxMTQ4OT
-Q4NTAxLC0xNTQzMzM3MDA4LDE3MDcyMDQyNTQsLTExNDExODA0
-NjYsMzYwMTUzNzQ1LDEyNDc0ODYwMDMsMTI0NzQ4NjAwMywxMD
-Y5NTkyMTY2LC0zNTY0OTY2OTUsMjEwODQ5NDUxNiwtMTEwNDcw
-NDEyLDEwOTMwNzYxNjgsMjA2Mjk3OTk4LC03ODA1NDc4NTcsLT
-EyNjQ2NjEwMjksNjY1NjQ0NzY0LDE2NTQwMDQ0OTksNjQwMDY3
-MTIzXX0=
+eyJoaXN0b3J5IjpbMTQ0MTMwOTc1NiwxMTg1OTAyNzIwLDExND
+g5NDg1MDEsLTE1NDMzMzcwMDgsMTcwNzIwNDI1NCwtMTE0MTE4
+MDQ2NiwzNjAxNTM3NDUsMTI0NzQ4NjAwMywxMjQ3NDg2MDAzLD
+EwNjk1OTIxNjYsLTM1NjQ5NjY5NSwyMTA4NDk0NTE2LC0xMTA0
+NzA0MTIsMTA5MzA3NjE2OCwyMDYyOTc5OTgsLTc4MDU0Nzg1Ny
+wtMTI2NDY2MTAyOSw2NjU2NDQ3NjQsMTY1NDAwNDQ5OSw2NDAw
+NjcxMjNdfQ==
 -->
