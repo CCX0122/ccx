@@ -330,7 +330,7 @@ Content-Type：application/json
 ```
 ### 2.4 获取植入数据
 
-**    经销商在唯众系统上报的植入数据，可根据上传参数进行条件查询 **
+	说明：经销商在唯众系统上报的植入数据，可根据上传参数进行条件查询 
 
 调用地址：jswz/apiservice/getImplants
 请求方式：POST			 
@@ -348,7 +348,7 @@ Content-Type：application/json
 |---|---|---|---|---|
 |customerId|Integer|否| 1|代理商编码，查询某个代理商的数据|
 |startDate|String|否| 2023-01-01|开始时间|
-|startDate|String|否| 2023-01-01|结束时间|
+|endDate|String|否| 2023-01-01|结束时间|
 
 
  返回参数
@@ -585,11 +585,11 @@ Content-Type：application/json
 |0|api请求成功|
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTYxMDc0ODQsMTA2OTU5MjE2NiwtMz
-U2NDk2Njk1LDIxMDg0OTQ1MTYsLTExMDQ3MDQxMiwxMDkzMDc2
-MTY4LDIwNjI5Nzk5OCwtNzgwNTQ3ODU3LC0xMjY0NjYxMDI5LD
-Y2NTY0NDc2NCwxNjU0MDA0NDk5LDY0MDA2NzEyMywtNjczMTE3
-OTU2LC0xOTQ0NDE4MzAzLC02NzMxMTc5NTYsLTEyMDY1Njg3MD
-MsMTA1NjgxNDY3MCw3MDE0MDc0NjUsLTI4MTkzMjM0MywxNjky
-NjQ1MzVdfQ==
+eyJoaXN0b3J5IjpbMTEzNzUwODEzMywxMDY5NTkyMTY2LC0zNT
+Y0OTY2OTUsMjEwODQ5NDUxNiwtMTEwNDcwNDEyLDEwOTMwNzYx
+NjgsMjA2Mjk3OTk4LC03ODA1NDc4NTcsLTEyNjQ2NjEwMjksNj
+Y1NjQ0NzY0LDE2NTQwMDQ0OTksNjQwMDY3MTIzLC02NzMxMTc5
+NTYsLTE5NDQ0MTgzMDMsLTY3MzExNzk1NiwtMTIwNjU2ODcwMy
+wxMDU2ODE0NjcwLDcwMTQwNzQ2NSwtMjgxOTMyMzQzLDE2OTI2
+NDUzNV19
 -->
