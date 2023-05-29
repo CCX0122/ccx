@@ -665,6 +665,10 @@ Content-Type：application/json
 |1|未上报|
 |2|上报中|
 |3|上报完成|
+### 3.4 发货类型字典
+|code|描述|
+|---|---|
+|---|---|
 ## 4 返回码
 |code|说明|
 |---|---|
@@ -677,7 +681,7 @@ Content-Type：application/json
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzgxNzAzNDA0LDE5NDc2ODA4ODUsMTE4NT
+eyJoaXN0b3J5IjpbMzg0OTI1NDI3LDE5NDc2ODA4ODUsMTE4NT
 kwMjcyMCwxMTQ4OTQ4NTAxLC0xNTQzMzM3MDA4LDE3MDcyMDQy
 NTQsLTExNDExODA0NjYsMzYwMTUzNzQ1LDEyNDc0ODYwMDMsMT
 I0NzQ4NjAwMywxMDY5NTkyMTY2LC0zNTY0OTY2OTUsMjEwODQ5
