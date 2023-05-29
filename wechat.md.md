@@ -533,7 +533,7 @@ Content-Type：application/json
     "code":0,
     "msg":"success",
     "data":{
-        "hasNewData":true,
+        "total":4500,
         "returnData":[
             {
                 "returnDate":"2023-05-01",
@@ -590,10 +590,10 @@ Content-Type：application/json
 |5002|accessToken 校验失败|
 |5003|accessToken 已过期|
 |5004|请求参数不符合规范|
-|0|api请求成功|
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3NjgzODE3MSwtMTE0MTE4MDQ2NiwzNj
+eyJoaXN0b3J5IjpbMTcwNzIwNDI1NCwtMTE0MTE4MDQ2NiwzNj
 AxNTM3NDUsMTI0NzQ4NjAwMywxMjQ3NDg2MDAzLDEwNjk1OTIx
 NjYsLTM1NjQ5NjY5NSwyMTA4NDk0NTE2LC0xMTA0NzA0MTIsMT
 A5MzA3NjE2OCwyMDYyOTc5OTgsLTc4MDU0Nzg1NywtMTI2NDY2
