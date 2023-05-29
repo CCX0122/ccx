@@ -114,6 +114,8 @@ Body参数
 
 |名称|类型|必填|示例值|描述|
 |---|---|---|---|---|
+|page|Integer|是| 1|从1开始|
+|rows|Integer|是| 500|每页条数，最大值1000|
 |customerId|Integer|否| 1|代理商编码，查询某个代理商的数据|
 |startDate|String|否| 2023-01-01|开始时间|
 |endDate|String|否| 2023-01-01|结束时间|
@@ -587,11 +589,11 @@ Content-Type：application/json
 |0|api请求成功|
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzYwMTUzNzQ1LDEyNDc0ODYwMDMsMTI0Nz
-Q4NjAwMywxMDY5NTkyMTY2LC0zNTY0OTY2OTUsMjEwODQ5NDUx
-NiwtMTEwNDcwNDEyLDEwOTMwNzYxNjgsMjA2Mjk3OTk4LC03OD
-A1NDc4NTcsLTEyNjQ2NjEwMjksNjY1NjQ0NzY0LDE2NTQwMDQ0
-OTksNjQwMDY3MTIzLC02NzMxMTc5NTYsLTE5NDQ0MTgzMDMsLT
-Y3MzExNzk1NiwtMTIwNjU2ODcwMywxMDU2ODE0NjcwLDcwMTQw
-NzQ2NV19
+eyJoaXN0b3J5IjpbLTE1MDMyNDYyMDQsMzYwMTUzNzQ1LDEyND
+c0ODYwMDMsMTI0NzQ4NjAwMywxMDY5NTkyMTY2LC0zNTY0OTY2
+OTUsMjEwODQ5NDUxNiwtMTEwNDcwNDEyLDEwOTMwNzYxNjgsMj
+A2Mjk3OTk4LC03ODA1NDc4NTcsLTEyNjQ2NjEwMjksNjY1NjQ0
+NzY0LDE2NTQwMDQ0OTksNjQwMDY3MTIzLC02NzMxMTc5NTYsLT
+E5NDQ0MTgzMDMsLTY3MzExNzk1NiwtMTIwNjU2ODcwMywxMDU2
+ODE0NjcwXX0=
 -->
