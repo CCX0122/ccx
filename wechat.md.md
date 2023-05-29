@@ -617,22 +617,15 @@ Content-Type：application/json
 |名称|类型|示例值|描述|
 |---|---|---|---|
 |total|Long|-|数据总数|
-|returnData|ReturnData|-|细单数据详见下方ReturnData|
- ReturnData
+|returnData|ReturnStatusData|-|细单数据详见下方ReturnStatusData|
+ ReturnStatusData
 |名称|类型|示例值|描述|
 |---|---|---|---|
-|returnDate|Date|2020-10-10|退货日期|
 |customerId|Integer|3456|代理商编码|
-|returnTypeId|Integer|123|退货类型编码|
-|detailList|ReturnDetail|-|细单数据详见下方ReturnDetail|
- ReturnDetail
-|名称|类型|示例值|描述|
-|---|---|---|---|
-|productModel|String|1-14-1W|产品型号|
-|validDate|Date|2030-01-01|有效期|
-|lot|String|DEF3425|批号|
-|sn|String|34567|序列号|
-|quantity|Integer|14|数量|
+|date|Integer|123|退货类型编码|
+|implantStatus|ReturnDetail|-|详见字典数据|
+
+
 
 
 > 返回示例
@@ -703,11 +696,11 @@ Content-Type：application/json
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5MDA2MjAzMiwxMTg1OTAyNzIwLDExND
-g5NDg1MDEsLTE1NDMzMzcwMDgsMTcwNzIwNDI1NCwtMTE0MTE4
-MDQ2NiwzNjAxNTM3NDUsMTI0NzQ4NjAwMywxMjQ3NDg2MDAzLD
-EwNjk1OTIxNjYsLTM1NjQ5NjY5NSwyMTA4NDk0NTE2LC0xMTA0
-NzA0MTIsMTA5MzA3NjE2OCwyMDYyOTc5OTgsLTc4MDU0Nzg1Ny
-wtMTI2NDY2MTAyOSw2NjU2NDQ3NjQsMTY1NDAwNDQ5OSw2NDAw
-NjcxMjNdfQ==
+eyJoaXN0b3J5IjpbNzk1NDU0ODUsMTE4NTkwMjcyMCwxMTQ4OT
+Q4NTAxLC0xNTQzMzM3MDA4LDE3MDcyMDQyNTQsLTExNDExODA0
+NjYsMzYwMTUzNzQ1LDEyNDc0ODYwMDMsMTI0NzQ4NjAwMywxMD
+Y5NTkyMTY2LC0zNTY0OTY2OTUsMjEwODQ5NDUxNiwtMTEwNDcw
+NDEyLDEwOTMwNzYxNjgsMjA2Mjk3OTk4LC03ODA1NDc4NTcsLT
+EyNjQ2NjEwMjksNjY1NjQ0NzY0LDE2NTQwMDQ0OTksNjQwMDY3
+MTIzXX0=
 -->
