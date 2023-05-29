@@ -53,7 +53,7 @@
 4. 应用服务器开发测试完成申请对接正式环境 
 ## 2.唯众系统服务端API
 ### 2.1获取授权
-	通过此接口获取授权 access_token，调用服务端 API 获取应用资源时需要通过 access_token 来鉴权调用者身份进行授权，7200秒内有效，过期后重新获取 
+	说明： 通过此接口获取授权 access_token，调用服务端 API 获取应用资源时需要通过 access_token 来鉴权调用者身份进行授权，7200秒内有效，过期后重新获取 
 
 调用地址：jswz/apiservice/getAccessToken
 请求方式：POST
@@ -98,7 +98,7 @@ Content-Type：application/json
 
 ### 2.2 获取订单数据
 
-	说明： 获取经销商在唯众平台的增量订货数据，默认查询全部代理商的数据。
+	说明： 获取经销商在唯众平台的增量订货数据，默认查询全部代理商的数据。如要查询某个代理商的全部数据请根据上传参数进行查询
 
 调用地址：jswz/apiservice/getOrders
 请求方式：POST			 
@@ -586,11 +586,11 @@ Content-Type：application/json
 |0|api请求成功|
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1NjQ5NjY5NSwyMTA4NDk0NTE2LC0xMT
-A0NzA0MTIsMTA5MzA3NjE2OCwyMDYyOTc5OTgsLTc4MDU0Nzg1
-NywtMTI2NDY2MTAyOSw2NjU2NDQ3NjQsMTY1NDAwNDQ5OSw2ND
-AwNjcxMjMsLTY3MzExNzk1NiwtMTk0NDQxODMwMywtNjczMTE3
-OTU2LC0xMjA2NTY4NzAzLDEwNTY4MTQ2NzAsNzAxNDA3NDY1LC
-0yODE5MzIzNDMsMTY5MjY0NTM1LDg5ODYxNDE4MywxMzE3NjI4
-NTc3XX0=
+eyJoaXN0b3J5IjpbMjQyNzE5MDE0LC0zNTY0OTY2OTUsMjEwOD
+Q5NDUxNiwtMTEwNDcwNDEyLDEwOTMwNzYxNjgsMjA2Mjk3OTk4
+LC03ODA1NDc4NTcsLTEyNjQ2NjEwMjksNjY1NjQ0NzY0LDE2NT
+QwMDQ0OTksNjQwMDY3MTIzLC02NzMxMTc5NTYsLTE5NDQ0MTgz
+MDMsLTY3MzExNzk1NiwtMTIwNjU2ODcwMywxMDU2ODE0NjcwLD
+cwMTQwNzQ2NSwtMjgxOTMyMzQzLDE2OTI2NDUzNSw4OTg2MTQx
+ODNdfQ==
 -->
