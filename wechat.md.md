@@ -131,7 +131,7 @@ Body参数
 |名称|类型|示例值|描述|
 |---|---|---|---|
 |orderData|OrderData|-|细单数据详见下方OrderDetail|
-|total|Long|-|数据总数|
+|total|Long|4500|数据总数|
  OrderData
 |名称|类型|示例值|描述|
 |---|---|---|---|
@@ -156,7 +156,7 @@ Body参数
     "code":0,
     "msg":"success",
     "data":{
-	    "total":200,
+	    "total":4500,
         "orderData":[
             {
                 "orderDate":"2023-05-14 10:00:00",
@@ -241,7 +241,7 @@ Content-Type：application/json
 |名称|类型|示例值|描述|
 |---|---|---|---|
 |shipmentData|ShipmentData|-|细单数据详见下方ShipmentData|
-|total|Long|-|数据总数|
+|total|Long|4500|数据总数|
  ShipmentData
 |名称|类型|示例值|描述|
 |---|---|---|---|
@@ -367,7 +367,7 @@ Content-Type：application/json
  JsonData
 |名称|类型|示例值|描述|
 |---|---|---|---|
-|total|Long|-|数据总数|
+|total|Long|4500|数据总数|
 |implantData|ImplantData|-|细单数据详见下方ImplantData|
  ImplantData
 |名称|类型|示例值|描述|
@@ -593,11 +593,11 @@ Content-Type：application/json
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDMzMzcwMDgsMTcwNzIwNDI1NCwtMT
-E0MTE4MDQ2NiwzNjAxNTM3NDUsMTI0NzQ4NjAwMywxMjQ3NDg2
-MDAzLDEwNjk1OTIxNjYsLTM1NjQ5NjY5NSwyMTA4NDk0NTE2LC
-0xMTA0NzA0MTIsMTA5MzA3NjE2OCwyMDYyOTc5OTgsLTc4MDU0
-Nzg1NywtMTI2NDY2MTAyOSw2NjU2NDQ3NjQsMTY1NDAwNDQ5OS
-w2NDAwNjcxMjMsLTY3MzExNzk1NiwtMTk0NDQxODMwMywtNjcz
-MTE3OTU2XX0=
+eyJoaXN0b3J5IjpbMTE0ODk0ODUwMSwtMTU0MzMzNzAwOCwxNz
+A3MjA0MjU0LC0xMTQxMTgwNDY2LDM2MDE1Mzc0NSwxMjQ3NDg2
+MDAzLDEyNDc0ODYwMDMsMTA2OTU5MjE2NiwtMzU2NDk2Njk1LD
+IxMDg0OTQ1MTYsLTExMDQ3MDQxMiwxMDkzMDc2MTY4LDIwNjI5
+Nzk5OCwtNzgwNTQ3ODU3LC0xMjY0NjYxMDI5LDY2NTY0NDc2NC
+wxNjU0MDA0NDk5LDY0MDA2NzEyMywtNjczMTE3OTU2LC0xOTQ0
+NDE4MzAzXX0=
 -->
