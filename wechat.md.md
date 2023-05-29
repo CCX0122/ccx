@@ -205,7 +205,7 @@ Body参数
 
 ### 2.3 获取出库数据
 
-**    唯众平台出库至经销商的数据，可根据上传参数进行条件查询 **
+	说明：唯众平台出库至经销商的数据，可根据上传参数进行条件查询 
 
 调用地址：jswz/apiservice/getShipments
 请求方式：POST			 
@@ -221,7 +221,6 @@ Content-Type：application/json
 
 |名称|类型|必填|示例值|描述|
 |---|---|---|---|---|
-|rows|Integer|是| 200|默认200|
 |customerId|Integer|否| 1|代理商编码，查询某个代理商的数据|
 |startDate|String|否| 2023-01-01|开始时间|
 |startDate|String|否| 2023-01-01|结束时间|
@@ -586,11 +585,11 @@ Content-Type：application/json
 |0|api请求成功|
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2OTU5MjE2NiwtMzU2NDk2Njk1LDIxMD
-g0OTQ1MTYsLTExMDQ3MDQxMiwxMDkzMDc2MTY4LDIwNjI5Nzk5
-OCwtNzgwNTQ3ODU3LC0xMjY0NjYxMDI5LDY2NTY0NDc2NCwxNj
-U0MDA0NDk5LDY0MDA2NzEyMywtNjczMTE3OTU2LC0xOTQ0NDE4
-MzAzLC02NzMxMTc5NTYsLTEyMDY1Njg3MDMsMTA1NjgxNDY3MC
-w3MDE0MDc0NjUsLTI4MTkzMjM0MywxNjkyNjQ1MzUsODk4NjE0
-MTgzXX0=
+eyJoaXN0b3J5IjpbLTE4NTYxMDc0ODQsMTA2OTU5MjE2NiwtMz
+U2NDk2Njk1LDIxMDg0OTQ1MTYsLTExMDQ3MDQxMiwxMDkzMDc2
+MTY4LDIwNjI5Nzk5OCwtNzgwNTQ3ODU3LC0xMjY0NjYxMDI5LD
+Y2NTY0NDc2NCwxNjU0MDA0NDk5LDY0MDA2NzEyMywtNjczMTE3
+OTU2LC0xOTQ0NDE4MzAzLC02NzMxMTc5NTYsLTEyMDY1Njg3MD
+MsMTA1NjgxNDY3MCw3MDE0MDc0NjUsLTI4MTkzMjM0MywxNjky
+NjQ1MzVdfQ==
 -->
