@@ -130,6 +130,7 @@ Body参数
 |---|---|---|---|
 |hasNewData|boolean|true|当前查询条件下查询到的数据是未全部传输，如果是yes则表示数据量太多数据未全部传输，此时再次以当前查询条件进行查询会返上次未返回的数据，以此类推重复调用此接口获取新数据。如果值为false则此查询条件下的数据已经全部返回|
 |orderData|OrderData|-|细单数据详见下方OrderDetail|
+|total|Long|-|数据总数|
  OrderData
 |名称|类型|示例值|描述|
 |---|---|---|---|
@@ -154,6 +155,7 @@ Body参数
     "code":0,
     "msg":"success",
     "data":{
+	    “total”:200,
         "hasNewData":true,
         "orderData":[
             {
@@ -585,11 +587,11 @@ Content-Type：application/json
 |0|api请求成功|
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0NzQ4NjAwMywxMjQ3NDg2MDAzLDEwNj
-k1OTIxNjYsLTM1NjQ5NjY5NSwyMTA4NDk0NTE2LC0xMTA0NzA0
-MTIsMTA5MzA3NjE2OCwyMDYyOTc5OTgsLTc4MDU0Nzg1NywtMT
-I2NDY2MTAyOSw2NjU2NDQ3NjQsMTY1NDAwNDQ5OSw2NDAwNjcx
-MjMsLTY3MzExNzk1NiwtMTk0NDQxODMwMywtNjczMTE3OTU2LC
-0xMjA2NTY4NzAzLDEwNTY4MTQ2NzAsNzAxNDA3NDY1LC0yODE5
-MzIzNDNdfQ==
+eyJoaXN0b3J5IjpbNjg4MjYyNDAwLDEyNDc0ODYwMDMsMTI0Nz
+Q4NjAwMywxMDY5NTkyMTY2LC0zNTY0OTY2OTUsMjEwODQ5NDUx
+NiwtMTEwNDcwNDEyLDEwOTMwNzYxNjgsMjA2Mjk3OTk4LC03OD
+A1NDc4NTcsLTEyNjQ2NjEwMjksNjY1NjQ0NzY0LDE2NTQwMDQ0
+OTksNjQwMDY3MTIzLC02NzMxMTc5NTYsLTE5NDQ0MTgzMDMsLT
+Y3MzExNzk1NiwtMTIwNjU2ODcwMywxMDU2ODE0NjcwLDcwMTQw
+NzQ2NV19
 -->
