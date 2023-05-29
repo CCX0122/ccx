@@ -581,6 +581,114 @@ Content-Type：application/json
     }
 }
 ```
+### 2.5 获取植入上报状态
+
+	说明：经销商植入上报当前状态，可根据上传参数进行条件查询 
+
+调用地址：jswz/apiservice/getImplantStatus
+请求方式：POST			 
+Content-Type：application/json
+返回类型：JSON
+ Header参数
+
+|名称|类型|必填|示例值|描述|
+|---|---|---|---|---|
+|accessToken|String|是| fghjkrtyuifgbn5678 |授权信息|
+
+ Body参数
+
+|名称|类型|必填|示例值|描述|
+|---|---|---|---|---|
+|page|Integer|是| 1|页码，1开始|
+|rows|Integer|是| 500|每页条数，最大值1000|
+|customerId|Integer|否| 1|代理商编码，查询某个代理商的数据|
+|startDate|String|否| 2023-01-01|开始时间|
+|endDate|String|否| 2023-05-01|结束时间|
+
+
+ 返回参数
+|名称|类型|示例值|描述|
+|---|---|---|---|
+|code|Integer|0|返回码|
+|msg|String|success|成功|
+|data|JsonData|-|数据详见下方JsonData|
+
+ JsonData
+|名称|类型|示例值|描述|
+|---|---|---|---|
+|total|Long|-|数据总数|
+|returnData|ReturnData|-|细单数据详见下方ReturnData|
+ ReturnData
+|名称|类型|示例值|描述|
+|---|---|---|---|
+|returnDate|Date|2020-10-10|退货日期|
+|customerId|Integer|3456|代理商编码|
+|returnTypeId|Integer|123|退货类型编码|
+|detailList|ReturnDetail|-|细单数据详见下方ReturnDetail|
+ ReturnDetail
+|名称|类型|示例值|描述|
+|---|---|---|---|
+|productModel|String|1-14-1W|产品型号|
+|validDate|Date|2030-01-01|有效期|
+|lot|String|DEF3425|批号|
+|sn|String|34567|序列号|
+|quantity|Integer|14|数量|
+
+
+> 返回示例
+```json
+{
+    "code":0,
+    "msg":"success",
+    "data":{
+        "total":4500,
+        "returnData":[
+            {
+                "returnDate":"2023-05-01",
+                "customerId":2324,
+                "returnTypeId":4563,
+                "detailList":[
+                    {
+                        "productModel":"1-14-1W",
+                        "validDate":"2029-09-09",
+                        "lot":"1-14-1W",
+                        "sn":"FE2452D",
+                        "quantity":10
+                    },
+                    {
+                        "productModel":"1-14-1B",
+                        "validDate":"2029-09-09",
+                        "lot":"SSS",
+                        "sn":"FE2452D",
+                        "quantity":10
+                    }
+                ]
+            },
+            {
+                "returnDate":"2023-05-01",
+                "customerId":2324,
+                "returnTypeId":4563,
+                "detailList":[
+                    {
+                        "productModel":"1-14-1W",
+                        "validDate":"2029-09-09",
+                        "lot":"1-14-1W",
+                        "sn":"FE2452D",
+                        "quantity":10
+                    },
+                    {
+                        "productModel":"1-14-1B",
+                        "validDate":"2029-09-09",
+                        "lot":"SSS",
+                        "sn":"FE2452D",
+                        "quantity":10
+                    }
+                ]
+            }
+        ]
+    }
+}
+```
 ## 3 数据字典
 	退货类型编码
 ## 4 返回码
@@ -595,11 +703,11 @@ Content-Type：application/json
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyNDg2MDE0LDExODU5MDI3MjAsMTE0OD
-k0ODUwMSwtMTU0MzMzNzAwOCwxNzA3MjA0MjU0LC0xMTQxMTgw
-NDY2LDM2MDE1Mzc0NSwxMjQ3NDg2MDAzLDEyNDc0ODYwMDMsMT
-A2OTU5MjE2NiwtMzU2NDk2Njk1LDIxMDg0OTQ1MTYsLTExMDQ3
-MDQxMiwxMDkzMDc2MTY4LDIwNjI5Nzk5OCwtNzgwNTQ3ODU3LC
-0xMjY0NjYxMDI5LDY2NTY0NDc2NCwxNjU0MDA0NDk5LDY0MDA2
-NzEyM119
+eyJoaXN0b3J5IjpbLTI5MDA2MjAzMiwxMTg1OTAyNzIwLDExND
+g5NDg1MDEsLTE1NDMzMzcwMDgsMTcwNzIwNDI1NCwtMTE0MTE4
+MDQ2NiwzNjAxNTM3NDUsMTI0NzQ4NjAwMywxMjQ3NDg2MDAzLD
+EwNjk1OTIxNjYsLTM1NjQ5NjY5NSwyMTA4NDk0NTE2LC0xMTA0
+NzA0MTIsMTA5MzA3NjE2OCwyMDYyOTc5OTgsLTc4MDU0Nzg1Ny
+wtMTI2NDY2MTAyOSw2NjU2NDQ3NjQsMTY1NDAwNDQ5OSw2NDAw
+NjcxMjNdfQ==
 -->
