@@ -114,7 +114,7 @@ Body参数
 
 |名称|类型|必填|示例值|描述|
 |---|---|---|---|---|
-|page|Integer|是| 1|从1开始|
+|page|Integer|是| 1|页码，1开始|
 |rows|Integer|是| 500|每页条数，最大值1000|
 |customerId|Integer|否| 1|代理商编码，查询某个代理商的数据|
 |startDate|String|否| 2023-01-01|开始时间|
@@ -130,7 +130,6 @@ Body参数
  JsonData
 |名称|类型|示例值|描述|
 |---|---|---|---|
-|hasNewData|boolean|true|当前查询条件下查询到的数据是未全部传输，如果是yes则表示数据量太多数据未全部传输，此时再次以当前查询条件进行查询会返上次未返回的数据，以此类推重复调用此接口获取新数据。如果值为false则此查询条件下的数据已经全部返回|
 |orderData|OrderData|-|细单数据详见下方OrderDetail|
 |total|Long|-|数据总数|
  OrderData
@@ -158,7 +157,6 @@ Body参数
     "msg":"success",
     "data":{
 	    "total":200,
-        "hasNewData":true,
         "orderData":[
             {
                 "orderDate":"2023-05-14 10:00:00",
@@ -225,6 +223,8 @@ Content-Type：application/json
 
 |名称|类型|必填|示例值|描述|
 |---|---|---|---|---|
+|page|Integer|是| 1|页码，1开始|
+|rows|Integer|是| 500|每页条数，最大值1000|
 |customerId|Integer|否| 1|代理商编码，查询某个代理商的数据|
 |startDate|String|否| 2023-01-01|开始时间|
 |endDate|String|否| 2023-01-01|结束时间|
@@ -240,8 +240,8 @@ Content-Type：application/json
  JsonData
 |名称|类型|示例值|描述|
 |---|---|---|---|
-|hasNewData|boolean|true|当前查询条件下查询到的数据是未全部传输，如果是yes则表示数据量太多数据未全部传输，此时再次以当前查询条件进行查询会返上次未返回的数据，以此类推重复调用此接口获取新数据。如果值为false则此查询条件下的数据已经全部返回|
 |shipmentData|ShipmentData|-|细单数据详见下方ShipmentData|
+|total|Long|-|数据总数|
  ShipmentData
 |名称|类型|示例值|描述|
 |---|---|---|---|
@@ -270,7 +270,7 @@ Content-Type：application/json
     "code":0,
     "msg":"success",
     "data":{
-        "hasNewData":true,
+        "total":5000,
         "shipmentData":[
             {
                 "shipmentDate":"2023-05-14 10:00:00",
@@ -589,11 +589,11 @@ Content-Type：application/json
 |0|api请求成功|
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDMyNDYyMDQsMzYwMTUzNzQ1LDEyND
-c0ODYwMDMsMTI0NzQ4NjAwMywxMDY5NTkyMTY2LC0zNTY0OTY2
-OTUsMjEwODQ5NDUxNiwtMTEwNDcwNDEyLDEwOTMwNzYxNjgsMj
-A2Mjk3OTk4LC03ODA1NDc4NTcsLTEyNjQ2NjEwMjksNjY1NjQ0
-NzY0LDE2NTQwMDQ0OTksNjQwMDY3MTIzLC02NzMxMTc5NTYsLT
-E5NDQ0MTgzMDMsLTY3MzExNzk1NiwtMTIwNjU2ODcwMywxMDU2
-ODE0NjcwXX0=
+eyJoaXN0b3J5IjpbNTQ5MTM3ODQ0LDM2MDE1Mzc0NSwxMjQ3ND
+g2MDAzLDEyNDc0ODYwMDMsMTA2OTU5MjE2NiwtMzU2NDk2Njk1
+LDIxMDg0OTQ1MTYsLTExMDQ3MDQxMiwxMDkzMDc2MTY4LDIwNj
+I5Nzk5OCwtNzgwNTQ3ODU3LC0xMjY0NjYxMDI5LDY2NTY0NDc2
+NCwxNjU0MDA0NDk5LDY0MDA2NzEyMywtNjczMTE3OTU2LC0xOT
+Q0NDE4MzAzLC02NzMxMTc5NTYsLTEyMDY1Njg3MDMsMTA1Njgx
+NDY3MF19
 -->
