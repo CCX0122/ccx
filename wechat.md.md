@@ -63,8 +63,8 @@ Content-Type：application/json
 
 |名称|类型|必填|示例值|描述|
 |---|---|---|---|---|
-|appkey|String|是| HSDFSDAF233432 |唯众系统分配的appKey|
-|appsecret|String|是| 39RSDLFJAFDFSDF |唯众系统分配的appSecret|
+|appKey|String|是| HSDFSDAF233432 |唯众系统分配的appKey|
+|appSecret|String|是| 39RSDLFJAFDFSDF |唯众系统分配的appSecret|
 
  返回参数
 |名称|类型|示例值|描述|
@@ -586,11 +586,11 @@ Content-Type：application/json
 |0|api请求成功|
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDQ3MDQxMiwxMDkzMDc2MTY4LDIwNj
-I5Nzk5OCwtNzgwNTQ3ODU3LC0xMjY0NjYxMDI5LDY2NTY0NDc2
-NCwxNjU0MDA0NDk5LDY0MDA2NzEyMywtNjczMTE3OTU2LC0xOT
-Q0NDE4MzAzLC02NzMxMTc5NTYsLTEyMDY1Njg3MDMsMTA1Njgx
-NDY3MCw3MDE0MDc0NjUsLTI4MTkzMjM0MywxNjkyNjQ1MzUsOD
-k4NjE0MTgzLDEzMTc2Mjg1NzcsLTkwOTI5NzcxMywtMTU1NTQz
-OTY0Nl19
+eyJoaXN0b3J5IjpbMjEwODQ5NDUxNiwtMTEwNDcwNDEyLDEwOT
+MwNzYxNjgsMjA2Mjk3OTk4LC03ODA1NDc4NTcsLTEyNjQ2NjEw
+MjksNjY1NjQ0NzY0LDE2NTQwMDQ0OTksNjQwMDY3MTIzLC02Nz
+MxMTc5NTYsLTE5NDQ0MTgzMDMsLTY3MzExNzk1NiwtMTIwNjU2
+ODcwMywxMDU2ODE0NjcwLDcwMTQwNzQ2NSwtMjgxOTMyMzQzLD
+E2OTI2NDUzNSw4OTg2MTQxODMsMTMxNzYyODU3NywtOTA5Mjk3
+NzEzXX0=
 -->
