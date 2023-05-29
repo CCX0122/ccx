@@ -515,7 +515,7 @@ Content-Type：application/json
 |---|---|---|---|
 |returnDate|Date|2020-10-10|退货日期|
 |customerId|Integer|3456|代理商编码|
-|returnTypeId|Integer|123|退货类型编码|
+|returnTypeId|Integer|123|退货类型编码详见 [退货类型编码]|
 |detailList|ReturnDetail|-|细单数据详见下方ReturnDetail|
  ReturnDetail
 |名称|类型|示例值|描述|
@@ -655,8 +655,9 @@ Content-Type：application/json
 ### 发票类型
 |code|描述|
 |---|---|
+|0|非医院发票|
 |1|医院发票|
-||
+
 ### 植入上报状态
 |code|描述|
 |---|---|
@@ -676,11 +677,11 @@ Content-Type：application/json
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3MDI3OTk0LDExODU5MDI3MjAsMTE0OD
-k0ODUwMSwtMTU0MzMzNzAwOCwxNzA3MjA0MjU0LC0xMTQxMTgw
-NDY2LDM2MDE1Mzc0NSwxMjQ3NDg2MDAzLDEyNDc0ODYwMDMsMT
-A2OTU5MjE2NiwtMzU2NDk2Njk1LDIxMDg0OTQ1MTYsLTExMDQ3
-MDQxMiwxMDkzMDc2MTY4LDIwNjI5Nzk5OCwtNzgwNTQ3ODU3LC
-0xMjY0NjYxMDI5LDY2NTY0NDc2NCwxNjU0MDA0NDk5LDY0MDA2
-NzEyM119
+eyJoaXN0b3J5IjpbLTgyMzA4MjcxMywxMTg1OTAyNzIwLDExND
+g5NDg1MDEsLTE1NDMzMzcwMDgsMTcwNzIwNDI1NCwtMTE0MTE4
+MDQ2NiwzNjAxNTM3NDUsMTI0NzQ4NjAwMywxMjQ3NDg2MDAzLD
+EwNjk1OTIxNjYsLTM1NjQ5NjY5NSwyMTA4NDk0NTE2LC0xMTA0
+NzA0MTIsMTA5MzA3NjE2OCwyMDYyOTc5OTgsLTc4MDU0Nzg1Ny
+wtMTI2NDY2MTAyOSw2NjU2NDQ3NjQsMTY1NDAwNDQ5OSw2NDAw
+NjcxMjNdfQ==
 -->
