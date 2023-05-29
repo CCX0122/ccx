@@ -248,7 +248,7 @@ Content-Type：application/json
 |shipmentDate|Date|2023-05-01 10:00:00|发货日期|
 |shipmentNo|String|SA203457256|发货单号|
 |orderNo|String|SA203457256|关联订单号|
-|shipmentType|Integer|1|发货类型编码|
+|shipmentType|Integer|1|发货类型编码,详见发货类型字典|
 |customerId|Integer|2222|代理商编码|
 |receivePerson|String|张三|收货人|
 |address|String|北京市朝阳区XXX|收货地址|
@@ -648,17 +648,17 @@ Content-Type：application/json
 }
 ```
 ## 3 数据字典
-### 退货类型字典
+### 3.1 退货类型字典
 |code|描述|
 |---|---|
 |---|---|
-### 发票类型字典
+### 3.2 发票类型字典
 |code|描述|
 |---|---|
 |0|非医院发票|
 |1|医院发票|
 
-### 植入上报状态字典
+### 3.3 植入上报状态字典
 |code|描述|
 |---|---|
 |0|无上报|
@@ -677,11 +677,11 @@ Content-Type：application/json
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0NzY4MDg4NSwxMTg1OTAyNzIwLDExND
-g5NDg1MDEsLTE1NDMzMzcwMDgsMTcwNzIwNDI1NCwtMTE0MTE4
-MDQ2NiwzNjAxNTM3NDUsMTI0NzQ4NjAwMywxMjQ3NDg2MDAzLD
-EwNjk1OTIxNjYsLTM1NjQ5NjY5NSwyMTA4NDk0NTE2LC0xMTA0
-NzA0MTIsMTA5MzA3NjE2OCwyMDYyOTc5OTgsLTc4MDU0Nzg1Ny
-wtMTI2NDY2MTAyOSw2NjU2NDQ3NjQsMTY1NDAwNDQ5OSw2NDAw
-NjcxMjNdfQ==
+eyJoaXN0b3J5IjpbNzgxNzAzNDA0LDE5NDc2ODA4ODUsMTE4NT
+kwMjcyMCwxMTQ4OTQ4NTAxLC0xNTQzMzM3MDA4LDE3MDcyMDQy
+NTQsLTExNDExODA0NjYsMzYwMTUzNzQ1LDEyNDc0ODYwMDMsMT
+I0NzQ4NjAwMywxMDY5NTkyMTY2LC0zNTY0OTY2OTUsMjEwODQ5
+NDUxNiwtMTEwNDcwNDEyLDEwOTMwNzYxNjgsMjA2Mjk3OTk4LC
+03ODA1NDc4NTcsLTEyNjQ2NjEwMjksNjY1NjQ0NzY0LDE2NTQw
+MDQ0OTldfQ==
 -->
