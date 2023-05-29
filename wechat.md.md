@@ -475,7 +475,7 @@ Content-Type：application/json
 ```
 ### 2.5 获取退货数据
 
-**    以任何原因由代理商退货到唯众的产品，可根据上传参数进行条件查询 **
+	说明：以任何原因由代理商退货到唯众的产品，可根据上传参数进行条件查询 
 
 调用地址：jswz/apiservice/getReturnData
 请求方式：POST			 
@@ -491,9 +491,11 @@ Content-Type：application/json
 
 |名称|类型|必填|示例值|描述|
 |---|---|---|---|---|
+|page|Integer|是| 1|页码，1开始|
+|rows|Integer|是| 500|每页条数，最大值1000|
 |customerId|Integer|否| 1|代理商编码，查询某个代理商的数据|
 |startDate|String|否| 2023-01-01|开始时间|
-|startDate|String|否| 2023-01-01|结束时间|
+|endDate|String|否| 2023-01-01|结束时间|
 
 
  返回参数
@@ -591,11 +593,11 @@ Content-Type：application/json
 |0|api请求成功|
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE0MTEwNiwzNjAxNTM3NDUsMTI0NzQ4Nj
-AwMywxMjQ3NDg2MDAzLDEwNjk1OTIxNjYsLTM1NjQ5NjY5NSwy
-MTA4NDk0NTE2LC0xMTA0NzA0MTIsMTA5MzA3NjE2OCwyMDYyOT
-c5OTgsLTc4MDU0Nzg1NywtMTI2NDY2MTAyOSw2NjU2NDQ3NjQs
-MTY1NDAwNDQ5OSw2NDAwNjcxMjMsLTY3MzExNzk1NiwtMTk0ND
-QxODMwMywtNjczMTE3OTU2LC0xMjA2NTY4NzAzLDEwNTY4MTQ2
-NzBdfQ==
+eyJoaXN0b3J5IjpbLTExNDExODA0NjYsMzYwMTUzNzQ1LDEyND
+c0ODYwMDMsMTI0NzQ4NjAwMywxMDY5NTkyMTY2LC0zNTY0OTY2
+OTUsMjEwODQ5NDUxNiwtMTEwNDcwNDEyLDEwOTMwNzYxNjgsMj
+A2Mjk3OTk4LC03ODA1NDc4NTcsLTEyNjQ2NjEwMjksNjY1NjQ0
+NzY0LDE2NTQwMDQ0OTksNjQwMDY3MTIzLC02NzMxMTc5NTYsLT
+E5NDQ0MTgzMDMsLTY3MzExNzk1NiwtMTIwNjU2ODcwMywxMDU2
+ODE0NjcwXX0=
 -->
