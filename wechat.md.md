@@ -114,7 +114,7 @@ Body参数
 
 |名称|类型|必填|示例值|描述|
 |---|---|---|---|---|
-|page|Integer|否| 1|代理商编码，查询某个代理商的数据|
+|page|Integer|否| 1||
 |rows|Integer|否| 1|代理商编码，查询某个代理商的数据|
 |customerId|Integer|否| 1|代理商编码，查询某个代理商的数据|
 |startDate|String|否| 2023-01-01|开始时间|
@@ -587,7 +587,7 @@ Content-Type：application/json
 |0|api请求成功|
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODAzMjA4NzksMTI0NzQ4NjAwMywxMD
+eyJoaXN0b3J5IjpbLTEwOTA3NzgwNDMsMTI0NzQ4NjAwMywxMD
 Y5NTkyMTY2LC0zNTY0OTY2OTUsMjEwODQ5NDUxNiwtMTEwNDcw
 NDEyLDEwOTMwNzYxNjgsMjA2Mjk3OTk4LC03ODA1NDc4NTcsLT
 EyNjQ2NjEwMjksNjY1NjQ0NzY0LDE2NTQwMDQ0OTksNjQwMDY3
