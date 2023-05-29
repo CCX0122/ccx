@@ -634,21 +634,23 @@ Content-Type：application/json
         "total":4500,
         "returnStatusData":[
             {
-                "returnDate":"2023-05-01",
+                "date":"2023-01",
                 "customerId":2324,
-                "returnTypeId":4563
+                "implantStatus":1
             },
             {
-                "returnDate":"2023-05-01",
+                "date":"2023-02",
                 "customerId":2324,
-                "returnTypeId":4563
+                "implantStatus":2
             }
         ]
     }
 }
 ```
 ## 3 数据字典
-	退货类型编码
+* 退货类型编码
+|code|ss|
+
 ## 4 返回码
 |code|说明|
 |---|---|
@@ -661,7 +663,7 @@ Content-Type：application/json
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0MTMwOTc1NiwxMTg1OTAyNzIwLDExND
+eyJoaXN0b3J5IjpbLTY1OTQ1NjA3NywxMTg1OTAyNzIwLDExND
 g5NDg1MDEsLTE1NDMzMzcwMDgsMTcwNzIwNDI1NCwtMTE0MTE4
 MDQ2NiwzNjAxNTM3NDUsMTI0NzQ4NjAwMywxMjQ3NDg2MDAzLD
 EwNjk1OTIxNjYsLTM1NjQ5NjY5NSwyMTA4NDk0NTE2LC0xMTA0
