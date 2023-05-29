@@ -116,7 +116,7 @@ Body参数
 |---|---|---|---|---|
 |customerId|Integer|否| 1|代理商编码，查询某个代理商的数据|
 |startDate|String|否| 2023-01-01|开始时间|
-|startDate|String|否| 2023-01-01|结束时间|
+|endDate|String|否| 2023-01-01|结束时间|
 
  返回参数
 |名称|类型|示例值|描述|
@@ -223,7 +223,7 @@ Content-Type：application/json
 |---|---|---|---|---|
 |customerId|Integer|否| 1|代理商编码，查询某个代理商的数据|
 |startDate|String|否| 2023-01-01|开始时间|
-|startDate|String|否| 2023-01-01|结束时间|
+|endDate|String|否| 2023-01-01|结束时间|
 
 
  返回参数
@@ -585,7 +585,7 @@ Content-Type：application/json
 |0|api请求成功|
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzNzUwODEzMywxMDY5NTkyMTY2LC0zNT
+eyJoaXN0b3J5IjpbMTI0NzQ4NjAwMywxMDY5NTkyMTY2LC0zNT
 Y0OTY2OTUsMjEwODQ5NDUxNiwtMTEwNDcwNDEyLDEwOTMwNzYx
 NjgsMjA2Mjk3OTk4LC03ODA1NDc4NTcsLTEyNjQ2NjEwMjksNj
 Y1NjQ0NzY0LDE2NTQwMDQ0OTksNjQwMDY3MTIzLC02NzMxMTc5
