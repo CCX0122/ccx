@@ -98,7 +98,7 @@ Content-Type：application/json
 
 ### 2.2 获取订单数据
 
-	说明： 获取经销商在唯众平台的增量订货数据，默认查询全部代理商的数据。如要查询某个代理商的全部数据请根据上传参数进行查询
+	说明： 获取经销商在唯众平台的增量订货数据，默认查询全部代理商的数据。如要查询某个代理商的数据请根据上传参数进行查询
 
 调用地址：jswz/apiservice/getOrders
 请求方式：POST			 
@@ -586,11 +586,11 @@ Content-Type：application/json
 |0|api请求成功|
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQyNzE5MDE0LC0zNTY0OTY2OTUsMjEwOD
-Q5NDUxNiwtMTEwNDcwNDEyLDEwOTMwNzYxNjgsMjA2Mjk3OTk4
-LC03ODA1NDc4NTcsLTEyNjQ2NjEwMjksNjY1NjQ0NzY0LDE2NT
-QwMDQ0OTksNjQwMDY3MTIzLC02NzMxMTc5NTYsLTE5NDQ0MTgz
-MDMsLTY3MzExNzk1NiwtMTIwNjU2ODcwMywxMDU2ODE0NjcwLD
-cwMTQwNzQ2NSwtMjgxOTMyMzQzLDE2OTI2NDUzNSw4OTg2MTQx
-ODNdfQ==
+eyJoaXN0b3J5IjpbMTA2OTU5MjE2NiwtMzU2NDk2Njk1LDIxMD
+g0OTQ1MTYsLTExMDQ3MDQxMiwxMDkzMDc2MTY4LDIwNjI5Nzk5
+OCwtNzgwNTQ3ODU3LC0xMjY0NjYxMDI5LDY2NTY0NDc2NCwxNj
+U0MDA0NDk5LDY0MDA2NzEyMywtNjczMTE3OTU2LC0xOTQ0NDE4
+MzAzLC02NzMxMTc5NTYsLTEyMDY1Njg3MDMsMTA1NjgxNDY3MC
+w3MDE0MDc0NjUsLTI4MTkzMjM0MywxNjkyNjQ1MzUsODk4NjE0
+MTgzXX0=
 -->
