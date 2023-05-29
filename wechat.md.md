@@ -53,7 +53,7 @@
 4. 应用服务器开发测试完成申请对接正式环境 
 ## 2.唯众系统服务端API
 ### 2.1获取授权
-	说明： 通过此接口获取授权 access_token，调用服务端 API 获取应用资源时需要通过 access_token 来鉴权调用者身份进行授权，7200秒内有效，过期后重新获取 
+** 说明： 通过此接口获取授权 access_token，调用服务端 API 获取应用资源时需要通过 access_token 来鉴权调用者身份进行授权，7200秒内有效，过期后重新获取 
 
 调用地址：jswz/apiservice/getAccessToken
 请求方式：POST
@@ -593,11 +593,11 @@ Content-Type：application/json
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwNzIwNDI1NCwtMTE0MTE4MDQ2NiwzNj
-AxNTM3NDUsMTI0NzQ4NjAwMywxMjQ3NDg2MDAzLDEwNjk1OTIx
-NjYsLTM1NjQ5NjY5NSwyMTA4NDk0NTE2LC0xMTA0NzA0MTIsMT
-A5MzA3NjE2OCwyMDYyOTc5OTgsLTc4MDU0Nzg1NywtMTI2NDY2
-MTAyOSw2NjU2NDQ3NjQsMTY1NDAwNDQ5OSw2NDAwNjcxMjMsLT
-Y3MzExNzk1NiwtMTk0NDQxODMwMywtNjczMTE3OTU2LC0xMjA2
-NTY4NzAzXX0=
+eyJoaXN0b3J5IjpbLTE4MzU5NjQ0OTAsMTcwNzIwNDI1NCwtMT
+E0MTE4MDQ2NiwzNjAxNTM3NDUsMTI0NzQ4NjAwMywxMjQ3NDg2
+MDAzLDEwNjk1OTIxNjYsLTM1NjQ5NjY5NSwyMTA4NDk0NTE2LC
+0xMTA0NzA0MTIsMTA5MzA3NjE2OCwyMDYyOTc5OTgsLTc4MDU0
+Nzg1NywtMTI2NDY2MTAyOSw2NjU2NDQ3NjQsMTY1NDAwNDQ5OS
+w2NDAwNjcxMjMsLTY3MzExNzk1NiwtMTk0NDQxODMwMywtNjcz
+MTE3OTU2XX0=
 -->
