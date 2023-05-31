@@ -115,6 +115,8 @@ Body参数
 |名称|类型|必填|示例值|描述|
 |---|---|---|---|---|
 |isNewData|Integer|是| 0|是否为增量数据 0-全量数据  1-增量数据|
+|page|Integer|否| 1|页码，1开始 如果isNewData==0 此项必填|
+|rows|Integer|否| 500|每页条数，最大值1000 如果isNewData==0 此项必填|
 |customerId|Integer|否| 1|代理商编码，查询某个代理商的数据|
 |startDate|String|否| 2023-01-01|开始时间|
 |endDate|String|否| 2023-01-01|结束时间|
@@ -683,7 +685,7 @@ Content-Type：application/json
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTY4OTU5OTksLTIyNTI3NDQ0NCwzOD
+eyJoaXN0b3J5IjpbLTE2NDk5MzYwMTYsLTIyNTI3NDQ0NCwzOD
 Q5MjU0MjcsMTk0NzY4MDg4NSwxMTg1OTAyNzIwLDExNDg5NDg1
 MDEsLTE1NDMzMzcwMDgsMTcwNzIwNDI1NCwtMTE0MTE4MDQ2Ni
 wzNjAxNTM3NDUsMTI0NzQ4NjAwMywxMjQ3NDg2MDAzLDEwNjk1
