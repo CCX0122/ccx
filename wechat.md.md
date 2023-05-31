@@ -114,7 +114,7 @@ Body参数
 
 |名称|类型|必填|示例值|描述|
 |---|---|---|---|---|
-|isNewData|Integer|是| 1|页码，1开始|
+|isNewData|Integer|是| 0|是否为增量数据 0-全量数据  1-增量数据|
 |customerId|Integer|否| 1|代理商编码，查询某个代理商的数据|
 |startDate|String|否| 2023-01-01|开始时间|
 |endDate|String|否| 2023-01-01|结束时间|
@@ -135,6 +135,7 @@ Body参数
 |名称|类型|示例值|描述|
 |---|---|---|---|
 |orderDate|Date|2023-05-01 10:00:00|订单日期|
+|lastModifyTime|TimeS|2023-05-01 10:00:00|订单日期|
 |orderNo|String|SA203457256|唯众系统订单号|
 |orderType|Integer|1|订单类型|
 |customerId|Integer|2222|代理商编码|
@@ -682,11 +683,11 @@ Content-Type：application/json
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTgzNzA0NzcsLTIyNTI3NDQ0NCwzOD
-Q5MjU0MjcsMTk0NzY4MDg4NSwxMTg1OTAyNzIwLDExNDg5NDg1
-MDEsLTE1NDMzMzcwMDgsMTcwNzIwNDI1NCwtMTE0MTE4MDQ2Ni
-wzNjAxNTM3NDUsMTI0NzQ4NjAwMywxMjQ3NDg2MDAzLDEwNjk1
-OTIxNjYsLTM1NjQ5NjY5NSwyMTA4NDk0NTE2LC0xMTA0NzA0MT
-IsMTA5MzA3NjE2OCwyMDYyOTc5OTgsLTc4MDU0Nzg1NywtMTI2
-NDY2MTAyOV19
+eyJoaXN0b3J5IjpbLTQ1MDQ0NDE0MywtMjI1Mjc0NDQ0LDM4ND
+kyNTQyNywxOTQ3NjgwODg1LDExODU5MDI3MjAsMTE0ODk0ODUw
+MSwtMTU0MzMzNzAwOCwxNzA3MjA0MjU0LC0xMTQxMTgwNDY2LD
+M2MDE1Mzc0NSwxMjQ3NDg2MDAzLDEyNDc0ODYwMDMsMTA2OTU5
+MjE2NiwtMzU2NDk2Njk1LDIxMDg0OTQ1MTYsLTExMDQ3MDQxMi
+wxMDkzMDc2MTY4LDIwNjI5Nzk5OCwtNzgwNTQ3ODU3LC0xMjY0
+NjYxMDI5XX0=
 -->
