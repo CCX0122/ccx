@@ -269,6 +269,7 @@ Content-Type：application/json
 |名称|类型|示例值|描述|
 |---|---|---|---|
 |shipmentDetailNo|String|34232001|唯众系统发货细单号|
+|orderDetailNo|String|SA2023405685001|唯众系统细单号|
 |productModel|String|1-14-1W|产品规格型号|
 |validDate|Date|2030-01-01|有效期|
 |lot|String|DEF3425|批号|
@@ -297,6 +298,7 @@ Content-Type：application/json
                 "detailList":[
                     {
                         "shipmentDetailNo":"34232001",
+                        "orderDetailNo":"SA202333385003",
                         "productModel":"1-14-1W",
                         "validDate":"2029-09-09",
                         "lot":"1-14-1W",
@@ -306,6 +308,7 @@ Content-Type：application/json
                     },
                     {
                         "shipmentDetailNo":"34232002",
+                        "orderDetailNo":"SA202333385003",
                         "productModel":"1-14-1B",
                         "validDate":"2029-09-09",
                         "lot":"SSS",
@@ -328,6 +331,7 @@ Content-Type：application/json
                 "detailList":[
                     {
 	                    "shipmentDetailNo":"366662001",
+	                    "orderDetailNo":"SA202333385003",
                         "productModel":"1-14-1W",
                         "validDate":"2029-09-09",
                         "lot":"1-14-1W",
@@ -337,6 +341,7 @@ Content-Type：application/json
                     },
                     {
 	                    "shipmentDetailNo":"366662002",
+	                    "orderDetailNo":"SA202333385003",
                         "productModel":"1-14-1B",
                         "validDate":"2029-09-09",
                         "lot":"SSS",
@@ -735,5 +740,6 @@ Content-Type：application/json
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjU4NTkzMDgsLTk0MTMzNjA5MF19
+eyJoaXN0b3J5IjpbLTIwNTk5MDYzMTMsLTE4NjU4NTkzMDgsLT
+k0MTMzNjA5MF19
 -->
