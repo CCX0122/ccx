@@ -228,8 +228,8 @@ Content-Type：application/json
 |名称|类型|必填|示例值|描述|
 |---|---|---|---|---|
 |isNewData|Integer|是| 0|是否为增量数据 0-全量数据  1-增量数据|
-|page|Integer|是| 1|页码，1开始|
-|rows|Integer|是| 500|每页条数，最大值1000|
+|page|Integer|否| 1|页码，1开始 如果isNewData==0 此项必填|
+|rows|Integer|否| 500|每页条数，最大值1000 如果isNewData==0 此项必填|
 |customerId|Integer|否| 1|代理商编码，查询某个代理商的数据|
 |startDate|String|否| 2023-01-01|开始时间|
 |endDate|String|否| 2023-01-01|结束时间|
@@ -258,6 +258,7 @@ Content-Type：application/json
 |receivePerson|String|张三|收货人|
 |address|String|北京市朝阳区XXX|收货地址|
 |phone|String|13112341234|电话|
+|lastModifyTime|Timestamp|1685513394|数据最后更新时间|
 |detailList|ShipmentDetail|-|细单数据详见下方ShipmentDetail|
  ShipmentDetail
 |名称|类型|示例值|描述|
@@ -286,6 +287,7 @@ Content-Type：application/json
                 "receivePerson":"张三",
                 "address":"北京市朝阳区XXX",
                 "phone":"13112341234",
+                "lastModifyTime": 1685513394,
                 "detailList":[
                     {
                         "productModel":"1-14-1W",
@@ -314,6 +316,7 @@ Content-Type：application/json
                 "receivePerson":"李四",
                 "address":"北京市朝阳区XXX",
                 "phone":"13134566543",
+                "lastModifyTime": 1685513394,
                 "detailList":[
                     {
                         "productModel":"1-14-1W",
@@ -355,8 +358,9 @@ Content-Type：application/json
 
 |名称|类型|必填|示例值|描述|
 |---|---|---|---|---|
-|page|Integer|是| 1|页码，1开始|
-|rows|Integer|是| 500|每页条数，最大值1000|
+|isNewData|Integer|是| 0|是否为增量数据 0-全量数据  1-增量数据|
+|page|Integer|否| 1|页码，1开始 如果isNewData==0 此项必填|
+|rows|Integer|否| 500|每页条数，最大值1000 如果isNewData==0 此项必填|
 |customerId|Integer|否| 1|代理商编码，查询某个代理商的数据|
 |startDate|String|否| 2023-01-01|开始时间|
 |endDate|String|否| 2023-01-01|结束时间|
@@ -388,6 +392,7 @@ Content-Type：application/json
 |invoiceCheckCode|String|123456|发票校验码后六位|
 |invoiceAmount|Bigdecimal|4567.67|发票金额|
 |reportDate|Date|2022-10-11|上报日期|
+|lastModifyTime|Timestamp|1685513394|数据最后更新时间|
 |detailList|ImplantDetail|-|细单数据详见下方ImplantDetail|
  ImplantDetail
 |名称|类型|示例值|描述|
@@ -686,7 +691,7 @@ Content-Type：application/json
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5MzAzNzg1NCwtMTU2MTU4NTk0OCwtMT
+eyJoaXN0b3J5IjpbLTk3NjQ0Mzc2OCwtMTU2MTU4NTk0OCwtMT
 Y0OTkzNjAxNiwtMjI1Mjc0NDQ0LDM4NDkyNTQyNywxOTQ3Njgw
 ODg1LDExODU5MDI3MjAsMTE0ODk0ODUwMSwtMTU0MzMzNzAwOC
 wxNzA3MjA0MjU0LC0xMTQxMTgwNDY2LDM2MDE1Mzc0NSwxMjQ3
