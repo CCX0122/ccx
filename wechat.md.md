@@ -381,7 +381,7 @@ Content-Type：application/json
  ImplantData
 |名称|类型|示例值|描述|
 |---|---|---|---|
-|implantNo|String|234|经销商代码|
+|implantNo|String|IM23804|唯众植入单号|
 |customerId|Integer|234|经销商代码|
 |hospitalId|Integer|3456|医院编码|
 |invoiceUnit|String|嘉事唯众|开票单位名称|
@@ -529,6 +529,7 @@ Content-Type：application/json
  ReturnData
 |名称|类型|示例值|描述|
 |---|---|---|---|
+|returnNo|Date|2020-10-10|退货日期|
 |returnDate|Date|2020-10-10|退货日期|
 |customerId|Integer|3456|代理商编码|
 |returnTypeId|Integer|123|退货类型编码,详见退货类型字典|
@@ -553,6 +554,7 @@ Content-Type：application/json
         "total":4500,
         "returnData":[
             {
+	            "returnNo":"R23479",
                 "returnDate":"2023-05-01",
                 "customerId":2324,
                 "returnTypeId":4563,
@@ -575,6 +577,7 @@ Content-Type：application/json
                 ]
             },
             {
+	            "returnNo":"R234234239",
                 "returnDate":"2023-05-01",
                 "customerId":2324,
                 "returnTypeId":4563,
@@ -707,7 +710,7 @@ Content-Type：application/json
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxNTA4NjEyLDI0OTA0NzA5Myw2OTYzNz
+eyJoaXN0b3J5IjpbNDI0NTIzNTcwLDI0OTA0NzA5Myw2OTYzNz
 A4MzIsLTgyNTUzNzU1MiwtMzQyNzg3ODU3LC0xNTYxNTg1OTQ4
 LC0xNjQ5OTM2MDE2LC0yMjUyNzQ0NDQsMzg0OTI1NDI3LDE5ND
 c2ODA4ODUsMTE4NTkwMjcyMCwxMTQ4OTQ4NTAxLC0xNTQzMzM3
