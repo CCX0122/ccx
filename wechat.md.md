@@ -640,8 +640,8 @@ Content-Type：application/json
 |名称|类型|示例值|描述|
 |---|---|---|---|
 |total|Long|-|数据总数|
-|returnData|implantStatusData|-|细单数据详见下方ReturnStatusData|
- ReturnStatusData
+|implantStatusData|ImplantStatusData|-|细单数据详见下方ImplantStatusData|
+ ImplantStatusData
 |名称|类型|示例值|描述|
 |---|---|---|---|
 |customerId|Integer|3456|代理商编码|
@@ -656,7 +656,7 @@ Content-Type：application/json
     "msg":"success",
     "data":{
         "total":4500,
-        "returnStatusData":[
+        "implantStatusData":[
             {
                 "date":"2023-01",
                 "customerId":2324,
@@ -710,11 +710,11 @@ Content-Type：application/json
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzMjUxMzU3LDk0MTM3NjU4MCwyNDkwND
-cwOTMsNjk2MzcwODMyLC04MjU1Mzc1NTIsLTM0Mjc4Nzg1Nywt
-MTU2MTU4NTk0OCwtMTY0OTkzNjAxNiwtMjI1Mjc0NDQ0LDM4ND
-kyNTQyNywxOTQ3NjgwODg1LDExODU5MDI3MjAsMTE0ODk0ODUw
-MSwtMTU0MzMzNzAwOCwxNzA3MjA0MjU0LC0xMTQxMTgwNDY2LD
-M2MDE1Mzc0NSwxMjQ3NDg2MDAzLDEyNDc0ODYwMDMsMTA2OTU5
-MjE2Nl19
+eyJoaXN0b3J5IjpbLTExMDMyNjk1MTUsOTQxMzc2NTgwLDI0OT
+A0NzA5Myw2OTYzNzA4MzIsLTgyNTUzNzU1MiwtMzQyNzg3ODU3
+LC0xNTYxNTg1OTQ4LC0xNjQ5OTM2MDE2LC0yMjUyNzQ0NDQsMz
+g0OTI1NDI3LDE5NDc2ODA4ODUsMTE4NTkwMjcyMCwxMTQ4OTQ4
+NTAxLC0xNTQzMzM3MDA4LDE3MDcyMDQyNTQsLTExNDExODA0Nj
+YsMzYwMTUzNzQ1LDEyNDc0ODYwMDMsMTI0NzQ4NjAwMywxMDY5
+NTkyMTY2XX0=
 -->
