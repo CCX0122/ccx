@@ -529,7 +529,7 @@ Content-Type：application/json
  ReturnData
 |名称|类型|示例值|描述|
 |---|---|---|---|
-|returnNo|Date|2020-10-10|退货日期|
+|returnNo|String|R34234|唯众退货编号|
 |returnDate|Date|2020-10-10|退货日期|
 |customerId|Integer|3456|代理商编码|
 |returnTypeId|Integer|123|退货类型编码,详见退货类型字典|
@@ -710,7 +710,7 @@ Content-Type：application/json
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI0NTIzNTcwLDI0OTA0NzA5Myw2OTYzNz
+eyJoaXN0b3J5IjpbOTQxMzc2NTgwLDI0OTA0NzA5Myw2OTYzNz
 A4MzIsLTgyNTUzNzU1MiwtMzQyNzg3ODU3LC0xNTYxNTg1OTQ4
 LC0xNjQ5OTM2MDE2LC0yMjUyNzQ0NDQsMzg0OTI1NDI3LDE5ND
 c2ODA4ODUsMTE4NTkwMjcyMCwxMTQ4OTQ4NTAxLC0xNTQzMzM3
