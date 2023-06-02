@@ -425,6 +425,7 @@ Content-Type：application/json
                 "invoiceCheckCode":"123456",
                 "invoiceAmount":"6574.57",
                 "reportDate":"2022-10-23",
+                "lastModifyTime": 1685513394,
                 "detailList":[
                     {
                         "productModel":"1-14-1W",
@@ -458,6 +459,7 @@ Content-Type：application/json
                 "invoiceCheckCode":"543423",
                 "invoiceAmount":"6574.57",
                 "reportDate":"2022-10-23",
+                "lastModifyTime": 1685513394,
                 "detailList":[
                     {
                         "productModel":"1-14-1W",
@@ -501,8 +503,9 @@ Content-Type：application/json
 
 |名称|类型|必填|示例值|描述|
 |---|---|---|---|---|
-|page|Integer|是| 1|页码，1开始|
-|rows|Integer|是| 500|每页条数，最大值1000|
+|isNewData|Integer|是| 0|是否为增量数据 0-全量数据  1-增量数据|
+|page|Integer|否| 1|页码，1开始 如果isNewData==0 此项必填|
+|rows|Integer|否| 500|每页条数，最大值1000 如果isNewData==0 此项必填|
 |customerId|Integer|否| 1|代理商编码，查询某个代理商的数据|
 |startDate|String|否| 2023-01-01|开始时间|
 |endDate|String|否| 2023-05-01|结束时间|
@@ -526,6 +529,7 @@ Content-Type：application/json
 |returnDate|Date|2020-10-10|退货日期|
 |customerId|Integer|3456|代理商编码|
 |returnTypeId|Integer|123|退货类型编码,详见退货类型字典|
+|lastModifyTime|Timestamp|1685513394|数据最后更新时间|
 |detailList|ReturnDetail|-|细单数据详见下方ReturnDetail|
  ReturnDetail
 |名称|类型|示例值|描述|
@@ -549,6 +553,7 @@ Content-Type：application/json
                 "returnDate":"2023-05-01",
                 "customerId":2324,
                 "returnTypeId":4563,
+                "lastModifyTime": 1685513394,
                 "detailList":[
                     {
                         "productModel":"1-14-1W",
@@ -570,6 +575,7 @@ Content-Type：application/json
                 "returnDate":"2023-05-01",
                 "customerId":2324,
                 "returnTypeId":4563,
+                "lastModifyTime": 1685513394,
                 "detailList":[
                     {
                         "productModel":"1-14-1W",
@@ -609,8 +615,9 @@ Content-Type：application/json
 
 |名称|类型|必填|示例值|描述|
 |---|---|---|---|---|
-|page|Integer|是| 1|页码，1开始|
-|rows|Integer|是| 500|每页条数，最大值1000|
+|isNewData|Integer|是| 0|是否为增量数据 0-全量数据  1-增量数据|
+|page|Integer|否| 1|页码，1开始 如果isNewData==0 此项必填|
+|rows|Integer|否| 500|每页条数，最大值1000 如果isNewData==0 此项必填|
 |customerId|Integer|否| 1|代理商编码，查询某个代理商的数据|
 |startDate|String|否| 2023-01-01|开始时间|
 |endDate|String|否| 2023-05-01|结束时间|
@@ -634,6 +641,7 @@ Content-Type：application/json
 |customerId|Integer|3456|代理商编码|
 |date|String|2023-01|2023年1月份|
 |implantStatus|ReturnDetail|1|详见植入上报状态字典|
+|lastModifyTime|Timestamp|1685513394|数据最后更新时间|
 
 > 返回示例
 ```json
@@ -646,7 +654,7 @@ Content-Type：application/json
             {
                 "date":"2023-01",
                 "customerId":2324,
-                "implantStatus":1
+                "implantStatus":1，
             },
             {
                 "date":"2023-02",
@@ -691,11 +699,11 @@ Content-Type：application/json
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3NjQ0Mzc2OCwtMTU2MTU4NTk0OCwtMT
-Y0OTkzNjAxNiwtMjI1Mjc0NDQ0LDM4NDkyNTQyNywxOTQ3Njgw
-ODg1LDExODU5MDI3MjAsMTE0ODk0ODUwMSwtMTU0MzMzNzAwOC
-wxNzA3MjA0MjU0LC0xMTQxMTgwNDY2LDM2MDE1Mzc0NSwxMjQ3
-NDg2MDAzLDEyNDc0ODYwMDMsMTA2OTU5MjE2NiwtMzU2NDk2Nj
-k1LDIxMDg0OTQ1MTYsLTExMDQ3MDQxMiwxMDkzMDc2MTY4LDIw
-NjI5Nzk5OF19
+eyJoaXN0b3J5IjpbLTE0OTcxODcwOTgsLTE1NjE1ODU5NDgsLT
+E2NDk5MzYwMTYsLTIyNTI3NDQ0NCwzODQ5MjU0MjcsMTk0NzY4
+MDg4NSwxMTg1OTAyNzIwLDExNDg5NDg1MDEsLTE1NDMzMzcwMD
+gsMTcwNzIwNDI1NCwtMTE0MTE4MDQ2NiwzNjAxNTM3NDUsMTI0
+NzQ4NjAwMywxMjQ3NDg2MDAzLDEwNjk1OTIxNjYsLTM1NjQ5Nj
+Y5NSwyMTA4NDk0NTE2LC0xMTA0NzA0MTIsMTA5MzA3NjE2OCwy
+MDYyOTc5OThdfQ==
 -->
