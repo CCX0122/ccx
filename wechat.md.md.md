@@ -148,7 +148,7 @@ Body参数
  OrderDetail
 |名称|类型|示例值|描述|
 |---|---|---|---|
-|orderDetailNo|String|SA2023405685001|唯众系统细单号|
+|orderDetailNo|String|SA2023405685001|唯众系统订单细单号|
 |productModel|String|1-14-1W|产品规格型号|
 |quantity|Integer|14|数量|
 |taxPrice|Bigdecimal|1|含税单价|
@@ -269,7 +269,7 @@ Content-Type：application/json
 |名称|类型|示例值|描述|
 |---|---|---|---|
 |shipmentDetailNo|String|34232001|唯众系统发货细单号|
-|orderDetailNo|String|SA2023405685001|唯众系统细单号|
+|orderDetailNo|String|SA2023405685001|唯众系统订单细单号|
 |productModel|String|1-14-1W|产品规格型号|
 |validDate|Date|2030-01-01|有效期|
 |lot|String|DEF3425|批号|
@@ -740,6 +740,6 @@ Content-Type：application/json
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTk5MDYzMTMsLTE4NjU4NTkzMDgsLT
-k0MTMzNjA5MF19
+eyJoaXN0b3J5IjpbMTQ3Mjg3ODUsLTE4NjU4NTkzMDgsLTk0MT
+MzNjA5MF19
 -->
