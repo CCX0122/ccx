@@ -654,12 +654,14 @@ Content-Type：application/json
             {
                 "date":"2023-01",
                 "customerId":2324,
-                "implantStatus":1，
+                "implantStatus":1,
+                "lastModifyTime": 1685513394
             },
             {
                 "date":"2023-02",
                 "customerId":2324,
-                "implantStatus":2
+                "implantStatus":2,
+                "lastModifyTime": 1685513394
             }
         ]
     }
@@ -669,7 +671,8 @@ Content-Type：application/json
 ### 3.1 退货类型字典
 |code|描述|
 |---|---|
-|---|---|
+|1|退货|
+|2|换货|
 ### 3.2 发票类型字典
 |code|描述|
 |---|---|
@@ -686,7 +689,8 @@ Content-Type：application/json
 ### 3.4 发货类型字典
 |code|描述|
 |---|---|
-|---|---|
+|1|快递|
+|2|自提|
 ## 4 返回码
 |code|说明|
 |---|---|
@@ -699,11 +703,11 @@ Content-Type：application/json
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTcxODcwOTgsLTE1NjE1ODU5NDgsLT
-E2NDk5MzYwMTYsLTIyNTI3NDQ0NCwzODQ5MjU0MjcsMTk0NzY4
-MDg4NSwxMTg1OTAyNzIwLDExNDg5NDg1MDEsLTE1NDMzMzcwMD
-gsMTcwNzIwNDI1NCwtMTE0MTE4MDQ2NiwzNjAxNTM3NDUsMTI0
-NzQ4NjAwMywxMjQ3NDg2MDAzLDEwNjk1OTIxNjYsLTM1NjQ5Nj
-Y5NSwyMTA4NDk0NTE2LC0xMTA0NzA0MTIsMTA5MzA3NjE2OCwy
-MDYyOTc5OThdfQ==
+eyJoaXN0b3J5IjpbLTM0Mjc4Nzg1NywtMTU2MTU4NTk0OCwtMT
+Y0OTkzNjAxNiwtMjI1Mjc0NDQ0LDM4NDkyNTQyNywxOTQ3Njgw
+ODg1LDExODU5MDI3MjAsMTE0ODk0ODUwMSwtMTU0MzMzNzAwOC
+wxNzA3MjA0MjU0LC0xMTQxMTgwNDY2LDM2MDE1Mzc0NSwxMjQ3
+NDg2MDAzLDEyNDc0ODYwMDMsMTA2OTU5MjE2NiwtMzU2NDk2Nj
+k1LDIxMDg0OTQ1MTYsLTExMDQ3MDQxMiwxMDkzMDc2MTY4LDIw
+NjI5Nzk5OF19
 -->
