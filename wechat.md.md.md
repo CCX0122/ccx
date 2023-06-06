@@ -409,6 +409,7 @@ Content-Type：application/json
 |invoiceNo|String|2222|发票号码|
 |invoiceDate|Date|2020-10-01|发票日期|
 |invoiceType|Integer|0|发票类型,详见发票类型字典|
+|invoiceStatus|Integer|0|发票类型,详见发票类型字典|
 |invoiceCode|String|45678|发票代码|
 |invoiceCheckCode|String|123456|发票校验码后六位|
 |invoiceAmount|Bigdecimal|4567.67|发票金额|
@@ -714,7 +715,7 @@ Content-Type：application/json
 |code|描述|
 |---|---|
 |0|专票|
-|1|医院发票|
+|1|普票|
 
 ### 3.3 植入上报状态字典
 |code|描述|
@@ -750,7 +751,7 @@ Content-Type：application/json
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA3NzYzOTY5LC0xNDM0ODYzNiwtMzMwNj
+eyJoaXN0b3J5IjpbLTU1MTE3NTY4LC0xNDM0ODYzNiwtMzMwNj
 UwNTc1LDE3MjE1MzY0MTYsMTQ3Mjg3ODUsLTE4NjU4NTkzMDgs
 LTk0MTMzNjA5MF19
 -->
