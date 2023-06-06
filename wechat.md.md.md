@@ -445,7 +445,9 @@ Content-Type：application/json
                 "receiveName":"发票购货方名称B",
                 "invoiceNo":"666453",
                 "invoiceDate":"2023-05-01",
-                "invoiceType":"医院发票",
+                "invoiceType":0,
+                "invoiceStatus":0,
+                "invoiceSource":0,
                 "invoiceCode":"45678",
                 "invoiceCheckCode":"123456",
                 "invoiceAmount":"6574.57",
@@ -482,7 +484,9 @@ Content-Type：application/json
                 "receiveName":"发票购货方名称D",
                 "invoiceNo":"3421",
                 "invoiceDate":"2023-04-01",
-                "invoiceType":"医院发票",
+                "invoiceType":0,
+                "invoiceStatus":0,
+                "invoiceSource":0,
                 "invoiceCode":"2312",
                 "invoiceCheckCode":"543423",
                 "invoiceAmount":"6574.57",
@@ -763,7 +767,7 @@ Content-Type：application/json
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjM4MzI5MTAwLC0xNDM0ODYzNiwtMzMwNj
-UwNTc1LDE3MjE1MzY0MTYsMTQ3Mjg3ODUsLTE4NjU4NTkzMDgs
-LTk0MTMzNjA5MF19
+eyJoaXN0b3J5IjpbLTE3ODcxNDgzNjYsMjM4MzI5MTAwLC0xND
+M0ODYzNiwtMzMwNjUwNTc1LDE3MjE1MzY0MTYsMTQ3Mjg3ODUs
+LTE4NjU4NTkzMDgsLTk0MTMzNjA5MF19
 -->
