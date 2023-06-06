@@ -713,7 +713,7 @@ Content-Type：application/json
 ### 3.2 发票类型字典
 |code|描述|
 |---|---|
-|0|非医院发票|
+|0|专票|
 |1|医院发票|
 
 ### 3.3 植入上报状态字典
@@ -750,7 +750,7 @@ Content-Type：application/json
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzMwNTYwNjAsLTE0MzQ4NjM2LC0zMz
-A2NTA1NzUsMTcyMTUzNjQxNiwxNDcyODc4NSwtMTg2NTg1OTMw
-OCwtOTQxMzM2MDkwXX0=
+eyJoaXN0b3J5IjpbNjA3NzYzOTY5LC0xNDM0ODYzNiwtMzMwNj
+UwNTc1LDE3MjE1MzY0MTYsMTQ3Mjg3ODUsLTE4NjU4NTkzMDgs
+LTk0MTMzNjA5MF19
 -->
