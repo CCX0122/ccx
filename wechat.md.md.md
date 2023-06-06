@@ -52,7 +52,7 @@
 3. 应用服务商根据文档进行开发和调试
 4. 应用服务器开发测试完成申请对接正式环境 
 ## 2.唯众系统服务端API
-### 2.1获取授权
+### 2.1获取accessToken
 * 说明： 通过此接口获取授权 access_token，调用服务端 API 获取应用资源时需要通过 access_token 来鉴权调用者身份进行授权，7200秒内有效，过期后重新获取 
 
 调用地址：/apiservice/getAccessToken
@@ -740,6 +740,6 @@ Content-Type：application/json
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3Mjg3ODUsLTE4NjU4NTkzMDgsLTk0MT
-MzNjA5MF19
+eyJoaXN0b3J5IjpbLTIxNDYwMzQzNSwxNDcyODc4NSwtMTg2NT
+g1OTMwOCwtOTQxMzM2MDkwXX0=
 -->
