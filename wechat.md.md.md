@@ -65,7 +65,7 @@ Content-Type：application/json
 |---|---|---|---|---|
 |appKey|String|是| HSDFSDAF233432 |唯众系统分配的appKey|
 |appSecret|String|是| 39RSDLFJAFDFSDF |唯众系统分配的appSecret|
-
+|timestamp|String|是| 39RSDLFJAFDFSDF |唯众系统分配的appSecret|
  返回参数
 |名称|类型|示例值|描述|
 |---|---|---|---|
@@ -740,6 +740,6 @@ Content-Type：application/json
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDYwMzQzNSwxNDcyODc4NSwtMTg2NT
+eyJoaXN0b3J5IjpbMTgxMzc3ODc4MCwxNDcyODc4NSwtMTg2NT
 g1OTMwOCwtOTQxMzM2MDkwXX0=
 -->
