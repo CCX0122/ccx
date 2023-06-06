@@ -139,6 +139,7 @@ Body参数
 |lastModifyTime|Timestamp|1685513394|数据最后更新时间|
 |orderNo|String|SA203457256|唯众系统订单号|
 |orderType|Integer|1|订单类型|
+|orderStatus|Integer|1|订单类型|
 |customerId|Integer|2222|代理商编码|
 |receivePerson|String|张三|收货人|
 |address|String|北京市朝阳区XXX|收货地址|
@@ -739,6 +740,6 @@ Content-Type：application/json
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwNzY1Nzg4MSwxNzIxNTM2NDE2LDE0Nz
+eyJoaXN0b3J5IjpbLTMzMDY1MDU3NSwxNzIxNTM2NDE2LDE0Nz
 I4Nzg1LC0xODY1ODU5MzA4LC05NDEzMzYwOTBdfQ==
 -->
