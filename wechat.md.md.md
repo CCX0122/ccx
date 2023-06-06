@@ -740,6 +740,16 @@ Content-Type：application/json
 |---|---|
 |1|正常订单|
 |2|套包订单|
+### 3.7 发票来源字典
+|code|描述|
+|---|---|
+|0|非医院发票|
+|1|医院发票|
+### 3.8 发票状态字典
+|code|描述|
+|---|---|
+|0|作废|
+|1|医院发票|
 ## 4 返回码
 |code|说明|
 |---|---|
@@ -752,7 +762,7 @@ Content-Type：application/json
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTIxMzk1NzAsLTE0MzQ4NjM2LC0zMz
-A2NTA1NzUsMTcyMTUzNjQxNiwxNDcyODc4NSwtMTg2NTg1OTMw
-OCwtOTQxMzM2MDkwXX0=
+eyJoaXN0b3J5IjpbMjQ5NjI1NjMyLC0xNDM0ODYzNiwtMzMwNj
+UwNTc1LDE3MjE1MzY0MTYsMTQ3Mjg3ODUsLTE4NjU4NTkzMDgs
+LTk0MTMzNjA5MF19
 -->
