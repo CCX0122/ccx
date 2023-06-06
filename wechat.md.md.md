@@ -749,7 +749,8 @@ Content-Type：application/json
 |code|描述|
 |---|---|
 |0|作废|
-|1|医院发票|
+|1|红冲|
+|2|正常通过|
 ## 4 返回码
 |code|说明|
 |---|---|
@@ -762,7 +763,7 @@ Content-Type：application/json
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQ5NjI1NjMyLC0xNDM0ODYzNiwtMzMwNj
+eyJoaXN0b3J5IjpbMjM4MzI5MTAwLC0xNDM0ODYzNiwtMzMwNj
 UwNTc1LDE3MjE1MzY0MTYsMTQ3Mjg3ODUsLTE4NjU4NTkzMDgs
 LTk0MTMzNjA5MF19
 -->
