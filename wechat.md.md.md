@@ -261,6 +261,7 @@ Content-Type：application/json
 |shipmentNo|String|1341715|唯众系统发货单号|
 |orderNo|String|SA203457256|唯众系统关联订单号|
 |shipmentType|Integer|1|发货类型编码,详见发货类型字典|
+|orderType|Integer|1|订单类型编码,详见订单类型字典|
 |customerId|Integer|2222|代理商编码|
 |receivePerson|String|张三|收货人|
 |address|String|北京市朝阳区XXX|收货地址|
@@ -292,6 +293,7 @@ Content-Type：application/json
                 "shipmentNo":"34232",
                 "orderNo":"SA2023405685",
                 "shipmentType":1,
+                "orderType":1,
                 "customerId":1,
                 "receivePerson":"张三",
                 "address":"北京市朝阳区XXX",
@@ -325,6 +327,7 @@ Content-Type：application/json
                 "shipmentNo":"366662",
                 "orderNo":"SA202366665",
                 "shipmentType":1,
+                "orderType":1,
                 "customerId":1,
                 "receivePerson":"李四",
                 "address":"北京市朝阳区XXX",
@@ -747,7 +750,7 @@ Content-Type：application/json
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzQ4NjM2LC0zMzA2NTA1NzUsMTcyMT
-UzNjQxNiwxNDcyODc4NSwtMTg2NTg1OTMwOCwtOTQxMzM2MDkw
-XX0=
+eyJoaXN0b3J5IjpbLTE3NzMwNTYwNjAsLTE0MzQ4NjM2LC0zMz
+A2NTA1NzUsMTcyMTUzNjQxNiwxNDcyODc4NSwtMTg2NTg1OTMw
+OCwtOTQxMzM2MDkwXX0=
 -->
