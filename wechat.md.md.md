@@ -138,8 +138,8 @@ Body参数
 |orderDate|Date|2023-05-01 10:00:00|订单日期|
 |lastModifyTime|Timestamp|1685513394|数据最后更新时间|
 |orderNo|String|SA203457256|唯众系统订单号|
-|orderType|Integer|1|订单类型|
-|orderStatus|Integer|1|订单类型|
+|orderType|Integer|1|订单类型详见订单类型字典|
+|orderStatus|Integer|1|订单状态详见订单状态字典|
 |customerId|Integer|2222|代理商编码|
 |receivePerson|String|张三|收货人|
 |address|String|北京市朝阳区XXX|收货地址|
@@ -166,6 +166,7 @@ Body参数
                 "lastModifyTime": 1685513394,
                 "orderNo":"SA2023405685",
                 "orderType":1,
+                "orderStatus":1,
                 "customerId":1,
                 "receivePerson":"张三",
                 "address":"北京市朝阳区XXX",
@@ -190,6 +191,7 @@ Body参数
                 "lastModifyTime": 1685513394,
                 "orderNo":"SA202333385",
                 "orderType":2,
+                "orderStatus":1,
                 "customerId":5,
                 "receivePerson":"李四",
                 "address":"北京市海淀XXX",
@@ -728,6 +730,11 @@ Content-Type：application/json
 |---|---|
 |1|正常订单|
 |2|套包订单|
+### 3.6 订单状态字典
+|code|描述|
+|---|---|
+|1|正常订单|
+|2|套包订单|
 ## 4 返回码
 |code|说明|
 |---|---|
@@ -740,6 +747,7 @@ Content-Type：application/json
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzMDY1MDU3NSwxNzIxNTM2NDE2LDE0Nz
-I4Nzg1LC0xODY1ODU5MzA4LC05NDEzMzYwOTBdfQ==
+eyJoaXN0b3J5IjpbLTE0MzQ4NjM2LC0zMzA2NTA1NzUsMTcyMT
+UzNjQxNiwxNDcyODc4NSwtMTg2NTg1OTMwOCwtOTQxMzM2MDkw
+XX0=
 -->
