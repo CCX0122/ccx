@@ -45,15 +45,15 @@
  说明：该文档为第三方应用接入唯众系统的接口说明文档初稿，后续可能会根据实际开发情况进行调整
 
 
- ## 1. 三方接入流程()
+ ## 1. 三方接入流程
  
 1. 应用服务商向唯众申请接入请求
 2. 唯众系统提供配置信息（包含不限于APPKEY、APPSECRET）、api文档、开发测试环境信息等
 3. 应用服务商根据文档进行开发和调试
 4. 应用服务器开发测试完成申请对接正式环境 
 ## 2.唯众系统服务端API
-### 2.1获取accessToken
-* 说明： 通过此接口获取授权 access_token，调用服务端 API 获取应用资源时需要通过 access_token 来鉴权调用者身份进行授权，7200秒内有效，过期后重新获取 
+### 2.1获取授权和鉴权信息
+#### 2.1.1 说明： 通过此接口获取授权 access_token，调用服务端 API 获取应用资源时需要通过 access_token 来鉴权调用者身份进行授权，7200秒内有效，过期后重新获取 
 
 调用地址：/apiservice/getAccessToken
 请求方式：POST
@@ -767,7 +767,7 @@ Content-Type：application/json
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQ0NzcyNDMzLC0xNzg3MTQ4MzY2LDIzOD
-MyOTEwMCwtMTQzNDg2MzYsLTMzMDY1MDU3NSwxNzIxNTM2NDE2
-LDE0NzI4Nzg1LC0xODY1ODU5MzA4LC05NDEzMzYwOTBdfQ==
+eyJoaXN0b3J5IjpbLTE4MzIxNjc3NDksLTE3ODcxNDgzNjYsMj
+M4MzI5MTAwLC0xNDM0ODYzNiwtMzMwNjUwNTc1LDE3MjE1MzY0
+MTYsMTQ3Mjg3ODUsLTE4NjU4NTkzMDgsLTk0MTMzNjA5MF19
 -->
