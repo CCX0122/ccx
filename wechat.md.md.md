@@ -9,7 +9,7 @@
 <br/>
 
 
-**<center>  （Beta版）**
+**<center>  （Beta1.0版）**
 <br/>
 <br/>
 <br/>
@@ -770,7 +770,7 @@ Content-Type：application/json
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk1MDQzMDc4LC01MDM2MjEwNzcsLTIwOD
+eyJoaXN0b3J5IjpbODY4NjA5NTU3LC01MDM2MjEwNzcsLTIwOD
 QwNjgwMTIsMTM5ODAyOTkwMSwtMTc4NzE0ODM2NiwyMzgzMjkx
 MDAsLTE0MzQ4NjM2LC0zMzA2NTA1NzUsMTcyMTUzNjQxNiwxND
 cyODc4NSwtMTg2NTg1OTMwOCwtOTQxMzM2MDkwXX0=
