@@ -93,8 +93,8 @@ Content-Type：application/json
     }
 }
 ```
-#### 2.1.2 获取秘钥
-
+#### 2.1.2 获取秘钥（待定）
+#### 2.1.3 鉴权方式（待定）
 
 ### 2.2 获取订单数据
 
@@ -768,7 +768,7 @@ Content-Type：application/json
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI3OTQ4MTkwLC0xNzg3MTQ4MzY2LDIzOD
-MyOTEwMCwtMTQzNDg2MzYsLTMzMDY1MDU3NSwxNzIxNTM2NDE2
-LDE0NzI4Nzg1LC0xODY1ODU5MzA4LC05NDEzMzYwOTBdfQ==
+eyJoaXN0b3J5IjpbMTM5ODAyOTkwMSwtMTc4NzE0ODM2NiwyMz
+gzMjkxMDAsLTE0MzQ4NjM2LC0zMzA2NTA1NzUsMTcyMTUzNjQx
+NiwxNDcyODc4NSwtMTg2NTg1OTMwOCwtOTQxMzM2MDkwXX0=
 -->
