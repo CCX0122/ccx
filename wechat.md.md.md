@@ -45,7 +45,7 @@
  说明：该文档为第三方应用接入唯众系统的接口说明文档初稿，后续可能会根据实际开发情况进行调整
 
 
- ## 1. 三方接入流程
+ ## 1. 三方接入流程()
  
 1. 应用服务商向唯众申请接入请求
 2. 唯众系统提供配置信息（包含不限于APPKEY、APPSECRET）、api文档、开发测试环境信息等
@@ -767,7 +767,7 @@ Content-Type：application/json
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODcxNDgzNjYsMjM4MzI5MTAwLC0xND
-M0ODYzNiwtMzMwNjUwNTc1LDE3MjE1MzY0MTYsMTQ3Mjg3ODUs
-LTE4NjU4NTkzMDgsLTk0MTMzNjA5MF19
+eyJoaXN0b3J5IjpbMjQ0NzcyNDMzLC0xNzg3MTQ4MzY2LDIzOD
+MyOTEwMCwtMTQzNDg2MzYsLTMzMDY1MDU3NSwxNzIxNTM2NDE2
+LDE0NzI4Nzg1LC0xODY1ODU5MzA4LC05NDEzMzYwOTBdfQ==
 -->
