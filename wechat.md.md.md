@@ -710,7 +710,7 @@ Content-Type：application/json
     }
 }
 ```
-## 3 数据字典(待讨论)
+## 3 数据字典(实际开发过程中可进行调整)
     说明：数据字典部分需要根据实际开发时进行调整
 ### 3.1 退货类型字典
 |code|描述|
@@ -743,7 +743,7 @@ Content-Type：application/json
 ### 3.6 订单状态字典
 |code|描述|
 |---|---|
-|1||
+|1|已提交|
 |2|待发货|
 |3|已发货|
 |4|已完成|
@@ -770,8 +770,8 @@ Content-Type：application/json
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODQwNjgwMTIsMTM5ODAyOTkwMSwtMT
-c4NzE0ODM2NiwyMzgzMjkxMDAsLTE0MzQ4NjM2LC0zMzA2NTA1
-NzUsMTcyMTUzNjQxNiwxNDcyODc4NSwtMTg2NTg1OTMwOCwtOT
-QxMzM2MDkwXX0=
+eyJoaXN0b3J5IjpbLTUwMzYyMTA3NywtMjA4NDA2ODAxMiwxMz
+k4MDI5OTAxLC0xNzg3MTQ4MzY2LDIzODMyOTEwMCwtMTQzNDg2
+MzYsLTMzMDY1MDU3NSwxNzIxNTM2NDE2LDE0NzI4Nzg1LC0xOD
+Y1ODU5MzA4LC05NDEzMzYwOTBdfQ==
 -->
