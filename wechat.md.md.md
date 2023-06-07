@@ -743,8 +743,10 @@ Content-Type：application/json
 ### 3.6 订单状态字典
 |code|描述|
 |---|---|
-|1|正常订单|
-|2|套包订单|
+|1||
+|2|待发货|
+|3|已发货|
+|4|已完成|
 ### 3.7 发票来源字典
 |code|描述|
 |---|---|
@@ -768,7 +770,8 @@ Content-Type：application/json
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5ODAyOTkwMSwtMTc4NzE0ODM2NiwyMz
-gzMjkxMDAsLTE0MzQ4NjM2LC0zMzA2NTA1NzUsMTcyMTUzNjQx
-NiwxNDcyODc4NSwtMTg2NTg1OTMwOCwtOTQxMzM2MDkwXX0=
+eyJoaXN0b3J5IjpbLTIwODQwNjgwMTIsMTM5ODAyOTkwMSwtMT
+c4NzE0ODM2NiwyMzgzMjkxMDAsLTE0MzQ4NjM2LC0zMzA2NTA1
+NzUsMTcyMTUzNjQxNiwxNDcyODc4NSwtMTg2NTg1OTMwOCwtOT
+QxMzM2MDkwXX0=
 -->
