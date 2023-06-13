@@ -66,19 +66,19 @@ Content-Type：application/json
 |---|---|---|---|---|
 |appKey|String|是| HSDFSDAF233432 |唯众系统分配的appKey|
 |appSecret|String|是| 39RSDLFJAFDFSDF |唯众系统分配的appSecret|
-|times|String|是| 39RSDLFJAFDFSDF |唯众系统分配的appSecret|
+|timeSteamp|String|是| 1234567890 |时间戳毫秒|
  返回参数
 |名称|类型|示例值|描述|
 |---|---|---|---|
 |code|Integer|0|返回码|
 |msg|String|success|成功|
-|data|AccessToken|-|accessToken信息,见下方AccessToken|
+|data|AesEntity|-|aes信息,见下方AesEntity|
 
- AccessToken字段信息
+ AesEntity字段信息
 |名称|类型|示例值|描述|
 |---|---|---|---|
-|accessToken|String|fghjkrtyuifgbn5678|生成的授权码|
-|expires|Integer|7200|accessToken过期时间，单位秒，7200秒以内有效，过期重新获取|
+|aesKey|String|fghjkrtyuifgbn5678|生成的授权码|
+|expires|Integer|7200|aesKey过期时间，单位秒，7200秒以内有效，过期重新获取|
 
 
 > 返回示例
@@ -771,9 +771,9 @@ Content-Type：application/json
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxMDcwNDM5Myw4Njg2MDk1NTcsLTUwMz
-YyMTA3NywtMjA4NDA2ODAxMiwxMzk4MDI5OTAxLC0xNzg3MTQ4
-MzY2LDIzODMyOTEwMCwtMTQzNDg2MzYsLTMzMDY1MDU3NSwxNz
-IxNTM2NDE2LDE0NzI4Nzg1LC0xODY1ODU5MzA4LC05NDEzMzYw
-OTBdfQ==
+eyJoaXN0b3J5IjpbLTExNjMwMzQyNzksODY4NjA5NTU3LC01MD
+M2MjEwNzcsLTIwODQwNjgwMTIsMTM5ODAyOTkwMSwtMTc4NzE0
+ODM2NiwyMzgzMjkxMDAsLTE0MzQ4NjM2LC0zMzA2NTA1NzUsMT
+cyMTUzNjQxNiwxNDcyODc4NSwtMTg2NTg1OTMwOCwtOTQxMzM2
+MDkwXX0=
 -->
