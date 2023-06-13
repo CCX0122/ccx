@@ -89,7 +89,7 @@ Content-Type：application/json
   "msg": "success",
   "data": 
     {
-      "accessToken": "fghjkrtyuifgbn5678",
+      "aesKey": "fghjkrtyuifgbn5678",
       "expires": 7200
     }
 }
@@ -105,11 +105,6 @@ Content-Type：application/json
 请求方式：POST			 
 Content-Type：application/json
 返回类型：JSON
- Header参数
-
-|名称|类型|必填|示例值|描述|
-|---|---|---|---|---|
-|accessToken|String|是| fghjkrtyuifgbn5678 |授权信息|
 
 Body参数
 
@@ -118,9 +113,9 @@ Body参数
 |isNewData|Integer|是| 0|是否为增量数据 0-全量数据  1-增量数据|
 |page|Integer|否| 1|页码，1开始 如果isNewData==0 此项必填|
 |rows|Integer|否| 500|每页条数，最大值1000 如果isNewData==0 此项必填|
-|customerId|Integer|否| 1|代理商编码，查询某个代理商的数据|
 |startDate|String|否| 2023-01-01|开始时间|
 |endDate|String|否| 2023-01-01|结束时间|
+|sign|String|是| dsfsdjfdfadf|验签字段，按照一点的组合顺序进行MD5加密|
 
  返回参数
 |名称|类型|示例值|描述|
@@ -771,7 +766,7 @@ Content-Type：application/json
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjMwMzQyNzksODY4NjA5NTU3LC01MD
+eyJoaXN0b3J5IjpbLTIwMTg4MjAzNzgsODY4NjA5NTU3LC01MD
 M2MjEwNzcsLTIwODQwNjgwMTIsMTM5ODAyOTkwMSwtMTc4NzE0
 ODM2NiwyMzgzMjkxMDAsLTE0MzQ4NjM2LC0zMzA2NTA1NzUsMT
 cyMTUzNjQxNiwxNDcyODc4NSwtMTg2NTg1OTMwOCwtOTQxMzM2
