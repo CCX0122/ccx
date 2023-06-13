@@ -53,10 +53,10 @@
 4. 应用服务器开发测试完成申请对接正式环境 
 ## 2.唯众系统服务端API
 ### 2.1获取授权和鉴权信息
-#### 2.1.1 获取accessToken
-说明： 通过此接口获取授权 accessToken，调用服务端 API 获取应用资源时需要通过 accessToken 来鉴权调用者身份进行授权，7200秒内有效，过期后重新获取 
+#### 2.1.1 获取AES秘钥
+说明： 通过此接口获取加密秘钥，服务端返回的数据data为密文，需解密后进行
 
-调用地址：/apiservice/getAccessToken
+调用地址：/apiservice/getAes
 请求方式：POST
 Content-Type：application/json
 返回类型：JSON
@@ -66,6 +66,7 @@ Content-Type：application/json
 |---|---|---|---|---|
 |appKey|String|是| HSDFSDAF233432 |唯众系统分配的appKey|
 |appSecret|String|是| 39RSDLFJAFDFSDF |唯众系统分配的appSecret|
+|times|String|是| 39RSDLFJAFDFSDF |唯众系统分配的appSecret|
  返回参数
 |名称|类型|示例值|描述|
 |---|---|---|---|
@@ -770,8 +771,9 @@ Content-Type：application/json
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY4NjA5NTU3LC01MDM2MjEwNzcsLTIwOD
-QwNjgwMTIsMTM5ODAyOTkwMSwtMTc4NzE0ODM2NiwyMzgzMjkx
-MDAsLTE0MzQ4NjM2LC0zMzA2NTA1NzUsMTcyMTUzNjQxNiwxND
-cyODc4NSwtMTg2NTg1OTMwOCwtOTQxMzM2MDkwXX0=
+eyJoaXN0b3J5IjpbLTMxMDcwNDM5Myw4Njg2MDk1NTcsLTUwMz
+YyMTA3NywtMjA4NDA2ODAxMiwxMzk4MDI5OTAxLC0xNzg3MTQ4
+MzY2LDIzODMyOTEwMCwtMTQzNDg2MzYsLTMzMDY1MDU3NSwxNz
+IxNTM2NDE2LDE0NzI4Nzg1LC0xODY1ODU5MzA4LC05NDEzMzYw
+OTBdfQ==
 -->
