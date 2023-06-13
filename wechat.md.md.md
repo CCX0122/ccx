@@ -221,11 +221,6 @@ Body参数
 请求方式：POST			 
 Content-Type：application/json
 返回类型：JSON
- Header参数
-
-|名称|类型|必填|示例值|描述|
-|---|---|---|---|---|
-|accessToken|String|是| fghjkrtyuifgbn5678 |授权信息|
 
  Body参数
 
@@ -237,6 +232,7 @@ Content-Type：application/json
 |customerId|Integer|否| 1|代理商编码，查询某个代理商的数据|
 |startDate|String|否| 2023-01-01|开始时间|
 |endDate|String|否| 2023-01-01|结束时间|
+|sign|String|是| dsfsdjfdfadf|验签字段，按照一点的组合顺序进行MD5加密|
 
 
  返回参数
@@ -365,11 +361,6 @@ Content-Type：application/json
 请求方式：POST			 
 Content-Type：application/json
 返回类型：JSON
- Header参数
-
-|名称|类型|必填|示例值|描述|
-|---|---|---|---|---|
-|accessToken|String|是| fghjkrtyuifgbn5678 |授权信息|
 
  Body参数
 
@@ -381,6 +372,7 @@ Content-Type：application/json
 |customerId|Integer|否| 1|代理商编码，查询某个代理商的数据|
 |startDate|String|否| 2023-01-01|开始时间|
 |endDate|String|否| 2023-01-01|结束时间|
+|sign|String|是| dsfsdjfdfadf|验签字段，按照一点的组合顺序进行MD5加密|
 
 
  返回参数
@@ -524,11 +516,6 @@ Content-Type：application/json
 请求方式：POST			 
 Content-Type：application/json
 返回类型：JSON
- Header参数
-
-|名称|类型|必填|示例值|描述|
-|---|---|---|---|---|
-|accessToken|String|是| fghjkrtyuifgbn5678 |授权信息|
 
  Body参数
 
@@ -540,6 +527,7 @@ Content-Type：application/json
 |customerId|Integer|否| 1|代理商编码，查询某个代理商的数据|
 |startDate|String|否| 2023-01-01|开始时间|
 |endDate|String|否| 2023-05-01|结束时间|
+|sign|String|是| dsfsdjfdfadf|验签字段，按照一点的组合顺序进行MD5加密|
 
 
  返回参数
@@ -644,11 +632,6 @@ Content-Type：application/json
 请求方式：POST			 
 Content-Type：application/json
 返回类型：JSON
- Header参数
-
-|名称|类型|必填|示例值|描述|
-|---|---|---|---|---|
-|accessToken|String|是| fghjkrtyuifgbn5678 |授权信息|
 
  Body参数
 
@@ -660,7 +643,7 @@ Content-Type：application/json
 |customerId|Integer|否| 1|代理商编码，查询某个代理商的数据|
 |startDate|String|否| 2023-01-01|开始时间|
 |endDate|String|否| 2023-05-01|结束时间|
-
+|sign|String|是| dsfsdjfdfadf|验签字段，按照一点的组合顺序进行MD5加密|
 
  返回参数
 |名称|类型|示例值|描述|
@@ -766,9 +749,9 @@ Content-Type：application/json
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTg4MjAzNzgsODY4NjA5NTU3LC01MD
-M2MjEwNzcsLTIwODQwNjgwMTIsMTM5ODAyOTkwMSwtMTc4NzE0
-ODM2NiwyMzgzMjkxMDAsLTE0MzQ4NjM2LC0zMzA2NTA1NzUsMT
-cyMTUzNjQxNiwxNDcyODc4NSwtMTg2NTg1OTMwOCwtOTQxMzM2
-MDkwXX0=
+eyJoaXN0b3J5IjpbLTI2NTM0MzE4OCw4Njg2MDk1NTcsLTUwMz
+YyMTA3NywtMjA4NDA2ODAxMiwxMzk4MDI5OTAxLC0xNzg3MTQ4
+MzY2LDIzODMyOTEwMCwtMTQzNDg2MzYsLTMzMDY1MDU3NSwxNz
+IxNTM2NDE2LDE0NzI4Nzg1LC0xODY1ODU5MzA4LC05NDEzMzYw
+OTBdfQ==
 -->
