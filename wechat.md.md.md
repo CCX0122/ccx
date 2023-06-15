@@ -54,7 +54,7 @@
 ## 2.唯众系统服务端API
 ### 2.1获取授权和鉴权信息
 #### 2.1.1 获取AES秘钥
-说明： 通过此接口获取加密秘钥，服务端返回的数据data为密文，需解密后进行
+说明： 通过此接口获取加密秘钥，服务端返回的数据data为密文，需解密后进行，请求此接口就会更新aes 秘钥，此秘钥会在月底最后一天wan
 
 调用地址：/apiservice/getAes
 请求方式：POST
@@ -262,7 +262,6 @@ Content-Type：application/json
 |isNewData|Integer|是| 0|是否为增量数据 0-全量数据  1-增量数据|
 |page|Integer|否| 1|页码，1开始 如果isNewData==0 此项必填|
 |rows|Integer|否| 500|每页条数，最大值1000 如果isNewData==0 此项必填|
-|customerId|Integer|否| 1|代理商编码，查询某个代理商的数据|
 |startDate|String|否| 2023-01-01|开始时间|
 |endDate|String|否| 2023-01-01|结束时间|
 
@@ -781,9 +780,10 @@ Content-Type：application/json
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzOTkzNjI2OSwxMjU3NTM3ODEzLDczNj
-cxNDM5NywtMjY1MzQzMTg4LDg2ODYwOTU1NywtNTAzNjIxMDc3
-LC0yMDg0MDY4MDEyLDEzOTgwMjk5MDEsLTE3ODcxNDgzNjYsMj
-M4MzI5MTAwLC0xNDM0ODYzNiwtMzMwNjUwNTc1LDE3MjE1MzY0
-MTYsMTQ3Mjg3ODUsLTE4NjU4NTkzMDgsLTk0MTMzNjA5MF19
+eyJoaXN0b3J5IjpbNDc0MDU3MDY0LDEwMzk5MzYyNjksMTI1Nz
+UzNzgxMyw3MzY3MTQzOTcsLTI2NTM0MzE4OCw4Njg2MDk1NTcs
+LTUwMzYyMTA3NywtMjA4NDA2ODAxMiwxMzk4MDI5OTAxLC0xNz
+g3MTQ4MzY2LDIzODMyOTEwMCwtMTQzNDg2MzYsLTMzMDY1MDU3
+NSwxNzIxNTM2NDE2LDE0NzI4Nzg1LC0xODY1ODU5MzA4LC05ND
+EzMzYwOTBdfQ==
 -->
