@@ -54,7 +54,7 @@
 ## 2.唯众系统服务端API
 ### 2.1获取授权和鉴权信息
 #### 2.1.1 获取AES秘钥
-说明： 通过此接口获取加密秘钥，服务端返回的数据data为密文，需解密后进行，请求此接口就会更新aes 秘钥，此秘钥会在月底最后一天wan
+说明： 通过此接口获取加密秘钥，服务端返回的数据data为密文，需解密后进行，请求此接口就会更新aes 秘钥，此秘钥会在月底最后一天晚上12点前进行强制更换
 
 调用地址：/apiservice/getAes
 请求方式：POST
@@ -92,7 +92,7 @@ Content-Type：application/json
 }
 ```
 #### 2.1.2 获取RSA秘钥
-说明： 通过此接口获取加密秘钥，服务端返回的数据data为密文，需解密后进行
+说明： 通过此接口获取加密秘钥，服务端返回的数据data为密文，需解密后进行，请求此接口就会更新rsa 秘钥，此秘钥会在月底最后一天晚上12点前进行强制更换
 
 调用地址：/apiservice/getRsa
 请求方式：POST
@@ -780,10 +780,10 @@ Content-Type：application/json
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc0MDU3MDY0LDEwMzk5MzYyNjksMTI1Nz
-UzNzgxMyw3MzY3MTQzOTcsLTI2NTM0MzE4OCw4Njg2MDk1NTcs
-LTUwMzYyMTA3NywtMjA4NDA2ODAxMiwxMzk4MDI5OTAxLC0xNz
-g3MTQ4MzY2LDIzODMyOTEwMCwtMTQzNDg2MzYsLTMzMDY1MDU3
-NSwxNzIxNTM2NDE2LDE0NzI4Nzg1LC0xODY1ODU5MzA4LC05ND
-EzMzYwOTBdfQ==
+eyJoaXN0b3J5IjpbLTE2NTAzOTMyMDgsMTAzOTkzNjI2OSwxMj
+U3NTM3ODEzLDczNjcxNDM5NywtMjY1MzQzMTg4LDg2ODYwOTU1
+NywtNTAzNjIxMDc3LC0yMDg0MDY4MDEyLDEzOTgwMjk5MDEsLT
+E3ODcxNDgzNjYsMjM4MzI5MTAwLC0xNDM0ODYzNiwtMzMwNjUw
+NTc1LDE3MjE1MzY0MTYsMTQ3Mjg3ODUsLTE4NjU4NTkzMDgsLT
+k0MTMzNjA5MF19
 -->
