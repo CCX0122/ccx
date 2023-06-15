@@ -94,7 +94,7 @@ Content-Type：application/json
 #### 2.1.2 获取RSA秘钥
 说明： 通过此接口获取加密秘钥，服务端返回的数据data为密文，需解密后进行
 
-调用地址：/apiservice/getAes
+调用地址：/apiservice/getRsa
 请求方式：POST
 Content-Type：application/json
 返回类型：JSON
@@ -110,7 +110,7 @@ Content-Type：application/json
 |---|---|---|---|
 |code|Integer|0|返回码|
 |msg|String|success|成功|
-|data|AesEntity|-|aes信息,见下方AesEntity|
+|data|RsaEntity|-|aes信息,见下方AesEntity|
 
  AesEntity字段信息
 |名称|类型|示例值|描述|
@@ -782,7 +782,7 @@ Content-Type：application/json
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzNTg3MjYyOSw3MzY3MTQzOTcsLTI2NT
+eyJoaXN0b3J5IjpbMTI1NzUzNzgxMyw3MzY3MTQzOTcsLTI2NT
 M0MzE4OCw4Njg2MDk1NTcsLTUwMzYyMTA3NywtMjA4NDA2ODAx
 MiwxMzk4MDI5OTAxLC0xNzg3MTQ4MzY2LDIzODMyOTEwMCwtMT
 QzNDg2MzYsLTMzMDY1MDU3NSwxNzIxNTM2NDE2LDE0NzI4Nzg1
