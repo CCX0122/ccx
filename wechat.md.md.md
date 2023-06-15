@@ -281,7 +281,7 @@ Content-Type：application/json
  ShipmentData
 |名称|类型|示例值|描述|
 |---|---|---|---|
-|shipmentDate|Date|2023-05-01 10:00:00|发货日期|
+|shipmentDate|String|2023-05-01 10:00:00|发货日期|
 |shipmentNo|String|1341715|唯众系统发货单号|
 |orderNo|String|SA203457256|唯众系统关联订单号|
 |shipmentType|Integer|1|发货类型编码,详见发货类型字典|
@@ -780,10 +780,10 @@ Content-Type：application/json
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4NDQ2NDQ0LC02MzIzMjcxNjEsMTAzOT
-kzNjI2OSwxMjU3NTM3ODEzLDczNjcxNDM5NywtMjY1MzQzMTg4
-LDg2ODYwOTU1NywtNTAzNjIxMDc3LC0yMDg0MDY4MDEyLDEzOT
-gwMjk5MDEsLTE3ODcxNDgzNjYsMjM4MzI5MTAwLC0xNDM0ODYz
-NiwtMzMwNjUwNTc1LDE3MjE1MzY0MTYsMTQ3Mjg3ODUsLTE4Nj
-U4NTkzMDgsLTk0MTMzNjA5MF19
+eyJoaXN0b3J5IjpbMjE3NDQzNjEsMTE4NDQ2NDQ0LC02MzIzMj
+cxNjEsMTAzOTkzNjI2OSwxMjU3NTM3ODEzLDczNjcxNDM5Nywt
+MjY1MzQzMTg4LDg2ODYwOTU1NywtNTAzNjIxMDc3LC0yMDg0MD
+Y4MDEyLDEzOTgwMjk5MDEsLTE3ODcxNDgzNjYsMjM4MzI5MTAw
+LC0xNDM0ODYzNiwtMzMwNjUwNTc1LDE3MjE1MzY0MTYsMTQ3Mj
+g3ODUsLTE4NjU4NTkzMDgsLTk0MTMzNjA5MF19
 -->
