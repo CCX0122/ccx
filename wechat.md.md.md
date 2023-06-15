@@ -291,6 +291,7 @@ Content-Type：application/json
 |address|String|北京市朝阳区XXX|收货地址|
 |phone|String|13112341234|电话|
 |lastModifyTime|Long|1685513394|数据最后更新时间|
+|id|Integer|168|数据唯一值|
 |detailList|ShipmentDetail|-|细单数据详见下方ShipmentDetail|
  ShipmentDetail
 |名称|类型|示例值|描述|
@@ -780,10 +781,10 @@ Content-Type：application/json
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE3NDQzNjEsMTE4NDQ2NDQ0LC02MzIzMj
-cxNjEsMTAzOTkzNjI2OSwxMjU3NTM3ODEzLDczNjcxNDM5Nywt
-MjY1MzQzMTg4LDg2ODYwOTU1NywtNTAzNjIxMDc3LC0yMDg0MD
-Y4MDEyLDEzOTgwMjk5MDEsLTE3ODcxNDgzNjYsMjM4MzI5MTAw
-LC0xNDM0ODYzNiwtMzMwNjUwNTc1LDE3MjE1MzY0MTYsMTQ3Mj
-g3ODUsLTE4NjU4NTkzMDgsLTk0MTMzNjA5MF19
+eyJoaXN0b3J5IjpbLTIwOTExNDQzMjQsMTE4NDQ2NDQ0LC02Mz
+IzMjcxNjEsMTAzOTkzNjI2OSwxMjU3NTM3ODEzLDczNjcxNDM5
+NywtMjY1MzQzMTg4LDg2ODYwOTU1NywtNTAzNjIxMDc3LC0yMD
+g0MDY4MDEyLDEzOTgwMjk5MDEsLTE3ODcxNDgzNjYsMjM4MzI5
+MTAwLC0xNDM0ODYzNiwtMzMwNjUwNTc1LDE3MjE1MzY0MTYsMT
+Q3Mjg3ODUsLTE4NjU4NTkzMDgsLTk0MTMzNjA5MF19
 -->
