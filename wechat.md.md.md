@@ -298,7 +298,7 @@ Content-Type：application/json
 |shipmentDetailNo|String|34232001|唯众系统发货细单号|
 |orderDetailNo|String|SA2023405685001|唯众系统订单细单号|
 |productModel|String|1-14-1W|产品规格型号|
-|validDate|Date|2030-01-01|有效期|
+|validDate|String|2030-01-01|有效期|
 |lot|String|DEF3425|批号|
 |sn|String|34567|序列号|
 |quantity|Integer|14|数量|
@@ -780,10 +780,10 @@ Content-Type：application/json
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzMjMyNzE2MSwxMDM5OTM2MjY5LDEyNT
-c1Mzc4MTMsNzM2NzE0Mzk3LC0yNjUzNDMxODgsODY4NjA5NTU3
-LC01MDM2MjEwNzcsLTIwODQwNjgwMTIsMTM5ODAyOTkwMSwtMT
-c4NzE0ODM2NiwyMzgzMjkxMDAsLTE0MzQ4NjM2LC0zMzA2NTA1
-NzUsMTcyMTUzNjQxNiwxNDcyODc4NSwtMTg2NTg1OTMwOCwtOT
-QxMzM2MDkwXX0=
+eyJoaXN0b3J5IjpbLTIwOTY1NTE5MCwtNjMyMzI3MTYxLDEwMz
+k5MzYyNjksMTI1NzUzNzgxMyw3MzY3MTQzOTcsLTI2NTM0MzE4
+OCw4Njg2MDk1NTcsLTUwMzYyMTA3NywtMjA4NDA2ODAxMiwxMz
+k4MDI5OTAxLC0xNzg3MTQ4MzY2LDIzODMyOTEwMCwtMTQzNDg2
+MzYsLTMzMDY1MDU3NSwxNzIxNTM2NDE2LDE0NzI4Nzg1LC0xOD
+Y1ODU5MzA4LC05NDEzMzYwOTBdfQ==
 -->
