@@ -290,7 +290,7 @@ Content-Type：application/json
 |receivePerson|String|张三|收货人|
 |address|String|北京市朝阳区XXX|收货地址|
 |phone|String|13112341234|电话|
-|lastModifyTime|Timestamp|1685513394|数据最后更新时间|
+|lastModifyTime|Long|1685513394|数据最后更新时间|
 |detailList|ShipmentDetail|-|细单数据详见下方ShipmentDetail|
  ShipmentDetail
 |名称|类型|示例值|描述|
@@ -780,10 +780,10 @@ Content-Type：application/json
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTY1NTE5MCwtNjMyMzI3MTYxLDEwMz
-k5MzYyNjksMTI1NzUzNzgxMyw3MzY3MTQzOTcsLTI2NTM0MzE4
-OCw4Njg2MDk1NTcsLTUwMzYyMTA3NywtMjA4NDA2ODAxMiwxMz
-k4MDI5OTAxLC0xNzg3MTQ4MzY2LDIzODMyOTEwMCwtMTQzNDg2
-MzYsLTMzMDY1MDU3NSwxNzIxNTM2NDE2LDE0NzI4Nzg1LC0xOD
-Y1ODU5MzA4LC05NDEzMzYwOTBdfQ==
+eyJoaXN0b3J5IjpbMTE4NDQ2NDQ0LC02MzIzMjcxNjEsMTAzOT
+kzNjI2OSwxMjU3NTM3ODEzLDczNjcxNDM5NywtMjY1MzQzMTg4
+LDg2ODYwOTU1NywtNTAzNjIxMDc3LC0yMDg0MDY4MDEyLDEzOT
+gwMjk5MDEsLTE3ODcxNDgzNjYsMjM4MzI5MTAwLC0xNDM0ODYz
+NiwtMzMwNjUwNTc1LDE3MjE1MzY0MTYsMTQ3Mjg3ODUsLTE4Nj
+U4NTkzMDgsLTk0MTMzNjA5MF19
 -->
