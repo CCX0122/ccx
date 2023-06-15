@@ -66,7 +66,7 @@ Content-Type：application/json
 |---|---|---|---|---|
 |appKey|String|是| HSDFSDAF233432 |唯众系统分配的appKey|
 |appSecret|String|是| 39RSDLFJAFDFSDF |唯众系统分配的appSecret|
-|timeSteamp|String|是| 1234567890 |时间戳毫秒|
+
  返回参数
 |名称|类型|示例值|描述|
 |---|---|---|---|
@@ -77,9 +77,7 @@ Content-Type：application/json
  AesEntity字段信息
 |名称|类型|示例值|描述|
 |---|---|---|---|
-|aesKey|String|fghjkrtyuifgbn5678|生成的授权码|
-|expires|Integer|7200|aesKey过期时间，单位秒，7200秒以内有效，过期重新获取|
-
+|aesKey|String|fghjkrtyuifgbn5678|生成的AesKey|
 
 > 返回示例
 
@@ -89,13 +87,48 @@ Content-Type：application/json
   "msg": "success",
   "data": 
     {
-      "aesKey": "fghjkrtyuifgbn5678",
-      "expires": 7200
+      "aesKey": "fghjkrtyuifgbn5678"
     }
 }
 ```
-#### 2.1.2 获取秘钥（待定）
-#### 2.1.3 鉴权方式（待定）
+#### 2.1.2 获取秘钥
+说明： 通过此接口获取加密秘钥，服务端返回的数据data为密文，需解密后进行
+
+调用地址：/apiservice/getAes
+请求方式：POST
+Content-Type：application/json
+返回类型：JSON
+ Body参数
+
+|名称|类型|必填|示例值|描述|
+|---|---|---|---|---|
+|appKey|String|是| HSDFSDAF233432 |唯众系统分配的appKey|
+|appSecret|String|是| 39RSDLFJAFDFSDF |唯众系统分配的appSecret|
+
+ 返回参数
+|名称|类型|示例值|描述|
+|---|---|---|---|
+|code|Integer|0|返回码|
+|msg|String|success|成功|
+|data|AesEntity|-|aes信息,见下方AesEntity|
+
+ AesEntity字段信息
+|名称|类型|示例值|描述|
+|---|---|---|---|
+|aesKey|String|fghjkrtyuifgbn5678|生成的AesKey|
+
+> 返回示例
+
+```json
+{
+  "code": 0,
+  "msg": "success",
+  "data": 
+    {
+      "aesKey": "fghjkrtyuifgbn5678"
+    }
+}
+```
 
 ### 2.2 获取订单数据
 
@@ -749,9 +782,9 @@ Content-Type：application/json
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2NTM0MzE4OCw4Njg2MDk1NTcsLTUwMz
-YyMTA3NywtMjA4NDA2ODAxMiwxMzk4MDI5OTAxLC0xNzg3MTQ4
-MzY2LDIzODMyOTEwMCwtMTQzNDg2MzYsLTMzMDY1MDU3NSwxNz
-IxNTM2NDE2LDE0NzI4Nzg1LC0xODY1ODU5MzA4LC05NDEzMzYw
-OTBdfQ==
+eyJoaXN0b3J5IjpbNzM2NzE0Mzk3LC0yNjUzNDMxODgsODY4Nj
+A5NTU3LC01MDM2MjEwNzcsLTIwODQwNjgwMTIsMTM5ODAyOTkw
+MSwtMTc4NzE0ODM2NiwyMzgzMjkxMDAsLTE0MzQ4NjM2LC0zMz
+A2NTA1NzUsMTcyMTUzNjQxNiwxNDcyODc4NSwtMTg2NTg1OTMw
+OCwtOTQxMzM2MDkwXX0=
 -->
