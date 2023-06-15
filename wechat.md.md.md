@@ -110,7 +110,7 @@ Content-Type：application/json
 |---|---|---|---|
 |code|Integer|0|返回码|
 |msg|String|success|成功|
-|data|RsaEntity|-|rsa信息,见下方RsaEntity|
+|data|RsaEntity|-|返回的数据是密文需要使用aes界面,下面的是解密后的数据格式,rsa信息,见下方RsaEntity|
 
  RsaEntity字段信息
 |名称|类型|示例值|描述|
@@ -265,7 +265,6 @@ Content-Type：application/json
 |customerId|Integer|否| 1|代理商编码，查询某个代理商的数据|
 |startDate|String|否| 2023-01-01|开始时间|
 |endDate|String|否| 2023-01-01|结束时间|
-|sign|String|是| dsfsdjfdfadf|验签字段，按照一点的组合顺序进行MD5加密|
 
 
  返回参数
@@ -273,7 +272,7 @@ Content-Type：application/json
 |---|---|---|---|
 |code|Integer|0|返回码|
 |msg|String|success|成功|
-|data|JsonData|-|数据详见下方JsonData|
+|data|JsonData|-|返回的数据是密文需要使用aes解密,下面的是解密后的数据格式,数据详见下方JsonData|
 
  JsonData
 |名称|类型|示例值|描述|
@@ -782,7 +781,7 @@ Content-Type：application/json
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4NTcyOTg2MywxMjU3NTM3ODEzLDczNj
+eyJoaXN0b3J5IjpbMTAzOTkzNjI2OSwxMjU3NTM3ODEzLDczNj
 cxNDM5NywtMjY1MzQzMTg4LDg2ODYwOTU1NywtNTAzNjIxMDc3
 LC0yMDg0MDY4MDEyLDEzOTgwMjk5MDEsLTE3ODcxNDgzNjYsMj
 M4MzI5MTAwLC0xNDM0ODYzNiwtMzMwNjUwNTc1LDE3MjE1MzY0
