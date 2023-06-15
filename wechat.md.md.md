@@ -72,7 +72,7 @@ Content-Type：application/json
 |---|---|---|---|
 |code|Integer|0|返回码|
 |msg|String|success|成功|
-|data|AesEntity|-|aes信息,见下方AesEntity|
+|data|AesEntity|-|返回的数据是密文需要使用aes界面,下面的是解密后的数据格式,aes信息,见下方AesEntity|
 
  AesEntity字段信息
 |名称|类型|示例值|描述|
@@ -115,7 +115,7 @@ Content-Type：application/json
  RsaEntity字段信息
 |名称|类型|示例值|描述|
 |---|---|---|---|
-|aesKey|String|fghjkrtyuifgbn5678|生成的AesKey|
+|rsaPrivate|String|MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBALCIydYi717O+CgMlngBL14QLnDhpoW4hZQANnEEzfk0d+dKeHY6DrmZKBWceca5OL85w3XUUuAMhAspK89rE6XX9n63rvmsgQTSV7oYEHJDO6fOcLeeCZPH9hLaZsLg1yjp4lQ3g5wNsz56Rwl37cKFlL6c0W5stMMRhP/JRYevAgMBAAECgYAV/r0TIqArcmMl7keTJSanNCHtK5hJYe+2vH4L/9q/+YMU/MjchihOhKAjbS8ZDPvei45ocG9w/e43y8XrHn7AflxiRXp02UPq48QxBq1xIG/2LG4HbuyfTZvSy8yv42bz6a88ciQs3iVsGwM4YFk22dmDEemDQwcM8T9ap7FY4QJBAOnVu15TqPWfLblCy8iXlq/K1bnpdFHSgRix3vkMqo3+fAhvtozExjhVeB1fC7mpzBRle16R+YKgZqmIiIZglGECQQDBRJf2h6bQaNmpvBJiZMiEn9giaSNyNhgN3YedtjcboDebO0bLyTpeDKUp7yyUgKca+PbrpmTEYqV6HRsSLJYPAkEAzfu0ERS7OptdCNx5bRtz5ylTenDXQZigliNh2pu4xlqN4lSeR4SzZD6OD7mBN60GlFUNBzKpy9MGfINEWLNNIQJAdlA/lzRD8qG9XiM8Pe/ksQwJjEdA49Ipt5M+SlYaNldGs0j+dhKiIKEtGxbH+8Emi2SOBITAe1jIZJEc2WtiEQJBAL7vjZy3A9v8Y83ReqBBZDlH7bdsALwd+ky7yuOUgbOtMt4lPUnLXl7AM8VhFyFXNvh4/bUh77o3osmQjhTKXv0=|生成的Rsa私钥|
 
 > 返回示例
 
@@ -125,7 +125,7 @@ Content-Type：application/json
   "msg": "success",
   "data": 
     {
-      "aesKey": "fghjkrtyuifgbn5678"
+      "rsaPrivate": "MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBALCIydYi717O+CgMlngBL14QLnDhpoW4hZQANnEEzfk0d+dKeHY6DrmZKBWceca5OL85w3XUUuAMhAspK89rE6XX9n63rvmsgQTSV7oYEHJDO6fOcLeeCZPH9hLaZsLg1yjp4lQ3g5wNsz56Rwl37cKFlL6c0W5stMMRhP/JRYevAgMBAAECgYAV/r0TIqArcmMl7keTJSanNCHtK5hJYe+2vH4L/9q/+YMU/MjchihOhKAjbS8ZDPvei45ocG9w/e43y8XrHn7AflxiRXp02UPq48QxBq1xIG/2LG4HbuyfTZvSy8yv42bz6a88ciQs3iVsGwM4YFk22dmDEemDQwcM8T9ap7FY4QJBAOnVu15TqPWfLblCy8iXlq/K1bnpdFHSgRix3vkMqo3+fAhvtozExjhVeB1fC7mpzBRle16R+YKgZqmIiIZglGECQQDBRJf2h6bQaNmpvBJiZMiEn9giaSNyNhgN3YedtjcboDebO0bLyTpeDKUp7yyUgKca+PbrpmTEYqV6HRsSLJYPAkEAzfu0ERS7OptdCNx5bRtz5ylTenDXQZigliNh2pu4xlqN4lSeR4SzZD6OD7mBN60GlFUNBzKpy9MGfINEWLNNIQJAdlA/lzRD8qG9XiM8Pe/ksQwJjEdA49Ipt5M+SlYaNldGs0j+dhKiIKEtGxbH+8Emi2SOBITAe1jIZJEc2WtiEQJBAL7vjZy3A9v8Y83ReqBBZDlH7bdsALwd+ky7yuOUgbOtMt4lPUnLXl7AM8VhFyFXNvh4/bUh77o3osmQjhTKXv0="
     }
 }
 ```
@@ -782,7 +782,7 @@ Content-Type：application/json
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwNTY0MzA0NCwxMjU3NTM3ODEzLDczNj
+eyJoaXN0b3J5IjpbMTA4NTcyOTg2MywxMjU3NTM3ODEzLDczNj
 cxNDM5NywtMjY1MzQzMTg4LDg2ODYwOTU1NywtNTAzNjIxMDc3
 LC0yMDg0MDY4MDEyLDEzOTgwMjk5MDEsLTE3ODcxNDgzNjYsMj
 M4MzI5MTAwLC0xNDM0ODYzNiwtMzMwNjUwNTc1LDE3MjE1MzY0
