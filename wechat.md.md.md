@@ -110,9 +110,9 @@ Content-Type：application/json
 |---|---|---|---|
 |code|Integer|0|返回码|
 |msg|String|success|成功|
-|data|RsaEntity|-|aes信息,见下方AesEntity|
+|data|RsaEntity|-|rsa信息,见下方RsaEntity|
 
- AesEntity字段信息
+ RsaEntity字段信息
 |名称|类型|示例值|描述|
 |---|---|---|---|
 |aesKey|String|fghjkrtyuifgbn5678|生成的AesKey|
@@ -782,9 +782,9 @@ Content-Type：application/json
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1NzUzNzgxMyw3MzY3MTQzOTcsLTI2NT
-M0MzE4OCw4Njg2MDk1NTcsLTUwMzYyMTA3NywtMjA4NDA2ODAx
-MiwxMzk4MDI5OTAxLC0xNzg3MTQ4MzY2LDIzODMyOTEwMCwtMT
-QzNDg2MzYsLTMzMDY1MDU3NSwxNzIxNTM2NDE2LDE0NzI4Nzg1
-LC0xODY1ODU5MzA4LC05NDEzMzYwOTBdfQ==
+eyJoaXN0b3J5IjpbMTgwNTY0MzA0NCwxMjU3NTM3ODEzLDczNj
+cxNDM5NywtMjY1MzQzMTg4LDg2ODYwOTU1NywtNTAzNjIxMDc3
+LC0yMDg0MDY4MDEyLDEzOTgwMjk5MDEsLTE3ODcxNDgzNjYsMj
+M4MzI5MTAwLC0xNDM0ODYzNiwtMzMwNjUwNTc1LDE3MjE1MzY0
+MTYsMTQ3Mjg3ODUsLTE4NjU4NTkzMDgsLTk0MTMzNjA5MF19
 -->
