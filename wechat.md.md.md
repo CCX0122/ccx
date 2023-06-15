@@ -91,7 +91,7 @@ Content-Type：application/json
     }
 }
 ```
-#### 2.1.2 获取秘钥
+#### 2.1.2 获取RSA秘钥
 说明： 通过此接口获取加密秘钥，服务端返回的数据data为密文，需解密后进行
 
 调用地址：/apiservice/getAes
@@ -782,9 +782,9 @@ Content-Type：application/json
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM2NzE0Mzk3LC0yNjUzNDMxODgsODY4Nj
-A5NTU3LC01MDM2MjEwNzcsLTIwODQwNjgwMTIsMTM5ODAyOTkw
-MSwtMTc4NzE0ODM2NiwyMzgzMjkxMDAsLTE0MzQ4NjM2LC0zMz
-A2NTA1NzUsMTcyMTUzNjQxNiwxNDcyODc4NSwtMTg2NTg1OTMw
-OCwtOTQxMzM2MDkwXX0=
+eyJoaXN0b3J5IjpbMTkzNTg3MjYyOSw3MzY3MTQzOTcsLTI2NT
+M0MzE4OCw4Njg2MDk1NTcsLTUwMzYyMTA3NywtMjA4NDA2ODAx
+MiwxMzk4MDI5OTAxLC0xNzg3MTQ4MzY2LDIzODMyOTEwMCwtMT
+QzNDg2MzYsLTMzMDY1MDU3NSwxNzIxNTM2NDE2LDE0NzI4Nzg1
+LC0xODY1ODU5MzA4LC05NDEzMzYwOTBdfQ==
 -->
