@@ -655,7 +655,7 @@ Content-Type：application/json
     }
 }
 ```
-### 2.6 获取植入上报状态
+### 2.6 获取植入上报状态(待开发)
 
 	说明：经销商植入上报当前状态，可根据上传参数进行条件查询 
 
@@ -780,10 +780,10 @@ Content-Type：application/json
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDYxODYyOTIsMTAzOTkzNjI2OSwxMj
-U3NTM3ODEzLDczNjcxNDM5NywtMjY1MzQzMTg4LDg2ODYwOTU1
-NywtNTAzNjIxMDc3LC0yMDg0MDY4MDEyLDEzOTgwMjk5MDEsLT
-E3ODcxNDgzNjYsMjM4MzI5MTAwLC0xNDM0ODYzNiwtMzMwNjUw
-NTc1LDE3MjE1MzY0MTYsMTQ3Mjg3ODUsLTE4NjU4NTkzMDgsLT
-k0MTMzNjA5MF19
+eyJoaXN0b3J5IjpbLTYzMjMyNzE2MSwxMDM5OTM2MjY5LDEyNT
+c1Mzc4MTMsNzM2NzE0Mzk3LC0yNjUzNDMxODgsODY4NjA5NTU3
+LC01MDM2MjEwNzcsLTIwODQwNjgwMTIsMTM5ODAyOTkwMSwtMT
+c4NzE0ODM2NiwyMzgzMjkxMDAsLTE0MzQ4NjM2LC0zMzA2NTA1
+NzUsMTcyMTUzNjQxNiwxNDcyODc4NSwtMTg2NTg1OTMwOCwtOT
+QxMzM2MDkwXX0=
 -->
