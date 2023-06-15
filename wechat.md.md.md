@@ -130,7 +130,7 @@ Content-Type：application/json
 }
 ```
 
-### 2.2 获取订单数据
+### 2.2 获取订单数据(待开发)
 
 *  说明： 获取经销商在唯众平台的增量订货数据，默认查询全部代理商的数据。如要查询某个代理商的数据请根据上传参数进行查询
 
@@ -246,7 +246,7 @@ Body参数
 }
 ```
 
-### 2.3 获取出库数据
+### 2.3 获取出库数据(已完成)
 
 * 说明：唯众平台出库至经销商的数据，可根据上传参数进行条件查询 
 
@@ -384,7 +384,7 @@ Content-Type：application/json
     }
 }
 ```
-### 2.4 获取植入数据
+### 2.4 获取植入数据(待开发)
 
 * 说明：经销商在唯众系统上报的植入数据，可根据上传参数进行条件查询 
 
@@ -539,7 +539,7 @@ Content-Type：application/json
     }
 }
 ```
-### 2.5 获取退货数据
+### 2.5 获取退货数据(待开发)
 
 	说明：以任何原因由代理商退货到唯众的产品，可根据上传参数进行条件查询 
 
@@ -780,7 +780,7 @@ Content-Type：application/json
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTAzOTMyMDgsMTAzOTkzNjI2OSwxMj
+eyJoaXN0b3J5IjpbLTEyNDYxODYyOTIsMTAzOTkzNjI2OSwxMj
 U3NTM3ODEzLDczNjcxNDM5NywtMjY1MzQzMTg4LDg2ODYwOTU1
 NywtNTAzNjIxMDc3LC0yMDg0MDY4MDEyLDEzOTgwMjk5MDEsLT
 E3ODcxNDgzNjYsMjM4MzI5MTAwLC0xNDM0ODYzNiwtMzMwNjUw
