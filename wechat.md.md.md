@@ -248,7 +248,7 @@ Body参数
 
 ### 2.3 获取出库数据(已完成)
 
-* 说明：唯众平台出库至经销商的数据，可根据上传参数进行条件查询 
+* 说明：唯众平台出库至经销商的数据，可根据上传参数进行条件查询 ，建议正式上线前全量同步一次数据，此后至少每天同步一次增量数据，以免长时间未同步，导致数据过多，导致传输时间变长而失败！
 
 调用地址：/apiservice/getShipments
 请求方式：POST			 
@@ -781,10 +781,11 @@ Content-Type：application/json
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTExNDQzMjQsMTE4NDQ2NDQ0LC02Mz
-IzMjcxNjEsMTAzOTkzNjI2OSwxMjU3NTM3ODEzLDczNjcxNDM5
-NywtMjY1MzQzMTg4LDg2ODYwOTU1NywtNTAzNjIxMDc3LC0yMD
-g0MDY4MDEyLDEzOTgwMjk5MDEsLTE3ODcxNDgzNjYsMjM4MzI5
-MTAwLC0xNDM0ODYzNiwtMzMwNjUwNTc1LDE3MjE1MzY0MTYsMT
-Q3Mjg3ODUsLTE4NjU4NTkzMDgsLTk0MTMzNjA5MF19
+eyJoaXN0b3J5IjpbLTIxMDU0ODA1OTAsLTIwOTExNDQzMjQsMT
+E4NDQ2NDQ0LC02MzIzMjcxNjEsMTAzOTkzNjI2OSwxMjU3NTM3
+ODEzLDczNjcxNDM5NywtMjY1MzQzMTg4LDg2ODYwOTU1NywtNT
+AzNjIxMDc3LC0yMDg0MDY4MDEyLDEzOTgwMjk5MDEsLTE3ODcx
+NDgzNjYsMjM4MzI5MTAwLC0xNDM0ODYzNiwtMzMwNjUwNTc1LD
+E3MjE1MzY0MTYsMTQ3Mjg3ODUsLTE4NjU4NTkzMDgsLTk0MTMz
+NjA5MF19
 -->
