@@ -286,7 +286,7 @@ Content-Type：application/json
 |orderNo|String|SA203457256|唯众系统关联订单号|
 |shipmentType|Integer|1|发货类型编码,详见发货类型字典|
 |orderType|Integer|1|订单类型编码,详见订单类型字典|
-|customerId|Integer|2222|代理商编码|
+|customerId|String|2222|代理商编码|
 |receivePerson|String|张三|收货人|
 |address|String|北京市朝阳区XXX|收货地址|
 |phone|String|13112341234|电话|
@@ -319,7 +319,7 @@ Content-Type：application/json
                 "orderNo":"SA2023405685",
                 "shipmentType":1,
                 "orderType":1,
-                "customerId":1,
+                "customerId":"WS-FSD23",
                 "receivePerson":"张三",
                 "address":"北京市朝阳区XXX",
                 "phone":"13112341234",
@@ -353,7 +353,7 @@ Content-Type：application/json
                 "orderNo":"SA202366665",
                 "shipmentType":1,
                 "orderType":1,
-                "customerId":1,
+                "customerId":"WS-FSD23",
                 "receivePerson":"李四",
                 "address":"北京市朝阳区XXX",
                 "phone":"13134566543",
@@ -781,11 +781,11 @@ Content-Type：application/json
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4OTU5NTMwMCwtMjEwNTQ4MDU5MCwtMj
-A5MTE0NDMyNCwxMTg0NDY0NDQsLTYzMjMyNzE2MSwxMDM5OTM2
-MjY5LDEyNTc1Mzc4MTMsNzM2NzE0Mzk3LC0yNjUzNDMxODgsOD
-Y4NjA5NTU3LC01MDM2MjEwNzcsLTIwODQwNjgwMTIsMTM5ODAy
-OTkwMSwtMTc4NzE0ODM2NiwyMzgzMjkxMDAsLTE0MzQ4NjM2LC
-0zMzA2NTA1NzUsMTcyMTUzNjQxNiwxNDcyODc4NSwtMTg2NTg1
-OTMwOF19
+eyJoaXN0b3J5IjpbLTEwNTIxOTc2NzUsMTI4OTU5NTMwMCwtMj
+EwNTQ4MDU5MCwtMjA5MTE0NDMyNCwxMTg0NDY0NDQsLTYzMjMy
+NzE2MSwxMDM5OTM2MjY5LDEyNTc1Mzc4MTMsNzM2NzE0Mzk3LC
+0yNjUzNDMxODgsODY4NjA5NTU3LC01MDM2MjEwNzcsLTIwODQw
+NjgwMTIsMTM5ODAyOTkwMSwtMTc4NzE0ODM2NiwyMzgzMjkxMD
+AsLTE0MzQ4NjM2LC0zMzA2NTA1NzUsMTcyMTUzNjQxNiwxNDcy
+ODc4NV19
 -->
