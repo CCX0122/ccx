@@ -72,7 +72,7 @@ Content-Type：application/json
 |---|---|---|---|
 |code|Integer|0|返回码|
 |msg|String|success|成功|
-|data|AesEntity|-|返回的数据是密文需要使用aes界面,下面的是解密后的数据格式,aes信息,见下方AesEntity|
+|data|AesEntity|-|返回的数据是密文需要使用aes解密,下面的是解密后的数据格式,aes信息,见下方AesEntity|
 
  AesEntity字段信息
 |名称|类型|示例值|描述|
@@ -110,7 +110,7 @@ Content-Type：application/json
 |---|---|---|---|
 |code|Integer|0|返回码|
 |msg|String|success|成功|
-|data|RsaEntity|-|返回的数据是密文需要使用aes界面,下面的是解密后的数据格式,rsa信息,见下方RsaEntity|
+|data|RsaEntity|-|返回的数据是密文需要使用aes解密,下面的是解密后的数据格式,rsa信息,见下方RsaEntity|
 
  RsaEntity字段信息
 |名称|类型|示例值|描述|
@@ -781,11 +781,11 @@ Content-Type：application/json
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTIxOTc2NzUsMTI4OTU5NTMwMCwtMj
-EwNTQ4MDU5MCwtMjA5MTE0NDMyNCwxMTg0NDY0NDQsLTYzMjMy
-NzE2MSwxMDM5OTM2MjY5LDEyNTc1Mzc4MTMsNzM2NzE0Mzk3LC
-0yNjUzNDMxODgsODY4NjA5NTU3LC01MDM2MjEwNzcsLTIwODQw
-NjgwMTIsMTM5ODAyOTkwMSwtMTc4NzE0ODM2NiwyMzgzMjkxMD
-AsLTE0MzQ4NjM2LC0zMzA2NTA1NzUsMTcyMTUzNjQxNiwxNDcy
-ODc4NV19
+eyJoaXN0b3J5IjpbLTE1MjExNDY3LC0xMDUyMTk3Njc1LDEyOD
+k1OTUzMDAsLTIxMDU0ODA1OTAsLTIwOTExNDQzMjQsMTE4NDQ2
+NDQ0LC02MzIzMjcxNjEsMTAzOTkzNjI2OSwxMjU3NTM3ODEzLD
+czNjcxNDM5NywtMjY1MzQzMTg4LDg2ODYwOTU1NywtNTAzNjIx
+MDc3LC0yMDg0MDY4MDEyLDEzOTgwMjk5MDEsLTE3ODcxNDgzNj
+YsMjM4MzI5MTAwLC0xNDM0ODYzNiwtMzMwNjUwNTc1LDE3MjE1
+MzY0MTZdfQ==
 -->
