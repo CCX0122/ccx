@@ -260,8 +260,8 @@ Content-Type：application/json
 |名称|类型|必填|示例值|描述|
 |---|---|---|---|---|
 |isNewData|Integer|是| 0|是否为增量数据 0-全量数据  1-增量数据|
-|page|Integer|否| 1|页码，如果isNewData==0 此项必填。如果isNewData==1 此参数不生效|
-|rows|Integer|否| 500|每页条数，最大值1000 如果isNewData==0 此项必填。如果isNewData==1 此参数不生效|
+|page|Integer|否| 1|页码，如果isNewData=0此项必填。如果isNewData=1 此参数不生效|
+|rows|Integer|否| 500|每页条数，最大值1000 如果isNewData=0 此项必填。如果isNewData=1 此参数不生效|
 |startDate|String|否| 2023-01-01|开始时间，如果isNewData==1 此参数不生效|
 |endDate|String|否| 2023-01-01|结束时间，如果isNewData==1 此参数不生效|
 
@@ -781,7 +781,7 @@ Content-Type：application/json
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTA0NzQ1NCwtMTUyMTE0NjcsLTEwNT
+eyJoaXN0b3J5IjpbLTQ4Nzk3MzQ2MiwtMTUyMTE0NjcsLTEwNT
 IxOTc2NzUsMTI4OTU5NTMwMCwtMjEwNTQ4MDU5MCwtMjA5MTE0
 NDMyNCwxMTg0NDY0NDQsLTYzMjMyNzE2MSwxMDM5OTM2MjY5LD
 EyNTc1Mzc4MTMsNzM2NzE0Mzk3LC0yNjUzNDMxODgsODY4NjA5
