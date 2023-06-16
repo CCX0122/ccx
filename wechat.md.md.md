@@ -260,10 +260,10 @@ Content-Type：application/json
 |名称|类型|必填|示例值|描述|
 |---|---|---|---|---|
 |isNewData|Integer|是| 0|是否为增量数据 0-全量数据  1-增量数据|
-|page|Integer|否| 1|页码，如果isNewData==0 此项必填，|
-|rows|Integer|否| 500|每页条数，最大值1000 如果isNewData==0 此项必填|
-|startDate|String|否| 2023-01-01|开始时间|
-|endDate|String|否| 2023-01-01|结束时间|
+|page|Integer|否| 1|页码，如果isNewData==0 此项必填。如果isNewData==1 此参数不生效|
+|rows|Integer|否| 500|每页条数，最大值1000 如果isNewData==0 此项必填。如果isNewData==1 此参数不生效|
+|startDate|String|否| 2023-01-01|开始时间，如果isNewData==1 此参数不生效|
+|endDate|String|否| 2023-01-01|结束时间，如果isNewData==1 此参数不生效|
 
 
  返回参数
@@ -781,11 +781,11 @@ Content-Type：application/json
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc5NDc4NTQwLC0yMTA1NDgwNTkwLC0yMD
-kxMTQ0MzI0LDExODQ0NjQ0NCwtNjMyMzI3MTYxLDEwMzk5MzYy
-NjksMTI1NzUzNzgxMyw3MzY3MTQzOTcsLTI2NTM0MzE4OCw4Nj
-g2MDk1NTcsLTUwMzYyMTA3NywtMjA4NDA2ODAxMiwxMzk4MDI5
-OTAxLC0xNzg3MTQ4MzY2LDIzODMyOTEwMCwtMTQzNDg2MzYsLT
-MzMDY1MDU3NSwxNzIxNTM2NDE2LDE0NzI4Nzg1LC0xODY1ODU5
-MzA4XX0=
+eyJoaXN0b3J5IjpbMTI4OTU5NTMwMCwtMjEwNTQ4MDU5MCwtMj
+A5MTE0NDMyNCwxMTg0NDY0NDQsLTYzMjMyNzE2MSwxMDM5OTM2
+MjY5LDEyNTc1Mzc4MTMsNzM2NzE0Mzk3LC0yNjUzNDMxODgsOD
+Y4NjA5NTU3LC01MDM2MjEwNzcsLTIwODQwNjgwMTIsMTM5ODAy
+OTkwMSwtMTc4NzE0ODM2NiwyMzgzMjkxMDAsLTE0MzQ4NjM2LC
+0zMzA2NTA1NzUsMTcyMTUzNjQxNiwxNDcyODc4NSwtMTg2NTg1
+OTMwOF19
 -->
