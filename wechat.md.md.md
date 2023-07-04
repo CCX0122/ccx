@@ -129,7 +129,7 @@ Content-Type：application/json
 }
 ```
 
-### 2.2 获取订单数据(已完成)
+### 2.2 获取订单数据
 
 *  说明： 获取经销商在唯众平台的增量订货数据，默认查询全部代理商的数据。如要查询某个代理商的数据请根据上传参数进行查询
 
@@ -245,7 +245,7 @@ Body参数
 }
 ```
 
-### 2.3 获取出库数据(已完成)
+### 2.3 获取出库数据
 
 * 说明：唯众平台出库至经销商的数据，可根据上传参数进行条件查询 ，建议正式上线前全量同步一次数据，此后至少每天同步一次增量数据，以免长时间未同步，导致数据过多，导致传输时间变长而失败！
 
@@ -384,7 +384,7 @@ Content-Type：application/json
     }
 }
 ```
-### 2.4 获取植入数据(待开发)
+### 2.4 获取植入数据
 
 * 说明：经销商在唯众系统上报的植入数据，可根据上传参数进行条件查询 
 
@@ -539,7 +539,7 @@ Content-Type：application/json
     }
 }
 ```
-### 2.5 获取退货数据(待开发)
+### 2.5 获取退货数据
 
 	说明：以任何原因由代理商退货到唯众的产品，可根据上传参数进行条件查询 
 
@@ -655,7 +655,7 @@ Content-Type：application/json
     }
 }
 ```
-### 2.6 获取植入上报状态(待开发)
+### 2.6 获取植入上报状态
 
 	说明：经销商植入上报当前状态，可根据上传参数进行条件查询 
 
@@ -720,7 +720,7 @@ Content-Type：application/json
     }
 }
 ```
-## 3 数据字典(实际开发过程中可进行调整)
+## 3 数据字典
     说明：数据字典部分需要根据实际开发时进行调整
 ### 3.1 退货类型字典
 |code|描述|
@@ -781,11 +781,11 @@ Content-Type：application/json
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTQ3NTkxODUsLTE4ODU4NzMyNjUsLT
-gzMTEwNDEzNiwtNDg3OTczNDYyLC0xNTIxMTQ2NywtMTA1MjE5
-NzY3NSwxMjg5NTk1MzAwLC0yMTA1NDgwNTkwLC0yMDkxMTQ0Mz
-I0LDExODQ0NjQ0NCwtNjMyMzI3MTYxLDEwMzk5MzYyNjksMTI1
-NzUzNzgxMyw3MzY3MTQzOTcsLTI2NTM0MzE4OCw4Njg2MDk1NT
-csLTUwMzYyMTA3NywtMjA4NDA2ODAxMiwxMzk4MDI5OTAxLC0x
-Nzg3MTQ4MzY2XX0=
+eyJoaXN0b3J5IjpbMTg5ODQ5NjE0MywtMTMxNDc1OTE4NSwtMT
+g4NTg3MzI2NSwtODMxMTA0MTM2LC00ODc5NzM0NjIsLTE1MjEx
+NDY3LC0xMDUyMTk3Njc1LDEyODk1OTUzMDAsLTIxMDU0ODA1OT
+AsLTIwOTExNDQzMjQsMTE4NDQ2NDQ0LC02MzIzMjcxNjEsMTAz
+OTkzNjI2OSwxMjU3NTM3ODEzLDczNjcxNDM5NywtMjY1MzQzMT
+g4LDg2ODYwOTU1NywtNTAzNjIxMDc3LC0yMDg0MDY4MDEyLDEz
+OTgwMjk5MDFdfQ==
 -->
