@@ -129,7 +129,7 @@ Content-Type：application/json
 }
 ```
 
-### 2.2 获取订单数据(待开发)
+### 2.2 获取订单数据(已完成)
 
 *  说明： 获取经销商在唯众平台的增量订货数据，默认查询全部代理商的数据。如要查询某个代理商的数据请根据上传参数进行查询
 
@@ -781,11 +781,11 @@ Content-Type：application/json
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODU4NzMyNjUsLTgzMTEwNDEzNiwtND
-g3OTczNDYyLC0xNTIxMTQ2NywtMTA1MjE5NzY3NSwxMjg5NTk1
-MzAwLC0yMTA1NDgwNTkwLC0yMDkxMTQ0MzI0LDExODQ0NjQ0NC
-wtNjMyMzI3MTYxLDEwMzk5MzYyNjksMTI1NzUzNzgxMyw3MzY3
-MTQzOTcsLTI2NTM0MzE4OCw4Njg2MDk1NTcsLTUwMzYyMTA3Ny
-wtMjA4NDA2ODAxMiwxMzk4MDI5OTAxLC0xNzg3MTQ4MzY2LDIz
-ODMyOTEwMF19
+eyJoaXN0b3J5IjpbLTEzMTQ3NTkxODUsLTE4ODU4NzMyNjUsLT
+gzMTEwNDEzNiwtNDg3OTczNDYyLC0xNTIxMTQ2NywtMTA1MjE5
+NzY3NSwxMjg5NTk1MzAwLC0yMTA1NDgwNTkwLC0yMDkxMTQ0Mz
+I0LDExODQ0NjQ0NCwtNjMyMzI3MTYxLDEwMzk5MzYyNjksMTI1
+NzUzNzgxMyw3MzY3MTQzOTcsLTI2NTM0MzE4OCw4Njg2MDk1NT
+csLTUwMzYyMTA3NywtMjA4NDA2ODAxMiwxMzk4MDI5OTAxLC0x
+Nzg3MTQ4MzY2XX0=
 -->
