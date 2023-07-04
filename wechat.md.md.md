@@ -753,10 +753,11 @@ Content-Type：application/json
 ### 3.6 订单状态字典
 |code|描述|
 |---|---|
-|1|已提交|
-|2|待发货|
-|3|已发货|
-|4|已完成|
+|1|待提交|
+|2|审批中|
+|3|备货中|
+|4|已发货|
+|5|已完成|
 ### 3.7 发票来源字典
 |code|描述|
 |---|---|
@@ -780,11 +781,11 @@ Content-Type：application/json
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzMTEwNDEzNiwtNDg3OTczNDYyLC0xNT
-IxMTQ2NywtMTA1MjE5NzY3NSwxMjg5NTk1MzAwLC0yMTA1NDgw
-NTkwLC0yMDkxMTQ0MzI0LDExODQ0NjQ0NCwtNjMyMzI3MTYxLD
-EwMzk5MzYyNjksMTI1NzUzNzgxMyw3MzY3MTQzOTcsLTI2NTM0
-MzE4OCw4Njg2MDk1NTcsLTUwMzYyMTA3NywtMjA4NDA2ODAxMi
-wxMzk4MDI5OTAxLC0xNzg3MTQ4MzY2LDIzODMyOTEwMCwtMTQz
-NDg2MzZdfQ==
+eyJoaXN0b3J5IjpbLTE4ODU4NzMyNjUsLTgzMTEwNDEzNiwtND
+g3OTczNDYyLC0xNTIxMTQ2NywtMTA1MjE5NzY3NSwxMjg5NTk1
+MzAwLC0yMTA1NDgwNTkwLC0yMDkxMTQ0MzI0LDExODQ0NjQ0NC
+wtNjMyMzI3MTYxLDEwMzk5MzYyNjksMTI1NzUzNzgxMyw3MzY3
+MTQzOTcsLTI2NTM0MzE4OCw4Njg2MDk1NTcsLTUwMzYyMTA3Ny
+wtMjA4NDA2ODAxMiwxMzk4MDI5OTAxLC0xNzg3MTQ4MzY2LDIz
+ODMyOTEwMF19
 -->
