@@ -79,7 +79,7 @@
 ## 2.唯众系统服务端API
 ### 2.1获取授权和鉴权信息
 #### 2.1.1 获取AES秘钥
-说明： 通过此接口获取加密秘钥，服务端返回的数据data为密文，需解密后进行，请求此接口就会更新aes 秘钥，此秘钥会在月底最后一天晚上12点前进行强制更换
+<font size=5>说明： 通过此接口获取加密秘钥，服务端返回的数据data为密文，需解密后进行，请求此接口就会更新aes 秘钥，此秘钥会在月底最后一天晚上12点前进行强制更换
 
 调用地址：/apiservice/getAes
 请求方式：POST
@@ -808,11 +808,11 @@ Content-Type：application/json
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzk4MjgwMjgsMTIyMDQ3MzgzOSwtNj
-QzNDU3NTcxLDE4OTg0OTYxNDMsLTEzMTQ3NTkxODUsLTE4ODU4
-NzMyNjUsLTgzMTEwNDEzNiwtNDg3OTczNDYyLC0xNTIxMTQ2Ny
-wtMTA1MjE5NzY3NSwxMjg5NTk1MzAwLC0yMTA1NDgwNTkwLC0y
-MDkxMTQ0MzI0LDExODQ0NjQ0NCwtNjMyMzI3MTYxLDEwMzk5Mz
-YyNjksMTI1NzUzNzgxMyw3MzY3MTQzOTcsLTI2NTM0MzE4OCw4
-Njg2MDk1NTddfQ==
+eyJoaXN0b3J5IjpbMTA5NzE5Njk3NCwxMjIwNDczODM5LC02ND
+M0NTc1NzEsMTg5ODQ5NjE0MywtMTMxNDc1OTE4NSwtMTg4NTg3
+MzI2NSwtODMxMTA0MTM2LC00ODc5NzM0NjIsLTE1MjExNDY3LC
+0xMDUyMTk3Njc1LDEyODk1OTUzMDAsLTIxMDU0ODA1OTAsLTIw
+OTExNDQzMjQsMTE4NDQ2NDQ0LC02MzIzMjcxNjEsMTAzOTkzNj
+I2OSwxMjU3NTM3ODEzLDczNjcxNDM5NywtMjY1MzQzMTg4LDg2
+ODYwOTU1N119
 -->
