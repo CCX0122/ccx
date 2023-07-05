@@ -453,7 +453,7 @@ Content-Type：application/json
 |receiveName|String|张三|发票购货方名称|
 |invoiceNo|String|2222|发票号码|
 |invoiceDate|Date|2020-10-01|发票日期|
-|invoiceType|Integer|0|发票类型,详见发票类型字典|
+|invoiceType|String|01|发票类型,详见发票类型字典|
 |invoiceStatus|Integer|0|发票状态,详见发票状态字典|
 |invoiceSource|Integer|0|发票来源,详见发票来源字典|
 |invoiceCode|String|45678|发票代码|
@@ -471,6 +471,7 @@ Content-Type：application/json
 |lot|String|DEF3425|批号|
 |sn|String|34567|序列号|
 |quantity|Integer|14|数量|
+|taxPrice|Bigdecimal|345.74|发票单价|
 |taxPrice|Bigdecimal|345.74|发票单价|
 |hospitalPrice|Bigdecimal|345.74|医院单价|
 
@@ -815,7 +816,7 @@ Content-Type：application/json
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTUzMDc1NzksLTE4NDQ2MjUwNjYsLT
+eyJoaXN0b3J5IjpbLTExNTY5MjQ2MDIsLTE4NDQ2MjUwNjYsLT
 EzMzk4MjgwMjgsLTEzMzk4MjgwMjgsMTIyMDQ3MzgzOSwtNjQz
 NDU3NTcxLDE4OTg0OTYxNDMsLTEzMTQ3NTkxODUsLTE4ODU4Nz
 MyNjUsLTgzMTEwNDEzNiwtNDg3OTczNDYyLC0xNTIxMTQ2Nywt
