@@ -763,10 +763,8 @@ Content-Type：application/json
 |08|增值税电子专用发票|
 |10|增值税电子普通发票|
 |11|增值税普通发票(卷票)|
-|14|货物运输业增值税专用发票|
-|02|货物运输业增值税专用发票|
-|02|货物运输业增值税专用发票|
-|02|货物运输业增值税专用发票|
+|14|增值税电子普通发票(通行费)|
+|15|二手车销售统一发票|
 
 
 ### 3.3 植入上报状态字典
@@ -817,11 +815,11 @@ Content-Type：application/json
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5MTAwNzY3MiwtMTg0NDYyNTA2NiwtMT
-MzOTgyODAyOCwtMTMzOTgyODAyOCwxMjIwNDczODM5LC02NDM0
-NTc1NzEsMTg5ODQ5NjE0MywtMTMxNDc1OTE4NSwtMTg4NTg3Mz
-I2NSwtODMxMTA0MTM2LC00ODc5NzM0NjIsLTE1MjExNDY3LC0x
-MDUyMTk3Njc1LDEyODk1OTUzMDAsLTIxMDU0ODA1OTAsLTIwOT
-ExNDQzMjQsMTE4NDQ2NDQ0LC02MzIzMjcxNjEsMTAzOTkzNjI2
-OSwxMjU3NTM3ODEzXX0=
+eyJoaXN0b3J5IjpbLTE4OTUzMDc1NzksLTE4NDQ2MjUwNjYsLT
+EzMzk4MjgwMjgsLTEzMzk4MjgwMjgsMTIyMDQ3MzgzOSwtNjQz
+NDU3NTcxLDE4OTg0OTYxNDMsLTEzMTQ3NTkxODUsLTE4ODU4Nz
+MyNjUsLTgzMTEwNDEzNiwtNDg3OTczNDYyLC0xNTIxMTQ2Nywt
+MTA1MjE5NzY3NSwxMjg5NTk1MzAwLC0yMTA1NDgwNTkwLC0yMD
+kxMTQ0MzI0LDExODQ0NjQ0NCwtNjMyMzI3MTYxLDEwMzk5MzYy
+NjksMTI1NzUzNzgxM119
 -->
