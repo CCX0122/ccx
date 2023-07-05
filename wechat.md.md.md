@@ -472,7 +472,7 @@ Content-Type：application/json
 |sn|String|34567|序列号|
 |quantity|Integer|14|数量|
 |taxPrice|Bigdecimal|345.74|发票单价|
-|taxPrice|Bigdecimal|345.74|发票单价|
+|taxRate|String|13|税率|
 |hospitalPrice|Bigdecimal|345.74|医院单价|
 
 > 返回示例
@@ -508,7 +508,7 @@ Content-Type：application/json
                         "sn":"FE2452D",
                         "quantity":10,
                         "taxPrice":7777.89,
-                        
+                        "taxRate":"13",
                         "hospitalPrice":7777.89
                     },
                     {
@@ -519,6 +519,7 @@ Content-Type：application/json
                         "sn":"FE2452D",
                         "quantity":10,
                         "taxPrice":4763.22,
+                        "taxRate":"13",
                         "hospitalPrice":4377.89
                     }
                 ]
@@ -548,6 +549,7 @@ Content-Type：application/json
                         "sn":"FE2452D",
                         "quantity":10,
                         "taxPrice":7777.89,
+                        "taxRate":"13",
                         "hospitalPrice":7777.89
                     },
                     {
@@ -558,6 +560,7 @@ Content-Type：application/json
                         "sn":"FE2452D",
                         "quantity":10,
                         "taxPrice":4763.22,
+                        "taxRate":"13",
                         "hospitalPrice":4377.89
                     }
                 ]
@@ -816,7 +819,7 @@ Content-Type：application/json
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTY5MjQ2MDIsLTE4NDQ2MjUwNjYsLT
+eyJoaXN0b3J5IjpbLTE4NDEzMjU5NDQsLTE4NDQ2MjUwNjYsLT
 EzMzk4MjgwMjgsLTEzMzk4MjgwMjgsMTIyMDQ3MzgzOSwtNjQz
 NDU3NTcxLDE4OTg0OTYxNDMsLTEzMTQ3NTkxODUsLTE4ODU4Nz
 MyNjUsLTgzMTEwNDEzNiwtNDg3OTczNDYyLC0xNTIxMTQ2Nywt
