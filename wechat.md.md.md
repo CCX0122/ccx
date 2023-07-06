@@ -198,6 +198,7 @@ Body参数
 |receivePerson|String|张三|收货人|
 |address|String|北京市朝阳区XXX|收货地址|
 |phone|String|13112341234|电话|
+|memo|String|备注信息|备注|
 |detailList|OrderDetail|-|细单数据详见下方OrderDetail|
  OrderDetail
 |名称|类型|示例值|描述|
@@ -226,6 +227,7 @@ Body参数
                 "customerId":1,
                 "receivePerson":"张三",
                 "address":"北京市朝阳区XXX",
+                "memo":"备注信息",
                 "phone":"13112341234",
                 "detailList":[
                     {
@@ -255,6 +257,7 @@ Body参数
                 "customerId":5,
                 "receivePerson":"李四",
                 "address":"北京市海淀XXX",
+                "memo":"备注信息",
                 "phone":"13156788765",
                 "detailList":[
                     {
@@ -829,11 +832,11 @@ Content-Type：application/json
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4Nzg3MDc1NiwtMTg0MTMyNTk0NCwtMT
-g0NDYyNTA2NiwtMTMzOTgyODAyOCwtMTMzOTgyODAyOCwxMjIw
-NDczODM5LC02NDM0NTc1NzEsMTg5ODQ5NjE0MywtMTMxNDc1OT
-E4NSwtMTg4NTg3MzI2NSwtODMxMTA0MTM2LC00ODc5NzM0NjIs
-LTE1MjExNDY3LC0xMDUyMTk3Njc1LDEyODk1OTUzMDAsLTIxMD
-U0ODA1OTAsLTIwOTExNDQzMjQsMTE4NDQ2NDQ0LC02MzIzMjcx
-NjEsMTAzOTkzNjI2OV19
+eyJoaXN0b3J5IjpbLTIwMDIyNTk4MDksMTc4Nzg3MDc1NiwtMT
+g0MTMyNTk0NCwtMTg0NDYyNTA2NiwtMTMzOTgyODAyOCwtMTMz
+OTgyODAyOCwxMjIwNDczODM5LC02NDM0NTc1NzEsMTg5ODQ5Nj
+E0MywtMTMxNDc1OTE4NSwtMTg4NTg3MzI2NSwtODMxMTA0MTM2
+LC00ODc5NzM0NjIsLTE1MjExNDY3LC0xMDUyMTk3Njc1LDEyOD
+k1OTUzMDAsLTIxMDU0ODA1OTAsLTIwOTExNDQzMjQsMTE4NDQ2
+NDQ0LC02MzIzMjcxNjFdfQ==
 -->
