@@ -205,6 +205,8 @@ Body参数
 |orderDetailNo|String|SA2023405685001|唯众系统订单细单号|
 |productModel|String|1-14-1W|产品规格型号|
 |quantity|Integer|14|数量|
+|sendQuantity|Integer|10|已发数量|
+|notYetSendQuantity|Integer|4|未发数量|
 |taxPrice|Bigdecimal|1|含税单价|
 
 > 返回示例
@@ -230,12 +232,16 @@ Body参数
 	                    "orderDetailNo":"SA2023405685001",
                         "productModel":"1-14-1W",
                         "quantity":12,
+                        "sendQuantity":10,
+                        "notYetSendQuantity":2,
                         "taxPrice":7777.89
                     },
                     {
                         "orderDetailNo":"SA2023405685002",
                         "productModel":"1-14-1B",
                         "quantity":10,
+                        "sendQuantity":8,
+                        "notYetSendQuantity":2,
                         "taxPrice":4763.22
                     }
                 ]
@@ -819,11 +825,11 @@ Content-Type：application/json
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDEzMjU5NDQsLTE4NDQ2MjUwNjYsLT
-EzMzk4MjgwMjgsLTEzMzk4MjgwMjgsMTIyMDQ3MzgzOSwtNjQz
-NDU3NTcxLDE4OTg0OTYxNDMsLTEzMTQ3NTkxODUsLTE4ODU4Nz
-MyNjUsLTgzMTEwNDEzNiwtNDg3OTczNDYyLC0xNTIxMTQ2Nywt
-MTA1MjE5NzY3NSwxMjg5NTk1MzAwLC0yMTA1NDgwNTkwLC0yMD
-kxMTQ0MzI0LDExODQ0NjQ0NCwtNjMyMzI3MTYxLDEwMzk5MzYy
-NjksMTI1NzUzNzgxM119
+eyJoaXN0b3J5IjpbMTE5NTEyODg3MywtMTg0MTMyNTk0NCwtMT
+g0NDYyNTA2NiwtMTMzOTgyODAyOCwtMTMzOTgyODAyOCwxMjIw
+NDczODM5LC02NDM0NTc1NzEsMTg5ODQ5NjE0MywtMTMxNDc1OT
+E4NSwtMTg4NTg3MzI2NSwtODMxMTA0MTM2LC00ODc5NzM0NjIs
+LTE1MjExNDY3LC0xMDUyMTk3Njc1LDEyODk1OTUzMDAsLTIxMD
+U0ODA1OTAsLTIwOTExNDQzMjQsMTE4NDQ2NDQ0LC02MzIzMjcx
+NjEsMTAzOTkzNjI2OV19
 -->
