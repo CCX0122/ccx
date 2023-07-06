@@ -261,12 +261,16 @@ Body参数
 	                    "orderDetailNo":"SA202333385003",
                         "productModel":"1-14-1W",
                         "quantity":2,
+                        "sendQuantity":1,
+                        "notYetSendQuantity":1,
                         "taxPrice":4834.89
                     },
                     {
                         "orderDetailNo":"SA202333385004",
                         "productModel":"1-14-1B",
                         "quantity":5,
+                        "sendQuantity":5,
+                        "notYetSendQuantity":0,
                         "taxPrice":1234.66
                     }
                 ]
@@ -825,7 +829,7 @@ Content-Type：application/json
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5NTEyODg3MywtMTg0MTMyNTk0NCwtMT
+eyJoaXN0b3J5IjpbMTc4Nzg3MDc1NiwtMTg0MTMyNTk0NCwtMT
 g0NDYyNTA2NiwtMTMzOTgyODAyOCwtMTMzOTgyODAyOCwxMjIw
 NDczODM5LC02NDM0NTc1NzEsMTg5ODQ5NjE0MywtMTMxNDc1OT
 E4NSwtMTg4NTg3MzI2NSwtODMxMTA0MTM2LC00ODc5NzM0NjIs
