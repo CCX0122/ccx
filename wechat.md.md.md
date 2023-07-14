@@ -658,7 +658,10 @@ Content-Type：application/json
                 "customerId":2324,
                 "returnTypeId":4563,
                 "lastModifyTime": 1685513394,
-                
+                "logisticsNo": "SF68798",
+                "fileUrlList":[
+                "https://yeejaa.oss-cn-beijing.aliyuncs.com/implant-invoices/dHyZNSknMc03jdqOIkKo7G1lappdczHdHkEzJiKt.jpg?Expires=1689303282&OSSAccessKeyId=LTAIlc93UJbQZnBk&Signature=yQOhhoia4mITkxzsziGxZZ8xHUc%3D"
+            ],
                 "detailList":[
                     { 
 	                    "returnDetailNo":"RT2306020001001",
@@ -684,6 +687,10 @@ Content-Type：application/json
                 "customerId":2324,
                 "returnTypeId":4563,
                 "lastModifyTime": 1685513394,
+                "logisticsNo": "SF68798",
+                "fileUrlList":[
+                "https://yeejaa.oss-cn-beijing.aliyuncs.com/implant-invoices/dHyZNSknMc03jdqOIkKo7G1lappdczHdHkEzJiKt.jpg?Expires=1689303282&OSSAccessKeyId=LTAIlc93UJbQZnBk&Signature=yQOhhoia4mITkxzsziGxZZ8xHUc%3D"
+            ],
                 "detailList":[
                     {
                         "returnDetailNo":"RT234234239001",
@@ -846,11 +853,11 @@ Content-Type：application/json
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2NzE5NzMyMSwtNDgxNTU0ODU1LC0yMD
-AyMjU5ODA5LDE3ODc4NzA3NTYsLTE4NDEzMjU5NDQsLTE4NDQ2
-MjUwNjYsLTEzMzk4MjgwMjgsLTEzMzk4MjgwMjgsMTIyMDQ3Mz
-gzOSwtNjQzNDU3NTcxLDE4OTg0OTYxNDMsLTEzMTQ3NTkxODUs
-LTE4ODU4NzMyNjUsLTgzMTEwNDEzNiwtNDg3OTczNDYyLC0xNT
-IxMTQ2NywtMTA1MjE5NzY3NSwxMjg5NTk1MzAwLC0yMTA1NDgw
-NTkwLC0yMDkxMTQ0MzI0XX0=
+eyJoaXN0b3J5IjpbLTE4MjQ0NzA2MTEsLTQ4MTU1NDg1NSwtMj
+AwMjI1OTgwOSwxNzg3ODcwNzU2LC0xODQxMzI1OTQ0LC0xODQ0
+NjI1MDY2LC0xMzM5ODI4MDI4LC0xMzM5ODI4MDI4LDEyMjA0Nz
+M4MzksLTY0MzQ1NzU3MSwxODk4NDk2MTQzLC0xMzE0NzU5MTg1
+LC0xODg1ODczMjY1LC04MzExMDQxMzYsLTQ4Nzk3MzQ2MiwtMT
+UyMTE0NjcsLTEwNTIxOTc2NzUsMTI4OTU5NTMwMCwtMjEwNTQ4
+MDU5MCwtMjA5MTE0NDMyNF19
 -->
