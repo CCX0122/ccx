@@ -630,6 +630,8 @@ Content-Type：application/json
 |customerId|Integer|3456|代理商编码|
 |returnTypeId|Integer|123|退货类型编码,详见退货类型字典|
 |lastModifyTime|Timestamp|1685513394|数据最后更新时间|
+|logisticsNo|String|SF2397423|退货运输单号|
+|fileUrlList|List<URL>||报损单文件下载url|
 |detailList|ReturnDetail|-|细单数据详见下方ReturnDetail|
  ReturnDetail
 |名称|类型|示例值|描述|
@@ -656,6 +658,7 @@ Content-Type：application/json
                 "customerId":2324,
                 "returnTypeId":4563,
                 "lastModifyTime": 1685513394,
+                
                 "detailList":[
                     { 
 	                    "returnDetailNo":"RT2306020001001",
@@ -843,7 +846,7 @@ Content-Type：application/json
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxNDU2ODc5MiwtNDgxNTU0ODU1LC0yMD
+eyJoaXN0b3J5IjpbLTc2NzE5NzMyMSwtNDgxNTU0ODU1LC0yMD
 AyMjU5ODA5LDE3ODc4NzA3NTYsLTE4NDEzMjU5NDQsLTE4NDQ2
 MjUwNjYsLTEzMzk4MjgwMjgsLTEzMzk4MjgwMjgsMTIyMDQ3Mz
 gzOSwtNjQzNDU3NTcxLDE4OTg0OTYxNDMsLTEzMTQ3NTkxODUs
