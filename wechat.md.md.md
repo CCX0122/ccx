@@ -514,6 +514,8 @@ Content-Type：application/json
                 "invoiceAmount":"6574.57",
                 "reportDate":"2022-10-23",
                 "lastModifyTime": 1685513394,
+                "invoiceFileUrlList":["https://yeejaa.oss-cn-beijing.aliyuncs.com/implant-invoices/dHyZNSknMc03jdqOIkKo7G1lappdczHdHkEzJiKt.jpg?Expires=1689303282&OSSAccessKeyId=LTAIlc93UJbQZnBk&Signature=yQOhhoia4mITkxzsziGxZZ8xHUc%3D"
+            ],
                 "detailList":[
                     {
 	                    "implantDetailNo":"IM238423423001",
@@ -555,6 +557,8 @@ Content-Type：application/json
                 "invoiceAmount":"6574.57",
                 "reportDate":"2022-10-23",
                 "lastModifyTime": 1685513394,
+                "invoiceFileUrlList":["https://yeejaa.oss-cn-beijing.aliyuncs.com/implant-invoices/dHyZNSknMc03jdqOIkKo7G1lappdczHdHkEzJiKt.jpg?Expires=1689303282&OSSAccessKeyId=LTAIlc93UJbQZnBk&Signature=yQOhhoia4mITkxzsziGxZZ8xHUc%3D"
+            ],
                 "detailList":[
                     {
                         "implantDetailNo":"IM238423478001",
@@ -839,7 +843,7 @@ Content-Type：application/json
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0NjM1MTI3MiwtNDgxNTU0ODU1LC0yMD
+eyJoaXN0b3J5IjpbMTcxNDU2ODc5MiwtNDgxNTU0ODU1LC0yMD
 AyMjU5ODA5LDE3ODc4NzA3NTYsLTE4NDEzMjU5NDQsLTE4NDQ2
 MjUwNjYsLTEzMzk4MjgwMjgsLTEzMzk4MjgwMjgsMTIyMDQ3Mz
 gzOSwtNjQzNDU3NTcxLDE4OTg0OTYxNDMsLTEzMTQ3NTkxODUs
