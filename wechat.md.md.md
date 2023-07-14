@@ -474,7 +474,9 @@ Content-Type：application/json
 |invoiceAmount|Bigdecimal|4567.67|发票金额|
 |reportDate|Date|2022-10-11|上报日期|
 |lastModifyTime|Timestamp|1685513394|数据最后更新时间|
+|invoiceFileUrlList|List<URL>|-|发票原件下载地址URL，有效期30分钟|
 |detailList|ImplantDetail|-|细单数据详见下方ImplantDetail|
+
  ImplantDetail
 |名称|类型|示例值|描述|
 |---|---|---|---|
@@ -837,11 +839,11 @@ Content-Type：application/json
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4MTU1NDg1NSwtMjAwMjI1OTgwOSwxNz
-g3ODcwNzU2LC0xODQxMzI1OTQ0LC0xODQ0NjI1MDY2LC0xMzM5
-ODI4MDI4LC0xMzM5ODI4MDI4LDEyMjA0NzM4MzksLTY0MzQ1Nz
-U3MSwxODk4NDk2MTQzLC0xMzE0NzU5MTg1LC0xODg1ODczMjY1
-LC04MzExMDQxMzYsLTQ4Nzk3MzQ2MiwtMTUyMTE0NjcsLTEwNT
-IxOTc2NzUsMTI4OTU5NTMwMCwtMjEwNTQ4MDU5MCwtMjA5MTE0
-NDMyNCwxMTg0NDY0NDRdfQ==
+eyJoaXN0b3J5IjpbMTg0NjM1MTI3MiwtNDgxNTU0ODU1LC0yMD
+AyMjU5ODA5LDE3ODc4NzA3NTYsLTE4NDEzMjU5NDQsLTE4NDQ2
+MjUwNjYsLTEzMzk4MjgwMjgsLTEzMzk4MjgwMjgsMTIyMDQ3Mz
+gzOSwtNjQzNDU3NTcxLDE4OTg0OTYxNDMsLTEzMTQ3NTkxODUs
+LTE4ODU4NzMyNjUsLTgzMTEwNDEzNiwtNDg3OTczNDYyLC0xNT
+IxMTQ2NywtMTA1MjE5NzY3NSwxMjg5NTk1MzAwLC0yMTA1NDgw
+NTkwLC0yMDkxMTQ0MzI0XX0=
 -->
